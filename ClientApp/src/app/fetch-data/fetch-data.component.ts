@@ -26,7 +26,9 @@ export class FetchDataComponent {
 
   ngOnInit(): void {
     this.numbersMD = this.service.getNumbersMD();
-    this.departments = this.departmentService.getDepartments();
+    this.departmentService.getDepartments()
+    .subscribe((r:any)=>this.departments=r);
+    
   }
 
   //takes excel file and loads all rows with properties names set according column names

@@ -66,7 +66,44 @@ namespace telsor.Migrations
                     b.ToTable("MontlyDepartmentRecords");
                 });
 
+            modelBuilder.Entity("telsor.Models.PhoneMasterData", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("DepartmentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DepartmentId");
+
+                    b.ToTable("PhoneMasterDatas");
+                });
+
             modelBuilder.Entity("telsor.Models.MonthlyDepartmentRecord", b =>
+                {
+                    b.HasOne("telsor.Models.Department", "Department")
+                        .WithMany()
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Department");
+                });
+
+            modelBuilder.Entity("telsor.Models.PhoneMasterData", b =>
                 {
                     b.HasOne("telsor.Models.Department", "Department")
                         .WithMany()

@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -5,25 +6,10 @@ import { Injectable } from '@angular/core';
 })
 export class DepartmentsService {
 
-  constructor() { }
-  depertments=[
-    {      
-      name:"výroba",
-      id:1
-    },
-    {      
-      name:"finance",      
-      id:2
-    }
-    ,
-    {
-      name:"kvalita",      
-      id:3
-    }
-  ]
-
+  constructor(private http:HttpClient) { }
+  
   getDepartments()
   {
-    return this.depertments;
+    return this.http.get('https://localhost:7129/api/departments');
   }
 }
