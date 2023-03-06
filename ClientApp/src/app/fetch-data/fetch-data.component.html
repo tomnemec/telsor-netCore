@@ -1,0 +1,53 @@
+<h1>Import dat</h1>
+<div class="mb-3">
+    <label for="formFile" class="form-label">Default file input example</label>
+    <input class="form-control" type="file" #file (change)="onFileChange($event)">
+</div>
+
+<button class="btn btn-primary" (click)="onFileClick()">Nahrát <i class="bi bi-upload"></i></button>
+
+<button class="btn btn-primary" (click)="viewSwitch()">Switch</button>
+
+<div class="bd-example">
+    <table *ngIf="!view" class="table table-hover">
+        <thead>
+            <tr>   
+                <th scope="col">Osoba</th>             
+                <th scope="col">Číslo</th>                
+                <th scope="col">Bez DPH</th>
+                <th scope="col">S DPH</th>
+                <th scope="col">Oddělení</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let d of asignedDepartmetns">
+                <td>{{d.name}}</td>
+                <td>{{d.number}}</td>
+                <td>{{d.noDph}}</td>
+                <td>{{d.dph}}</td>
+                <td>{{d.department}}</td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>
+
+<div class="bd-example">
+    <table *ngIf="view" class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Oddělení</th> 
+                <th scope="col">bez DPH</th>               
+                <th scope="col">S DPH</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let d of summaryOfDepartments">
+                <th scope="row">{{d.name}}</th>
+                <td>{{d.noDph}}</td>  
+                <td>{{d.dph}}</td>                
+            </tr>
+        </tbody>
+
+    </table>
+</div>

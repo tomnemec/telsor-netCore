@@ -1,0 +1,880 @@
+﻿Èíslo faktury;Referenèní èíslo plátce;Tarif id;Èíslo služby;Sekce;Podsekce;Název;Poskytovatel;Období od;Období do;Poèet;Jednotka;Délka;Cena Kè (bez DPH);Sazba DPH;Cena s DPH;Pojmenování služby
+5213523664;3605241996;;;Pravidelné poplatky;;Tištìné vyúètování;;01.09.2022;30.09.2022;1;ks;;15,7;21;19;
+5213523664;3605241996;5904662502;601052999;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Hlávková Martina
+5213523664;3605241996;5904662502;601052999;Platby za spojení;Volání;V rámci ÈR do O2;;;;1;ks;0:04:09;3,11;21;3,76;Hlávková Martina
+5213523664;3605241996;5904662502;601052999;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;2;ks;0:02:00;1,5;21;1,82;Hlávková Martina
+5213523664;3605241996;5904662502;601052999;Platby za spojení;Volání;V rámci firmy;;;;13;ks;0:15:05;0;21;0;Hlávková Martina
+5213523664;3605241996;5902937022;601062161;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Karel Benedikoviè
+5213523664;3605241996;5903189153;601083719;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Schindlerová Hana
+5213523664;3605241996;5902935310;601084649;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Hotovost elektrikáøi
+5213523664;3605241996;5904201911;601084660;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Hotovost hydraulikáøi
+5213523664;3605241996;5900717082;601084943;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Mikulová Jiøina
+5213523664;3605241996;5900717082;601084943;Platby za spojení;Volání;V rámci ÈR do O2;;;;2;ks;0:02:00;1,5;21;1,82;Mikulová Jiøina
+5213523664;3605241996;5900717082;601084943;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;28;ks;0:29:07;21,85;21;26,44;Mikulová Jiøina
+5213523664;3605241996;5900717082;601084943;Platby za spojení;Volání;V rámci firmy;;;;8;ks;0:09:45;0;21;0;Mikulová Jiøina
+5213523664;3605241996;5900717082;601084943;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0,75;21;0,91;Mikulová Jiøina
+5213523664;3605241996;5904759142;601086226;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Petrov Michael
+5213523664;3605241996;5904759142;601086226;Platby za spojení;Volání;V rámci firmy;;;;19;ks;0:19:33;0;21;0;Petrov Michael
+5213523664;3605241996;5903890532;601086227;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Beránek Martin
+5213523664;3605241996;5903890532;601086227;Platby za spojení;Volání;V rámci firmy;;;;19;ks;0:19:00;0;21;0;Beránek Martin
+5213523664;3605241996;5902635821;601131988;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Šmigura Jan
+5213523664;3605241996;5902386092;601159983;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Gregárek Ludvík
+5213523664;3605241996;5901304142;601159984;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Tkaèík Josef
+5213523664;3605241996;5901304142;601159984;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;52;ks;2:16:02;102,07;21;123,5;Tkaèík Josef
+5213523664;3605241996;5901304142;601159984;Platby za spojení;Volání;V rámci firmy;;;;7;ks;0:17:30;0;21;0;Tkaèík Josef
+5213523664;3605241996;252631178;601202248;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631153;601202249;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631153;601202249;Platby za spojení;Volání;V rámci ÈR do O2;;;;3;ks;0:03:00;2,25;21;2,72;
+5213523664;3605241996;252631153;601202249;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;15;ks;0:17:33;13,16;21;15,92;
+5213523664;3605241996;252631153;601202249;Platby za spojení;Volání;V rámci firmy;;;;24;ks;1:11:17;0;21;0;
+5213523664;3605241996;252631153;601202249;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;8;Msg;;6;21;7,26;
+5213523664;3605241996;252631155;601202250;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631154;601202251;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631158;601202252;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631158;601202252;Platby za spojení;Volání;V rámci ÈR do O2;;;;3;ks;0:03:15;2,44;21;2,95;
+5213523664;3605241996;252631156;601202253;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631157;601202254;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631159;601202255;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631159;601202255;Platby za spojení;Volání;V rámci ÈR do O2;;;;8;ks;0:21:49;16,38;21;19,82;
+5213523664;3605241996;252631159;601202255;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;19;ks;0:51:08;38,35;21;46,4;
+5213523664;3605241996;252631161;601202256;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631161;601202256;Platby za spojení;Volání;V rámci ÈR do O2;;;;16;ks;0:37:14;27,95;21;33,82;
+5213523664;3605241996;252631161;601202256;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;14;ks;0:33:00;24,76;21;29,96;
+5213523664;3605241996;252631160;601202257;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631162;601202258;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631162;601202258;Platby za spojení;Volání;V rámci ÈR do O2;;;;11;ks;0:21:00;15,76;21;19,07;
+5213523664;3605241996;252631162;601202258;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;4;ks;0:04:32;3,4;21;4,11;
+5213523664;3605241996;252631162;601202258;Platby za spojení;Volání;V rámci firmy;;;;9;ks;0:11:57;0;21;0;
+5213523664;3605241996;252631179;601202259;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631180;601202260;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631181;601202261;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631181;601202261;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;3;ks;0:03:09;2,36;21;2,86;
+5213523664;3605241996;252631181;601202261;Platby za spojení;Volání;V rámci firmy;;;;2;ks;0:02:52;0;21;0;
+5213523664;3605241996;252631164;601202262;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631163;601202263;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631166;601202264;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;252631167;601202265;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;253401257;601202266;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;253401257;601202266;Platby za spojení;Volání;V rámci firmy;;;;4;ks;0:04:56;0;21;0;
+5213523664;3605241996;253564829;601202267;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;255024312;601202269;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;255024312;601202269;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;6;ks;0:08:14;6,18;21;7,48;
+5213523664;3605241996;255024312;601202269;Platby za spojení;Volání;V rámci firmy;;;;17;ks;0:22:21;0;21;0;
+5213523664;3605241996;255024312;601202269;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;2;Msg;;1,5;21;1,82;
+5213523664;3605241996;255024292;601202270;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;255024278;601202271;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;255024278;601202271;Platby za spojení;Volání;V rámci ÈR do O2;;;;1;ks;0:01:00;0,75;21;0,91;
+5213523664;3605241996;255024278;601202271;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;2;ks;0:03:48;2,85;21;3,45;
+5213523664;3605241996;255024278;601202271;Platby za spojení;Volání;V rámci firmy;;;;17;ks;0:30:09;0;21;0;
+5213523664;3605241996;255024278;601202271;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;5;Msg;;3,75;21;4,54;
+5213523664;3605241996;255024278;601202271;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;4;Msg;;3;21;3,63;
+5213523664;3605241996;255024278;601202271;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;2;Msg;;7,8;21;9,44;
+5213523664;3605241996;255024268;601202272;Pravidelné poplatky;;VARIO profil 1+;;01.09.2022;30.09.2022;1;ks;;225;21;272,25;
+5213523664;3605241996;255024268;601202272;Platby za spojení;Volání;V rámci ÈR do O2;;;;1;ks;0:01:48;0;21;0;
+5213523664;3605241996;255024268;601202272;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;5;ks;0:08:28;0;21;0;
+5213523664;3605241996;255024268;601202272;Platby za spojení;Volání;Odchozí volání v rámci EU;;;;2;ks;0:01:00;0;21;0;
+5213523664;3605241996;255024268;601202272;Platby za spojení;Volání;Pøíchozí volání v rámci EU;;;;1;ks;0:00:05;0;21;0;
+5213523664;3605241996;255024268;601202272;Platby za spojení;Volání;V rámci firmy;;;;9;ks;0:12:36;0;21;0;
+5213523664;3605241996;255024268;601202272;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;2;Msg;;0;21;0;
+5213523664;3605241996;5901673480;601353873;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Nìmec Tomáš
+5213523664;3605241996;5901673480;601353873;Platby za spojení;Volání;V rámci firmy;;;;13;ks;0:13:00;0;21;0;Nìmec Tomáš
+5213523664;3605241996;5901446796;601353902;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Barák Martin
+5213523664;3605241996;5901446796;601353902;Platby za spojení;Volání;V rámci firmy;;;;8;ks;0:08:00;0;21;0;Barák Martin
+5213523664;3605241996;5903493584;602101297;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Slavík Ota
+5213523664;3605241996;5903493584;602101297;Platby za spojení;Volání;V rámci ÈR do O2;;;;13;ks;0:22:01;16,51;21;19,98;Slavík Ota
+5213523664;3605241996;5903493584;602101297;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;6;ks;0:14:28;10,85;21;13,13;Slavík Ota
+5213523664;3605241996;5903493584;602101297;Platby za spojení;Volání;Tísòová volání;;;;2;ks;0:02:00;0;21;0;Slavík Ota
+5213523664;3605241996;5903493584;602101297;Platby za spojení;Volání;V rámci firmy;;;;81;ks;1:37:03;0;21;0;Slavík Ota
+5213523664;3605241996;5903493584;602101297;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;7;Msg;;5,25;21;6,35;Slavík Ota
+5213523664;3605241996;5903493584;602101297;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;3;Msg;;2,25;21;2,72;Slavík Ota
+5213523664;3605241996;5904511383;602117682;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Procházka Tomáš
+5213523664;3605241996;5904511383;602117682;Platby za spojení;Volání;V rámci firmy;;;;41;ks;0:51:42;0;21;0;Procházka Tomáš
+5213523664;3605241996;257997399;602123279;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;
+5213523664;3605241996;257997399;602123279;Platby za spojení;Volání;V rámci ÈR do O2;;;;7;ks;0:08:57;0;21;0;
+5213523664;3605241996;257997399;602123279;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;5;ks;0:05:49;0;21;0;
+5213523664;3605241996;257997399;602123279;Platby za spojení;Volání;V rámci firmy;;;;16;ks;0:19:18;0;21;0;
+5213523664;3605241996;257997399;602123279;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;629506;Kbyte;;0;21;0;
+5213523664;3605241996;5905144422;602131465;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Maøák Tomáš
+5213523664;3605241996;5905144422;602131465;Platby za spojení;Volání;V rámci ÈR do O2;;;;1;ks;0:01:00;0,75;21;0,91;Maøák Tomáš
+5213523664;3605241996;5905144422;602131465;Platby za spojení;Volání;V rámci firmy;;;;3;ks;0:15:43;0;21;0;Maøák Tomáš
+5213523664;3605241996;5905144422;602131465;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;10;Msg;;7,5;21;9,08;Maøák Tomáš
+5213523664;3605241996;5905144422;602131465;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;3;Msg;;11,7;21;14,16;Maøák Tomáš
+5213523664;3605241996;5904506344;602135230;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Melcrová Ivana
+5213523664;3605241996;5904506344;602135230;Platby za spojení;Volání;V rámci ÈR do O2;;;;19;ks;0:35:33;0;21;0;Melcrová Ivana
+5213523664;3605241996;5904506344;602135230;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;44;ks;1:40:35;0;21;0;Melcrová Ivana
+5213523664;3605241996;5904506344;602135230;Platby za spojení;Volání;Odchozí volání v rámci EU;;;;5;ks;0:09:02;0;21;0;Melcrová Ivana
+5213523664;3605241996;5904506344;602135230;Platby za spojení;Volání;Pøíchozí volání v rámci EU;;;;3;ks;0:07:09;0;21;0;Melcrová Ivana
+5213523664;3605241996;5904506344;602135230;Platby za spojení;Volání;V rámci firmy;;;;12;ks;0:14:52;0;21;0;Melcrová Ivana
+5213523664;3605241996;5904506344;602135230;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;43;Msg;;0;21;0;Melcrová Ivana
+5213523664;3605241996;5904506344;602135230;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;32;Msg;;0;21;0;Melcrová Ivana
+5213523664;3605241996;5904506344;602135230;Platby za spojení;Zprávy;SMS v rámci EU;;;;1;Msg;;0;21;0;Melcrová Ivana
+5213523664;3605241996;5904506344;602135230;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;3;Msg;;11,7;21;14,16;Melcrová Ivana
+5213523664;3605241996;5904506344;602135230;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;1070782;Kbyte;;0;21;0;Melcrová Ivana
+5213523664;3605241996;5904506344;602135230;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;395841;Kbyte;;0;21;0;Melcrová Ivana
+5213523664;3605241996;5901710859;602144941;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Ludwig Tomáš
+5213523664;3605241996;5901710859;602144941;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;13;ks;0:36:44;27,56;21;33,35;Ludwig Tomáš
+5213523664;3605241996;5901710859;602144941;Platby za spojení;Volání;V rámci firmy;;;;7;ks;0:25:02;0;21;0;Ludwig Tomáš
+5213523664;3605241996;5901710859;602144941;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;6;Msg;;4,5;21;5,45;Ludwig Tomáš
+5213523664;3605241996;5902161688;602171318;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Veninger Jiøí
+5213523664;3605241996;5902161688;602171318;Platby za spojení;Volání;V rámci ÈR do O2;;;;77;ks;2:05:53;0;21;0;Veninger Jiøí
+5213523664;3605241996;5902161688;602171318;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;194;ks;4:58:53;0;21;0;Veninger Jiøí
+5213523664;3605241996;5902161688;602171318;Platby za spojení;Volání;Z ÈR do zahranièí;;;;1;ks;0:02:00;3;21;3,63;Veninger Jiøí
+5213523664;3605241996;5902161688;602171318;Platby za spojení;Volání;V rámci firmy;;;;206;ks;4:24:22;0;21;0;Veninger Jiøí
+5213523664;3605241996;5902161688;602171318;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;21;Msg;;0;21;0;Veninger Jiøí
+5213523664;3605241996;5902161688;602171318;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;54;Msg;;0;21;0;Veninger Jiøí
+5213523664;3605241996;5902161688;602171318;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;6;Msg;;23,4;21;28,31;Veninger Jiøí
+5213523664;3605241996;5902161688;602171318;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;2367999;Kbyte;;0;21;0;Veninger Jiøí
+5213523664;3605241996;5902761730;602171526;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Kopèová Irena
+5213523664;3605241996;5902761730;602171526;Platby za spojení;Volání;V rámci ÈR do O2;;;;42;ks;2:24:13;0;21;0;Kopèová Irena
+5213523664;3605241996;5902761730;602171526;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;25;ks;2:10:01;0;21;0;Kopèová Irena
+5213523664;3605241996;5902761730;602171526;Platby za spojení;Volání;V rámci firmy;;;;26;ks;1:20:32;0;21;0;Kopèová Irena
+5213523664;3605241996;5902761730;602171526;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;48;Msg;;0;21;0;Kopèová Irena
+5213523664;3605241996;5902761730;602171526;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;21;Msg;;0;21;0;Kopèová Irena
+5213523664;3605241996;5902761730;602171526;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;280045;Kbyte;;0;21;0;Kopèová Irena
+5213523664;3605241996;260351527;602256439;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;
+5213523664;3605241996;260351527;602256439;Platby za spojení;Volání;V rámci ÈR do O2;;;;5;ks;0:08:10;0;21;0;
+5213523664;3605241996;260351527;602256439;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;51;ks;4:00:37;0;21;0;
+5213523664;3605241996;260351527;602256439;Platby za spojení;Volání;V rámci firmy;;;;35;ks;1:18:09;0;21;0;
+5213523664;3605241996;260351527;602256439;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;12;Msg;;0;21;0;
+5213523664;3605241996;260351527;602256439;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;16;Msg;;0;21;0;
+5213523664;3605241996;260351527;602256439;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;1;Msg;;3,9;21;4,72;
+5213523664;3605241996;260351527;602256439;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;1305970;Kbyte;;0;21;0;
+5213523664;3605241996;5901284903;602405911;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Sekretariát
+5213523664;3605241996;5904105104;602533156;Pravidelné poplatky;;VARIO profil 1+;;01.09.2022;30.09.2022;1;ks;;225;21;272,25;Olšanská Ilona
+5213523664;3605241996;5904105104;602533156;Platby za spojení;Volání;V rámci ÈR do O2;;;;44;ks;1:31:23;0;21;0;Olšanská Ilona
+5213523664;3605241996;5904105104;602533156;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;10;ks;0:20:03;0;21;0;Olšanská Ilona
+5213523664;3605241996;5904105104;602533156;Platby za spojení;Volání;V rámci firmy;;;;40;ks;1:02:01;0;21;0;Olšanská Ilona
+5213523664;3605241996;5904105104;602533156;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;224;Msg;;0;21;0;Olšanská Ilona
+5213523664;3605241996;5904105104;602533156;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;14;Msg;;0;21;0;Olšanská Ilona
+5213523664;3605241996;5904105104;602533156;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;1;Msg;;3,9;21;4,72;Olšanská Ilona
+5213523664;3605241996;5904105104;602533156;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;27886;Kbyte;;0;21;0;Olšanská Ilona
+5213523664;3605241996;5903026504;602535579;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Fuèela Jiøí
+5213523664;3605241996;5903026504;602535579;Platby za spojení;Volání;V rámci firmy;;;;2;ks;0:02:00;0;21;0;Fuèela Jiøí
+5213523664;3605241996;5903551980;602535588;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Gabèo Jaromír
+5213523664;3605241996;5903551980;602535588;Platby za spojení;Volání;V rámci firmy;;;;11;ks;0:16:01;0;21;0;Gabèo Jaromír
+5213523664;3605241996;5903113492;602535594;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Hromek Miroslav ml.
+5213523664;3605241996;5903581004;602535672;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Hromek Miroslav st.
+5213523664;3605241996;5904422182;602535686;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Albrecht Ludìk
+5213523664;3605241996;5904422182;602535686;Platby za spojení;Volání;V rámci firmy;;;;5;ks;0:05:00;0;21;0;Albrecht Ludìk
+5213523664;3605241996;5903813188;602535689;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Komínek Jaroslav
+5213523664;3605241996;5901539140;602535690;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Škopec Milan
+5213523664;3605241996;5901539140;602535690;Platby za spojení;Volání;V rámci firmy;;;;10;ks;0:15:32;0;21;0;Škopec Milan
+5213523664;3605241996;5901903620;602535694;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Seøizovaè TP2
+5213523664;3605241996;5903329553;602535702;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Slavíková Lenka
+5213523664;3605241996;5903329553;602535702;Platby za spojení;Volání;V rámci firmy;;;;20;ks;0:24:02;0;21;0;Slavíková Lenka
+5213523664;3605241996;5902737089;602535711;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Starý Luboš
+5213523664;3605241996;5902737089;602535711;Platby za spojení;Volání;V rámci firmy;;;;3;ks;0:03:00;0;21;0;Starý Luboš
+5213523664;3605241996;5902060153;602554218;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Hydraulikáøi TP 2
+5213523664;3605241996;5902060153;602554218;Platby za spojení;Volání;V rámci firmy;;;;2;ks;0:02:00;0;21;0;Hydraulikáøi TP 2
+5213523664;3605241996;5901279101;602555351;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Langer Miroslav
+5213523664;3605241996;5901279101;602555351;Platby za spojení;Volání;V rámci firmy;;;;3;ks;0:03:10;0;21;0;Langer Miroslav
+5213523664;3605241996;5903463696;602568116;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Kašák Michal
+5213523664;3605241996;5903463696;602568116;Platby za spojení;Volání;V rámci ÈR do O2;;;;83;ks;4:34:15;0;21;0;Kašák Michal
+5213523664;3605241996;5903463696;602568116;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;187;ks;9:32:02;0;21;0;Kašák Michal
+5213523664;3605241996;5903463696;602568116;Platby za spojení;Volání;Z ÈR do zahranièí;;;;20;ks;0:53:00;79,5;21;96,2;Kašák Michal
+5213523664;3605241996;5903463696;602568116;Platby za spojení;Volání;Barevné a informaèní linky;;;;1;ks;0:08:00;0;21;0;Kašák Michal
+5213523664;3605241996;5903463696;602568116;Platby za spojení;Volání;V rámci firmy;;;;125;ks;3:29:48;0;21;0;Kašák Michal
+5213523664;3605241996;5903463696;602568116;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;59;Msg;;0;21;0;Kašák Michal
+5213523664;3605241996;5903463696;602568116;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;135;Msg;;0;21;0;Kašák Michal
+5213523664;3605241996;5903463696;602568116;Platby za spojení;Zprávy;SMS z ÈR do zahranièí;;;;6;Msg;;9;21;10,89;Kašák Michal
+5213523664;3605241996;5903463696;602568116;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;3;Msg;;11,7;21;14,16;Kašák Michal
+5213523664;3605241996;5903463696;602568116;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;8;Msg;;31,2;21;37,75;Kašák Michal
+5213523664;3605241996;5903463696;602568116;Platby za spojení;Zprávy;Bezplatné SMS;;;;1;Msg;;0;21;0;Kašák Michal
+5213523664;3605241996;5903463696;602568116;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;2832028;Kbyte;;0;21;0;Kašák Michal
+5213523664;3605241996;5902749934;602568117;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Višvaderová Dagmar
+5213523664;3605241996;5902749934;602568117;Platby za spojení;Volání;V rámci ÈR do O2;;;;37;ks;1:11:03;0;21;0;Višvaderová Dagmar
+5213523664;3605241996;5902749934;602568117;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;89;ks;4:22:40;0;21;0;Višvaderová Dagmar
+5213523664;3605241996;5902749934;602568117;Platby za spojení;Volání;V rámci firmy;;;;3;ks;0:03:00;0;21;0;Višvaderová Dagmar
+5213523664;3605241996;5902749934;602568117;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;666500;Kbyte;;0;21;0;Višvaderová Dagmar
+5213523664;3605241996;5903342450;602593661;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Kopecký Martin
+5213523664;3605241996;5903342450;602593661;Platby za spojení;Volání;V rámci ÈR do O2;;;;16;ks;0:25:15;0;21;0;Kopecký Martin
+5213523664;3605241996;5903342450;602593661;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;61;ks;1:38:15;0;21;0;Kopecký Martin
+5213523664;3605241996;5903342450;602593661;Platby za spojení;Volání;V rámci firmy;;;;117;ks;3:58:36;0;21;0;Kopecký Martin
+5213523664;3605241996;5903342450;602593661;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;44;Msg;;0;21;0;Kopecký Martin
+5213523664;3605241996;5903342450;602593661;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;32;Msg;;0;21;0;Kopecký Martin
+5213523664;3605241996;5903342450;602593661;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;6;Msg;;23,4;21;28,31;Kopecký Martin
+5213523664;3605241996;5903342450;602593661;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;1186326;Kbyte;;0;21;0;Kopecký Martin
+5213523664;3605241996;5903342450;602593661;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;2285;Kbyte;;0;21;0;Kopecký Martin
+5213523664;3605241996;5902516177;602593674;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Máj Svatopluk
+5213523664;3605241996;5902516177;602593674;Platby za spojení;Volání;V rámci ÈR do O2;;;;8;ks;0:49:21;0;21;0;Máj Svatopluk
+5213523664;3605241996;5902516177;602593674;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;23;ks;1:05:40;0;21;0;Máj Svatopluk
+5213523664;3605241996;5902516177;602593674;Platby za spojení;Volání;Tísòová volání;;;;2;ks;0:18:00;0;21;0;Máj Svatopluk
+5213523664;3605241996;5902516177;602593674;Platby za spojení;Volání;V rámci firmy;;;;6;ks;0:11:32;0;21;0;Máj Svatopluk
+5213523664;3605241996;5902516177;602593674;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;2;Msg;;0;21;0;Máj Svatopluk
+5213523664;3605241996;5902516177;602593674;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;3;Msg;;0;21;0;Máj Svatopluk
+5213523664;3605241996;5902516177;602593674;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;169548;Kbyte;;0;21;0;Máj Svatopluk
+5213523664;3605241996;5902516177;602593674;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;894;Kbyte;;0;21;0;Máj Svatopluk
+5213523664;3605241996;5903120766;602593675;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Drechslerová Petra
+5213523664;3605241996;5903120766;602593675;Platby za spojení;Volání;V rámci ÈR do O2;;;;7;ks;0:14:57;0;21;0;Drechslerová Petra
+5213523664;3605241996;5903120766;602593675;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;82;ks;3:05:07;0;21;0;Drechslerová Petra
+5213523664;3605241996;5903120766;602593675;Platby za spojení;Volání;Odchozí volání v rámci EU;;;;3;ks;0:02:19;0;21;0;Drechslerová Petra
+5213523664;3605241996;5903120766;602593675;Platby za spojení;Volání;V rámci firmy;;;;14;ks;0:19:41;0;21;0;Drechslerová Petra
+5213523664;3605241996;5903120766;602593675;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;15;Msg;;0;21;0;Drechslerová Petra
+5213523664;3605241996;5903120766;602593675;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;52;Msg;;0;21;0;Drechslerová Petra
+5213523664;3605241996;5903120766;602593675;Platby za spojení;Zprávy;SMS v rámci EU;;;;4;Msg;;0;21;0;Drechslerová Petra
+5213523664;3605241996;5903120766;602593675;Platby za spojení;Zprávy;SMS z ÈR do zahranièí;;;;3;Msg;;4,5;21;5,45;Drechslerová Petra
+5213523664;3605241996;5903120766;602593675;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;18105;Kbyte;;0;21;0;Drechslerová Petra
+5213523664;3605241996;5903120766;602593675;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;190871;Kbyte;;0;21;0;Drechslerová Petra
+5213523664;3605241996;259413191;602653817;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;259413191;602653817;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;36;Msg;;27;21;32,67;
+5213523664;3605241996;5903267315;602704492;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Stolariková Jana
+5213523664;3605241996;5903267315;602704492;Platby za spojení;Volání;V rámci ÈR do O2;;;;5;ks;0:15:53;0;21;0;Stolariková Jana
+5213523664;3605241996;5903267315;602704492;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;22;ks;1:44:15;0;21;0;Stolariková Jana
+5213523664;3605241996;5903267315;602704492;Platby za spojení;Volání;Barevné a informaèní linky;;;;1;ks;0:10:00;0;21;0;Stolariková Jana
+5213523664;3605241996;5903267315;602704492;Platby za spojení;Volání;V rámci firmy;;;;12;ks;0:16:15;0;21;0;Stolariková Jana
+5213523664;3605241996;5903267315;602704492;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;2;Msg;;0;21;0;Stolariková Jana
+5213523664;3605241996;5903267315;602704492;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;3;Msg;;0;21;0;Stolariková Jana
+5213523664;3605241996;5903267315;602704492;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;548042;Kbyte;;0;21;0;Stolariková Jana
+5213523664;3605241996;5901718522;602712404;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Friedrich Pavel
+5213523664;3605241996;5901718522;602712404;Platby za spojení;Volání;V rámci ÈR do O2;;;;40;ks;2:18:12;0;21;0;Friedrich Pavel
+5213523664;3605241996;5901718522;602712404;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;40;ks;2:37:50;0;21;0;Friedrich Pavel
+5213523664;3605241996;5901718522;602712404;Platby za spojení;Volání;V rámci firmy;;;;18;ks;0:52:51;0;21;0;Friedrich Pavel
+5213523664;3605241996;5901718522;602712404;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;20;Msg;;0;21;0;Friedrich Pavel
+5213523664;3605241996;5901718522;602712404;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;91;Msg;;0;21;0;Friedrich Pavel
+5213523664;3605241996;5901718522;602712404;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;906418;Kbyte;;0;21;0;Friedrich Pavel
+5213523664;3605241996;5902304368;602740793;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Hydraulikáøi TP 1
+5213523664;3605241996;5902304368;602740793;Platby za spojení;Volání;V rámci firmy;;;;33;ks;0:35:03;0;21;0;Hydraulikáøi TP 1
+5213523664;3605241996;5903303908;602756582;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Zach Michal
+5213523664;3605241996;5903303908;602756582;Platby za spojení;Volání;V rámci ÈR do O2;;;;1;ks;0:01:00;0;21;0;Zach Michal
+5213523664;3605241996;5903303908;602756582;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;2;ks;0:02:00;0;21;0;Zach Michal
+5213523664;3605241996;5903303908;602756582;Platby za spojení;Volání;V rámci firmy;;;;35;ks;0:52:03;0;21;0;Zach Michal
+5213523664;3605241996;5903303908;602756582;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;7;Msg;;0;21;0;Zach Michal
+5213523664;3605241996;5903303908;602756582;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;2360102;Kbyte;;0;21;0;Zach Michal
+5213523664;3605241996;5903705211;602796645;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Kuhn Rostislav
+5213523664;3605241996;5903705211;602796645;Platby za spojení;Volání;V rámci ÈR do O2;;;;20;ks;0:33:03;0;21;0;Kuhn Rostislav
+5213523664;3605241996;5903705211;602796645;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;72;ks;1:42:34;0;21;0;Kuhn Rostislav
+5213523664;3605241996;5903705211;602796645;Platby za spojení;Volání;Odchozí volání v rámci EU;;;;5;ks;0:04:06;0;21;0;Kuhn Rostislav
+5213523664;3605241996;5903705211;602796645;Platby za spojení;Volání;Z ÈR do zahranièí;;;;1;ks;0:01:00;1,5;21;1,82;Kuhn Rostislav
+5213523664;3605241996;5903705211;602796645;Platby za spojení;Volání;V rámci firmy;;;;155;ks;2:57:42;0;21;0;Kuhn Rostislav
+5213523664;3605241996;5903705211;602796645;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;22;Msg;;0;21;0;Kuhn Rostislav
+5213523664;3605241996;5903705211;602796645;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;37;Msg;;0;21;0;Kuhn Rostislav
+5213523664;3605241996;5903705211;602796645;Platby za spojení;Zprávy;SMS v rámci EU;;;;2;Msg;;0;21;0;Kuhn Rostislav
+5213523664;3605241996;5903705211;602796645;Platby za spojení;Zprávy;SMS z ÈR do zahranièí;;;;1;Msg;;1,5;21;1,82;Kuhn Rostislav
+5213523664;3605241996;5903705211;602796645;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;2;Msg;;7,8;21;9,44;Kuhn Rostislav
+5213523664;3605241996;5903705211;602796645;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;939815;Kbyte;;0;21;0;Kuhn Rostislav
+5213523664;3605241996;5903705211;602796645;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;29135;Kbyte;;0;21;0;Kuhn Rostislav
+5213523664;3605241996;5902005137;606074174;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Burda Lukáš
+5213523664;3605241996;5902005137;606074174;Platby za spojení;Volání;V rámci ÈR do O2;;;;4;ks;0:04:05;0;21;0;Burda Lukáš
+5213523664;3605241996;5902005137;606074174;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;7;ks;0:10:06;0;21;0;Burda Lukáš
+5213523664;3605241996;5902005137;606074174;Platby za spojení;Volání;Z ÈR do zahranièí;;;;2;ks;0:02:00;6;21;7,26;Burda Lukáš
+5213523664;3605241996;5902005137;606074174;Platby za spojení;Volání;V rámci firmy;;;;20;ks;0:30:57;0;21;0;Burda Lukáš
+5213523664;3605241996;5902005137;606074174;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;28;Msg;;0;21;0;Burda Lukáš
+5213523664;3605241996;5902005137;606074174;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;8;Msg;;0;21;0;Burda Lukáš
+5213523664;3605241996;5902005137;606074174;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;1053984;Kbyte;;0;21;0;Burda Lukáš
+5213523664;3605241996;5902005137;606074174;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;800;Kbyte;;0;21;0;Burda Lukáš
+5213523664;3605241996;5901502745;606074486;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Gráf Zdenìk
+5213523664;3605241996;5901502745;606074486;Platby za spojení;Volání;V rámci firmy;;;;4;ks;0:04:00;0;21;0;Gráf Zdenìk
+5213523664;3605241996;5903491072;606099590;Pravidelné poplatky;;VARIO profil 3 MAX+;;01.09.2022;30.09.2022;1;ks;;319;21;385,99;Teplárek Michal
+5213523664;3605241996;5903491072;606099590;Platby za spojení;Volání;V rámci ÈR do O2;;;;18;ks;1:06:53;0;21;0;Teplárek Michal
+5213523664;3605241996;5903491072;606099590;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;62;ks;4:44:18;0;21;0;Teplárek Michal
+5213523664;3605241996;5903491072;606099590;Platby za spojení;Volání;Odchozí volání v rámci EU;;;;1;ks;0:05:31;0;21;0;Teplárek Michal
+5213523664;3605241996;5903491072;606099590;Platby za spojení;Volání;Z ÈR do zahranièí;;;;1;ks;0:01:00;1,5;21;1,82;Teplárek Michal
+5213523664;3605241996;5903491072;606099590;Platby za spojení;Volání;Barevné a informaèní linky;;;;1;ks;0:07:00;0;21;0;Teplárek Michal
+5213523664;3605241996;5903491072;606099590;Platby za spojení;Volání;V rámci firmy;;;;47;ks;2:33:43;0;21;0;Teplárek Michal
+5213523664;3605241996;5903491072;606099590;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;4;Msg;;0;21;0;Teplárek Michal
+5213523664;3605241996;5903491072;606099590;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;18;Msg;;0;21;0;Teplárek Michal
+5213523664;3605241996;5903491072;606099590;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;751689;Kbyte;;0;21;0;Teplárek Michal
+5213523664;3605241996;5903491072;606099590;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;6835;Kbyte;;0;21;0;Teplárek Michal
+5213523664;3605241996;5903491072;606099590;Služby 3 stran;;Platba pøes SMS - Aplikace, hry, sociální sítì;;;;1;Msg;;;;50;Teplárek Michal
+5213523664;3605241996;5904604712;606614753;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Kuèera Josef
+5213523664;3605241996;5901506985;606620603;Pravidelné poplatky;;VARIO profil 5;;01.09.2022;30.09.2022;1;ks;;599;21;724,79;Budnowski Paul
+5213523664;3605241996;5901506985;606620603;Platby za spojení;Volání;V rámci ÈR do O2;;;;3;ks;0:07:38;0;21;0;Budnowski Paul
+5213523664;3605241996;5901506985;606620603;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;4;ks;0:04:44;0;21;0;Budnowski Paul
+5213523664;3605241996;5901506985;606620603;Platby za spojení;Volání;Odchozí volání v rámci EU;;;;12;ks;0:32:01;0;21;0;Budnowski Paul
+5213523664;3605241996;5901506985;606620603;Platby za spojení;Volání;Pøíchozí volání v rámci EU;;;;7;ks;0:20:09;0;21;0;Budnowski Paul
+5213523664;3605241996;5901506985;606620603;Platby za spojení;Volání;Z ÈR do zahranièí;;;;20;ks;1:52:00;0;21;0;Budnowski Paul
+5213523664;3605241996;5901506985;606620603;Platby za spojení;Volání;V rámci firmy;;;;45;ks;0:59:03;0;21;0;Budnowski Paul
+5213523664;3605241996;5901506985;606620603;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;5;Msg;;0;21;0;Budnowski Paul
+5213523664;3605241996;5901506985;606620603;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;6;Msg;;0;21;0;Budnowski Paul
+5213523664;3605241996;5901506985;606620603;Platby za spojení;Zprávy;SMS v rámci EU;;;;2;Msg;;0;21;0;Budnowski Paul
+5213523664;3605241996;5901506985;606620603;Platby za spojení;Zprávy;SMS z ÈR do zahranièí;;;;4;Msg;;6;21;7,26;Budnowski Paul
+5213523664;3605241996;5901506985;606620603;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;576069;Kbyte;;0;21;0;Budnowski Paul
+5213523664;3605241996;5901506985;606620603;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;964103;Kbyte;;0;21;0;Budnowski Paul
+5213523664;3605241996;5901923851;606680914;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Mikulová Pavlína
+5213523664;3605241996;5901923851;606680914;Platby za spojení;Volání;V rámci firmy;;;;6;ks;0:06:11;0;21;0;Mikulová Pavlína
+5213523664;3605241996;5904649084;606680926;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Hackenberg Petr
+5213523664;3605241996;5901043376;606739303;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Elektrikáøi TP 2
+5213523664;3605241996;5901043376;606739303;Platby za spojení;Volání;V rámci ÈR do O2;;;;3;ks;0:03:00;2,25;21;2,72;Elektrikáøi TP 2
+5213523664;3605241996;5901043376;606739303;Platby za spojení;Volání;V rámci firmy;;;;21;ks;0:21:08;0;21;0;Elektrikáøi TP 2
+5213523664;3605241996;5901043376;606739303;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;13;Msg;;50,7;21;61,35;Elektrikáøi TP 2
+5213523664;3605241996;5903242406;606740690;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Smudala Roman
+5213523664;3605241996;5903242406;606740690;Platby za spojení;Volání;V rámci firmy;;;;2;ks;0:02:13;0;21;0;Smudala Roman
+5213523664;3605241996;5902931132;606764635;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Olejník Karel
+5213523664;3605241996;5902931132;606764635;Platby za spojení;Volání;V rámci firmy;;;;11;ks;0:11:41;0;21;0;Olejník Karel
+5213523664;3605241996;255228103;607020409;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;255228103;607020409;Platby za spojení;Volání;V rámci firmy;;;;10;ks;0:10:04;0;21;0;
+5213523664;3605241996;5903761000;607076253;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Stolár Josef
+5213523664;3605241996;5903761000;607076253;Platby za spojení;Volání;V rámci firmy;;;;3;ks;0:03:18;0;21;0;Stolár Josef
+5213523664;3605241996;5903911743;607076256;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Šmíd Jaroslav
+5213523664;3605241996;5903911743;607076256;Platby za spojení;Volání;V rámci firmy;;;;10;ks;0:10:00;0;21;0;Šmíd Jaroslav
+5213523664;3605241996;5900824919;607076271;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Švan Pavel
+5213523664;3605241996;5900824919;607076271;Platby za spojení;Volání;V rámci firmy;;;;7;ks;0:07:46;0;21;0;Švan Pavel
+5213523664;3605241996;255882586;607077747;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;
+5213523664;3605241996;255882586;607077747;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;3;ks;0:17:12;0;21;0;
+5213523664;3605241996;255882586;607077747;Platby za spojení;Volání;V rámci firmy;;;;18;ks;0:18:00;0;21;0;
+5213523664;3605241996;255882586;607077747;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;5;Msg;;0;21;0;
+5213523664;3605241996;255882586;607077747;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;6;Msg;;0;21;0;
+5213523664;3605241996;255882586;607077747;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;326324;Kbyte;;0;21;0;
+5213523664;3605241996;255882586;607077747;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;28395;Kbyte;;0;21;0;
+5213523664;3605241996;5905158235;607082672;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Kontrola TP2
+5213523664;3605241996;5905158235;607082672;Platby za spojení;Volání;V rámci firmy;;;;19;ks;0:20:35;0;21;0;Kontrola TP2
+5213523664;3605241996;5901943661;607082684;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Mízner Ivan
+5213523664;3605241996;5901943661;607082684;Platby za spojení;Volání;V rámci ÈR do O2;;;;23;ks;0:30:23;22,81;21;27,6;Mízner Ivan
+5213523664;3605241996;5901943661;607082684;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;27;ks;0:44:00;33,01;21;39,94;Mízner Ivan
+5213523664;3605241996;5901943661;607082684;Platby za spojení;Volání;V rámci firmy;;;;29;ks;0:37:52;0;21;0;Mízner Ivan
+5213523664;3605241996;5904117177;607088749;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Døevokombinát - pøebalovaè
+5213523664;3605241996;5904117177;607088749;Platby za spojení;Volání;V rámci firmy;;;;14;ks;0:14:05;0;21;0;Døevokombinát - pøebalovaè
+5213523664;3605241996;5904117177;607088749;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0,75;21;0,91;Døevokombinát - pøebalovaè
+5213523664;3605241996;5902761653;702031510;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Šeráková Aneta
+5213523664;3605241996;5902761653;702031510;Platby za spojení;Volání;V rámci firmy;;;;1;ks;0:01:00;0;21;0;Šeráková Aneta
+5213523664;3605241996;5902761653;702031510;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;81927;Kbyte;;0;21;0;Šeráková Aneta
+5213523664;3605241996;5903174026;702150861;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Janda Vít
+5213523664;3605241996;5903174026;702150861;Platby za spojení;Volání;V rámci ÈR do O2;;;;1;ks;0:01:00;0,75;21;0,91;Janda Vít
+5213523664;3605241996;5903174026;702150861;Platby za spojení;Volání;V rámci firmy;;;;1;ks;0:01:00;0;21;0;Janda Vít
+5213523664;3605241996;5902614845;702150862;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Adamík Tomáš
+5213523664;3605241996;5901051628;702152022;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Grycz Radek
+5213523664;3605241996;5901051628;702152022;Platby za spojení;Volání;V rámci firmy;;;;30;ks;0:32:06;0;21;0;Grycz Radek
+5213523664;3605241996;5901051628;702152022;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;5;Msg;;3,75;21;4,54;Grycz Radek
+5213523664;3605241996;5901857911;702214596;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Benedikoviè Milan
+5213523664;3605241996;5901857911;702214596;Platby za spojení;Volání;V rámci ÈR do O2;;;;59;ks;4:52:29;0;21;0;Benedikoviè Milan
+5213523664;3605241996;5901857911;702214596;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;8;ks;0:10:33;0;21;0;Benedikoviè Milan
+5213523664;3605241996;5901857911;702214596;Platby za spojení;Volání;Odchozí volání v rámci EU;;;;1;ks;0:01:43;0;21;0;Benedikoviè Milan
+5213523664;3605241996;5901857911;702214596;Platby za spojení;Volání;V rámci firmy;;;;63;ks;2:07:46;0;21;0;Benedikoviè Milan
+5213523664;3605241996;5901857911;702214596;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;13;Msg;;0;21;0;Benedikoviè Milan
+5213523664;3605241996;5901857911;702214596;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;3;Msg;;0;21;0;Benedikoviè Milan
+5213523664;3605241996;5901857911;702214596;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;2;Msg;;7,8;21;9,44;Benedikoviè Milan
+5213523664;3605241996;5901857911;702214596;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;1273179;Kbyte;;0;21;0;Benedikoviè Milan
+5213523664;3605241996;250635511;702226079;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;
+5213523664;3605241996;251623614;702239983;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;251623614;702239983;Platby za spojení;Volání;V rámci firmy;;;;36;ks;0:49:26;0;21;0;
+5213523664;3605241996;252519514;702252610;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;
+5213523664;3605241996;252519514;702252610;Platby za spojení;Volání;V rámci ÈR do O2;;;;6;ks;0:08:13;0;21;0;
+5213523664;3605241996;252519514;702252610;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;32;ks;0:50:23;0;21;0;
+5213523664;3605241996;252519514;702252610;Platby za spojení;Volání;V rámci firmy;;;;26;ks;0:37:57;0;21;0;
+5213523664;3605241996;252519514;702252610;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0;21;0;
+5213523664;3605241996;252519514;702252610;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;82;Msg;;0;21;0;
+5213523664;3605241996;252519514;702252610;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;7;Msg;;27,3;21;33,03;
+5213523664;3605241996;252519514;702252610;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;320616;Kbyte;;0;21;0;
+5213523664;3605241996;5903457610;702282758;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Vondrová Nikola
+5213523664;3605241996;5902254533;721242080;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Galíèek Martin
+5213523664;3605241996;5902254533;721242080;Platby za spojení;Volání;V rámci firmy;;;;10;ks;0:21:45;0;21;0;Galíèek Martin
+5213523664;3605241996;5902254533;721242080;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0,75;21;0,91;Galíèek Martin
+5213523664;3605241996;5904759913;724060975;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Elektrikáøi TP 1
+5213523664;3605241996;5904759913;724060975;Platby za spojení;Volání;V rámci firmy;;;;44;ks;0:48:25;0;21;0;Elektrikáøi TP 1
+5213523664;3605241996;5902207111;724060976;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Štefková Jarmila
+5213523664;3605241996;5902207111;724060976;Platby za spojení;Volání;V rámci ÈR do O2;;;;3;ks;0:03:00;2,25;21;2,72;Štefková Jarmila
+5213523664;3605241996;5902207111;724060976;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;31;ks;0:37:32;28,16;21;34,07;Štefková Jarmila
+5213523664;3605241996;5902207111;724060976;Platby za spojení;Volání;V rámci firmy;;;;24;ks;0:26:48;0;21;0;Štefková Jarmila
+5213523664;3605241996;5902207111;724060976;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;18;Msg;;13,5;21;16,34;Štefková Jarmila
+5213523664;3605241996;5902207111;724060976;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;24;Msg;;18;21;21,78;Štefková Jarmila
+5213523664;3605241996;5901675350;724140240;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Schindlerova
+5213523664;3605241996;5901675350;724140240;Platby za spojení;Volání;V rámci ÈR do O2;;;;30;ks;0:57:15;0;21;0;Schindlerova
+5213523664;3605241996;5901675350;724140240;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;55;ks;4:18:00;0;21;0;Schindlerova
+5213523664;3605241996;5901675350;724140240;Platby za spojení;Volání;Odchozí volání mimo EU;;;;2;ks;0:05:00;175;21;211,75;Schindlerova
+5213523664;3605241996;5901675350;724140240;Platby za spojení;Volání;Pøíchozí volání mimo EU;;;;4;ks;0:07:00;140;21;169,4;Schindlerova
+5213523664;3605241996;5901675350;724140240;Platby za spojení;Volání;Z ÈR do zahranièí;;;;5;ks;0:16:00;24;21;29,04;Schindlerova
+5213523664;3605241996;5901675350;724140240;Platby za spojení;Volání;V rámci firmy;;;;27;ks;0:31:11;0;21;0;Schindlerova
+5213523664;3605241996;5901675350;724140240;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;16;Msg;;0;21;0;Schindlerova
+5213523664;3605241996;5901675350;724140240;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;26;Msg;;0;21;0;Schindlerova
+5213523664;3605241996;5901675350;724140240;Platby za spojení;Zprávy;SMS v rámci EU;;;;1;Msg;;0;21;0;Schindlerova
+5213523664;3605241996;5901675350;724140240;Platby za spojení;Zprávy;SMS mimo EU;;;;11;Msg;;110;21;133,1;Schindlerova
+5213523664;3605241996;5901675350;724140240;Platby za spojení;Zprávy;SMS z ÈR do zahranièí;;;;1;Msg;;1,5;21;1,82;Schindlerova
+5213523664;3605241996;5901675350;724140240;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;1;Msg;;3,9;21;4,72;Schindlerova
+5213523664;3605241996;5901675350;724140240;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;315515;Kbyte;;0;21;0;Schindlerova
+5213523664;3605241996;5901675350;724140240;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;5101;Kbyte;;0;21;0;Schindlerova
+5213523664;3605241996;5903447643;724140243;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Tománková Kateøina
+5213523664;3605241996;5903447643;724140243;Platby za spojení;Volání;V rámci ÈR do O2;;;;2;ks;0:04:46;3,57;21;4,32;Tománková Kateøina
+5213523664;3605241996;5903447643;724140243;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;3;ks;0:03:00;2,25;21;2,72;Tománková Kateøina
+5213523664;3605241996;5903447643;724140243;Platby za spojení;Volání;V rámci firmy;;;;20;ks;0:23:35;0;21;0;Tománková Kateøina
+5213523664;3605241996;5903447643;724140243;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;5;Msg;;3,75;21;4,54;Tománková Kateøina
+5213523664;3605241996;5903447643;724140243;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;15;Msg;;11,25;21;13,61;Tománková Kateøina
+5213523664;3605241996;5903870155;724148404;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Remeš Jakub
+5213523664;3605241996;5903870155;724148404;Platby za spojení;Volání;V rámci ÈR do O2;;;;9;ks;0:15:28;0;21;0;Remeš Jakub
+5213523664;3605241996;5903870155;724148404;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;65;ks;2:01:46;0;21;0;Remeš Jakub
+5213523664;3605241996;5903870155;724148404;Platby za spojení;Volání;Odchozí volání v rámci EU;;;;3;ks;0:09:02;0;21;0;Remeš Jakub
+5213523664;3605241996;5903870155;724148404;Platby za spojení;Volání;Pøíchozí volání v rámci EU;;;;2;ks;0:05:30;0;21;0;Remeš Jakub
+5213523664;3605241996;5903870155;724148404;Platby za spojení;Volání;V rámci firmy;;;;111;ks;2:25:47;0;21;0;Remeš Jakub
+5213523664;3605241996;5903870155;724148404;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;3;Msg;;0;21;0;Remeš Jakub
+5213523664;3605241996;5903870155;724148404;Platby za spojení;Zprávy;SMS v rámci EU;;;;2;Msg;;0;21;0;Remeš Jakub
+5213523664;3605241996;5903870155;724148404;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;1937508;Kbyte;;0;21;0;Remeš Jakub
+5213523664;3605241996;5903870155;724148404;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;122874;Kbyte;;0;21;0;Remeš Jakub
+5213523664;3605241996;5903122769;724148617;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Hropko Jiøí
+5213523664;3605241996;5903122769;724148617;Platby za spojení;Volání;V rámci ÈR do O2;;;;1;ks;0:01:00;0,75;21;0,91;Hropko Jiøí
+5213523664;3605241996;5903122769;724148617;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;6;ks;0:06:00;4,5;21;5,45;Hropko Jiøí
+5213523664;3605241996;5903122769;724148617;Platby za spojení;Volání;V rámci firmy;;;;7;ks;0:07:04;0;21;0;Hropko Jiøí
+5213523664;3605241996;5903122769;724148617;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;2;Msg;;1,5;21;1,82;Hropko Jiøí
+5213523664;3605241996;5903122769;724148617;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;1;Msg;;0,75;21;0,91;Hropko Jiøí
+5213523664;3605241996;5903122769;724148617;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;1;Msg;;3,9;21;4,72;Hropko Jiøí
+5213523664;3605241996;5902822101;724148618;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Jiroušek Pavel
+5213523664;3605241996;5902822101;724148618;Platby za spojení;Volání;V rámci ÈR do O2;;;;3;ks;0:23:48;0;21;0;Jiroušek Pavel
+5213523664;3605241996;5902822101;724148618;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;28;ks;0:55:24;0;21;0;Jiroušek Pavel
+5213523664;3605241996;5902822101;724148618;Platby za spojení;Volání;Barevné a informaèní linky;;;;2;ks;0:23:00;0;21;0;Jiroušek Pavel
+5213523664;3605241996;5902822101;724148618;Platby za spojení;Volání;V rámci firmy;;;;37;ks;0:52:07;0;21;0;Jiroušek Pavel
+5213523664;3605241996;5902822101;724148618;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;4;Msg;;0;21;0;Jiroušek Pavel
+5213523664;3605241996;5902822101;724148618;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;1;Msg;;3,9;21;4,72;Jiroušek Pavel
+5213523664;3605241996;5902822101;724148618;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;1;Msg;;3,9;21;4,72;Jiroušek Pavel
+5213523664;3605241996;5902822101;724148618;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;200098;Kbyte;;0;21;0;Jiroušek Pavel
+5213523664;3605241996;5902046909;724158567;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Tyrner Jaroslav
+5213523664;3605241996;5902046909;724158567;Platby za spojení;Volání;V rámci ÈR do O2;;;;41;ks;1:15:43;0;21;0;Tyrner Jaroslav
+5213523664;3605241996;5902046909;724158567;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;113;ks;2:14:48;0;21;0;Tyrner Jaroslav
+5213523664;3605241996;5902046909;724158567;Platby za spojení;Volání;V rámci firmy;;;;232;ks;5:35:11;0;21;0;Tyrner Jaroslav
+5213523664;3605241996;5902046909;724158567;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;152;Msg;;0;21;0;Tyrner Jaroslav
+5213523664;3605241996;5902046909;724158567;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;84;Msg;;0;21;0;Tyrner Jaroslav
+5213523664;3605241996;5902046909;724158567;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;2271385;Kbyte;;0;21;0;Tyrner Jaroslav
+5213523664;3605241996;5902046909;724158567;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;1238;Kbyte;;0;21;0;Tyrner Jaroslav
+5213523664;3605241996;5902930882;724164663;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Kubáè Jaroslav
+5213523664;3605241996;5902930882;724164663;Platby za spojení;Volání;V rámci ÈR do O2;;;;20;ks;0:43:32;0;21;0;Kubáè Jaroslav
+5213523664;3605241996;5902930882;724164663;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;8;ks;0:17:46;0;21;0;Kubáè Jaroslav
+5213523664;3605241996;5902930882;724164663;Platby za spojení;Volání;Odchozí volání v rámci EU;;;;1;ks;0:01:39;0;21;0;Kubáè Jaroslav
+5213523664;3605241996;5902930882;724164663;Platby za spojení;Volání;Barevné a informaèní linky;;;;1;ks;0:01:00;0;21;0;Kubáè Jaroslav
+5213523664;3605241996;5902930882;724164663;Platby za spojení;Volání;V rámci firmy;;;;4;ks;0:05:25;0;21;0;Kubáè Jaroslav
+5213523664;3605241996;5902930882;724164663;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;2;Msg;;0;21;0;Kubáè Jaroslav
+5213523664;3605241996;5902930882;724164663;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;1102931;Kbyte;;0;21;0;Kubáè Jaroslav
+5213523664;3605241996;5902930882;724164663;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;51371;Kbyte;;0;21;0;Kubáè Jaroslav
+5213523664;3605241996;5903468741;724167180;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Musil Tomáš
+5213523664;3605241996;5903468741;724167180;Platby za spojení;Volání;V rámci firmy;;;;14;ks;0:15:57;0;21;0;Musil Tomáš
+5213523664;3605241996;255024331;724168549;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Ohera Jiøí
+5213523664;3605241996;255024331;724168549;Platby za spojení;Volání;V rámci ÈR do O2;;;;43;ks;0:56:27;0;21;0;Ohera Jiøí
+5213523664;3605241996;255024331;724168549;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;223;ks;6:26:08;0;21;0;Ohera Jiøí
+5213523664;3605241996;255024331;724168549;Platby za spojení;Volání;Odchozí volání v rámci EU;;;;1;ks;0:00:50;0;21;0;Ohera Jiøí
+5213523664;3605241996;255024331;724168549;Platby za spojení;Volání;Pøíchozí volání v rámci EU;;;;1;ks;0:01:06;0;21;0;Ohera Jiøí
+5213523664;3605241996;255024331;724168549;Platby za spojení;Volání;Z ÈR do zahranièí;;;;3;ks;0:03:00;4,5;21;5,45;Ohera Jiøí
+5213523664;3605241996;255024331;724168549;Platby za spojení;Volání;V rámci firmy;;;;146;ks;4:12:36;0;21;0;Ohera Jiøí
+5213523664;3605241996;255024331;724168549;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;15;Msg;;0;21;0;Ohera Jiøí
+5213523664;3605241996;255024331;724168549;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;38;Msg;;0;21;0;Ohera Jiøí
+5213523664;3605241996;255024331;724168549;Platby za spojení;Zprávy;SMS z ÈR do zahranièí;;;;7;Msg;;10,5;21;12,71;Ohera Jiøí
+5213523664;3605241996;255024331;724168549;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;1;Msg;;3,9;21;4,72;Ohera Jiøí
+5213523664;3605241996;255024331;724168549;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;2553294;Kbyte;;0;21;0;Ohera Jiøí
+5213523664;3605241996;255024331;724168549;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;90925;Kbyte;;0;21;0;Ohera Jiøí
+5213523664;3605241996;5903517296;724172074;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Hába Marek
+5213523664;3605241996;5903517296;724172074;Platby za spojení;Volání;V rámci ÈR do O2;;;;7;ks;0:09:17;0;21;0;Hába Marek
+5213523664;3605241996;5903517296;724172074;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;9;ks;0:11:30;0;21;0;Hába Marek
+5213523664;3605241996;5903517296;724172074;Platby za spojení;Volání;V rámci firmy;;;;48;ks;1:06:11;0;21;0;Hába Marek
+5213523664;3605241996;5903517296;724172074;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;44;Msg;;0;21;0;Hába Marek
+5213523664;3605241996;5903517296;724172074;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;8;Msg;;0;21;0;Hába Marek
+5213523664;3605241996;5903517296;724172074;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;331043;Kbyte;;0;21;0;Hába Marek
+5213523664;3605241996;5903517296;724172074;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;37594;Kbyte;;0;21;0;Hába Marek
+5213523664;3605241996;5902542388;724219273;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Stolarik Petr
+5213523664;3605241996;5902542388;724219273;Platby za spojení;Volání;V rámci ÈR do O2;;;;7;ks;0:10:10;0;21;0;Stolarik Petr
+5213523664;3605241996;5902542388;724219273;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;123;ks;5:53:18;0;21;0;Stolarik Petr
+5213523664;3605241996;5902542388;724219273;Platby za spojení;Volání;V rámci firmy;;;;36;ks;1:05:18;0;21;0;Stolarik Petr
+5213523664;3605241996;5902542388;724219273;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;17;Msg;;0;21;0;Stolarik Petr
+5213523664;3605241996;5902542388;724219273;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;39;Msg;;0;21;0;Stolarik Petr
+5213523664;3605241996;5902542388;724219273;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;2;Msg;;7,8;21;9,44;Stolarik Petr
+5213523664;3605241996;5902542388;724219273;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;1980123;Kbyte;;0;21;0;Stolarik Petr
+5213523664;3605241996;5904403913;724253964;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Vinklar Antonín
+5213523664;3605241996;5904403913;724253964;Platby za spojení;Volání;V rámci ÈR do O2;;;;14;ks;0:23:05;17,31;21;20,95;Vinklar Antonín
+5213523664;3605241996;5904403913;724253964;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;54;ks;2:15:09;101,4;21;122,69;Vinklar Antonín
+5213523664;3605241996;5904403913;724253964;Platby za spojení;Volání;V rámci firmy;;;;39;ks;0:46:16;0;21;0;Vinklar Antonín
+5213523664;3605241996;5904403913;724253964;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;4;Msg;;3;21;3,63;Vinklar Antonín
+5213523664;3605241996;5904403913;724253964;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;28;Msg;;21;21;25,41;Vinklar Antonín
+5213523664;3605241996;5904860216;724263460;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Švéda Pavel st.
+5213523664;3605241996;5902278841;724267701;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Šebesta Ladislav
+5213523664;3605241996;5902278841;724267701;Platby za spojení;Volání;V rámci firmy;;;;13;ks;0:13:00;0;21;0;Šebesta Ladislav
+5213523664;3605241996;5902278841;724267701;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0,75;21;0,91;Šebesta Ladislav
+5213523664;3605241996;5904019019;724267798;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Tihelka Jaroslav
+5213523664;3605241996;5901353586;724283384;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Riška Roman
+5213523664;3605241996;5901353586;724283384;Platby za spojení;Volání;V rámci firmy;;;;6;ks;0:06:00;0;21;0;Riška Roman
+5213523664;3605241996;5904924293;724334584;Pravidelné poplatky;;VARIO profil 3 MAX+;;01.09.2022;30.09.2022;1;ks;;319;21;385,99;Zezula Zdenìk
+5213523664;3605241996;5904924293;724334584;Platby za spojení;Volání;V rámci ÈR do O2;;;;4;ks;0:07:33;0;21;0;Zezula Zdenìk
+5213523664;3605241996;5904924293;724334584;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;7;ks;0:09:47;0;21;0;Zezula Zdenìk
+5213523664;3605241996;5904924293;724334584;Platby za spojení;Volání;V rámci firmy;;;;3;ks;0:03:43;0;21;0;Zezula Zdenìk
+5213523664;3605241996;5904924293;724334584;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;7;Msg;;0;21;0;Zezula Zdenìk
+5213523664;3605241996;5904924293;724334584;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;29;Msg;;0;21;0;Zezula Zdenìk
+5213523664;3605241996;5904924293;724334584;Platby za spojení;Zprávy;SMS z ÈR do zahranièí;;;;142;Msg;;213;21;257,73;Zezula Zdenìk
+5213523664;3605241996;5904924293;724334584;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;1;Msg;;3,9;21;4,72;Zezula Zdenìk
+5213523664;3605241996;5904924293;724334584;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;4193163;Kbyte;;0;21;0;Zezula Zdenìk
+5213523664;3605241996;5901344836;724371357;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Grygarová Eva
+5213523664;3605241996;5901344836;724371357;Platby za spojení;Volání;V rámci ÈR do O2;;;;6;ks;0:07:07;5,34;21;6,46;Grygarová Eva
+5213523664;3605241996;5901344836;724371357;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;4;ks;0:18:17;13,71;21;16,59;Grygarová Eva
+5213523664;3605241996;5901344836;724371357;Platby za spojení;Volání;V rámci firmy;;;;2;ks;0:02:00;0;21;0;Grygarová Eva
+5213523664;3605241996;5901344836;724371357;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0,75;21;0,91;Grygarová Eva
+5213523664;3605241996;5901499246;724371358;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Afkos Dimitri
+5213523664;3605241996;5901499246;724371358;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0,75;21;0,91;Afkos Dimitri
+5213523664;3605241996;5901497765;724371359;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Raiskup David
+5213523664;3605241996;5901497765;724371359;Platby za spojení;Volání;V rámci firmy;;;;30;ks;0:30:45;0;21;0;Raiskup David
+5213523664;3605241996;5901497765;724371359;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;3;Msg;;2,25;21;2,72;Raiskup David
+5213523664;3605241996;5901978315;724372063;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Mechanici hotovost
+5213523664;3605241996;5901905682;724372083;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Kostka Miroslav
+5213523664;3605241996;5901905682;724372083;Platby za spojení;Volání;V rámci ÈR do O2;;;;36;ks;1:00:15;0;21;0;Kostka Miroslav
+5213523664;3605241996;5901905682;724372083;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;108;ks;3:03:38;0;21;0;Kostka Miroslav
+5213523664;3605241996;5901905682;724372083;Platby za spojení;Volání;Z ÈR do zahranièí;;;;1;ks;0:03:00;4,5;21;5,45;Kostka Miroslav
+5213523664;3605241996;5901905682;724372083;Platby za spojení;Volání;Barevné a informaèní linky;;;;2;ks;0:07:00;0;21;0;Kostka Miroslav
+5213523664;3605241996;5901905682;724372083;Platby za spojení;Volání;V rámci firmy;;;;38;ks;0:46:03;0;21;0;Kostka Miroslav
+5213523664;3605241996;5901905682;724372083;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;16;Msg;;0;21;0;Kostka Miroslav
+5213523664;3605241996;5901905682;724372083;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;47;Msg;;0;21;0;Kostka Miroslav
+5213523664;3605241996;5901905682;724372083;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;154027;Kbyte;;0;21;0;Kostka Miroslav
+5213523664;3605241996;5901321882;724383622;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Svoboda Vladimír
+5213523664;3605241996;5901321882;724383622;Platby za spojení;Volání;V rámci firmy;;;;1;ks;0:01:00;0;21;0;Svoboda Vladimír
+5213523664;3605241996;5902594982;724388840;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Mezisklad TP1
+5213523664;3605241996;5902594982;724388840;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;1;ks;0:01:00;0,75;21;0,91;Mezisklad TP1
+5213523664;3605241996;5902594982;724388840;Platby za spojení;Volání;V rámci firmy;;;;26;ks;0:29:23;0;21;0;Mezisklad TP1
+5213523664;3605241996;5902594982;724388840;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0,75;21;0,91;Mezisklad TP1
+5213523664;3605241996;5901943030;724392017;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Šulák Petr
+5213523664;3605241996;5901943030;724392017;Platby za spojení;Volání;V rámci firmy;;;;1;ks;0:01:00;0;21;0;Šulák Petr
+5213523664;3605241996;5903352812;724392018;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Švan Josef
+5213523664;3605241996;5903352812;724392018;Platby za spojení;Volání;V rámci firmy;;;;4;ks;0:04:00;0;21;0;Švan Josef
+5213523664;3605241996;5901275385;724392019;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Vranka Viktor
+5213523664;3605241996;5901275385;724392019;Platby za spojení;Volání;V rámci firmy;;;;9;ks;0:09:00;0;21;0;Vranka Viktor
+5213523664;3605241996;5903708854;724476161;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Jurik Luboš
+5213523664;3605241996;5902384277;724622918;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Mikuš Petr
+5213523664;3605241996;5902384277;724622918;Platby za spojení;Volání;V rámci ÈR do O2;;;;15;ks;1:04:25;0;21;0;Mikuš Petr
+5213523664;3605241996;5902384277;724622918;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;18;ks;1:10:42;0;21;0;Mikuš Petr
+5213523664;3605241996;5902384277;724622918;Platby za spojení;Volání;V rámci firmy;;;;5;ks;0:05:00;0;21;0;Mikuš Petr
+5213523664;3605241996;5902384277;724622918;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0;21;0;Mikuš Petr
+5213523664;3605241996;5902384277;724622918;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;43369;Kbyte;;0;21;0;Mikuš Petr
+5213523664;3605241996;5904599309;724622919;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Pøibylová Jarmila
+5213523664;3605241996;5904599309;724622919;Platby za spojení;Volání;V rámci ÈR do O2;;;;46;ks;2:09:10;0;21;0;Pøibylová Jarmila
+5213523664;3605241996;5904599309;724622919;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;108;ks;5:51:09;0;21;0;Pøibylová Jarmila
+5213523664;3605241996;5904599309;724622919;Platby za spojení;Volání;V rámci firmy;;;;41;ks;0:56:29;0;21;0;Pøibylová Jarmila
+5213523664;3605241996;5904599309;724622919;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;10;Msg;;0;21;0;Pøibylová Jarmila
+5213523664;3605241996;5904599309;724622919;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;421;Msg;;0;21;0;Pøibylová Jarmila
+5213523664;3605241996;5904599309;724622919;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;2;Msg;;7,8;21;9,44;Pøibylová Jarmila
+5213523664;3605241996;5904599309;724622919;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;2869192;Kbyte;;0;21;0;Pøibylová Jarmila
+5213523664;3605241996;5902917237;724622936;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Sedláèková Kristina
+5213523664;3605241996;5902917237;724622936;Platby za spojení;Volání;V rámci ÈR do O2;;;;19;ks;0:35:19;26,5;21;32,07;Sedláèková Kristina
+5213523664;3605241996;5902917237;724622936;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;24;ks;0:55:55;41,96;21;50,77;Sedláèková Kristina
+5213523664;3605241996;5902917237;724622936;Platby za spojení;Volání;V rámci firmy;;;;9;ks;0:17:26;0;21;0;Sedláèková Kristina
+5213523664;3605241996;5902917237;724622936;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;9;Msg;;6,75;21;8,17;Sedláèková Kristina
+5213523664;3605241996;5904858071;724760727;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Mistøi TP1
+5213523664;3605241996;5904858071;724760727;Platby za spojení;Volání;V rámci ÈR do O2;;;;5;ks;0:08:36;6,45;21;7,8;Mistøi TP1
+5213523664;3605241996;5904858071;724760727;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;15;ks;0:15:57;11,97;21;14,48;Mistøi TP1
+5213523664;3605241996;5904858071;724760727;Platby za spojení;Volání;V rámci firmy;;;;310;ks;5:29:27;0;21;0;Mistøi TP1
+5213523664;3605241996;5904858071;724760727;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;13;Msg;;9,75;21;11,8;Mistøi TP1
+5213523664;3605241996;5904858071;724760727;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;6;Msg;;4,5;21;5,45;Mistøi TP1
+5213523664;3605241996;5901320548;724826421;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Bartoncová Renata
+5213523664;3605241996;5901320548;724826421;Platby za spojení;Volání;V rámci firmy;;;;54;ks;1:01:37;0;21;0;Bartoncová Renata
+5213523664;3605241996;5903439612;724930473;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Krupa Vladimír
+5213523664;3605241996;5904488013;724930494;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Lazur Josef
+5213523664;3605241996;5904488013;724930494;Platby za spojení;Volání;V rámci firmy;;;;8;ks;0:08:00;0;21;0;Lazur Josef
+5213523664;3605241996;5904488013;724930494;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0,75;21;0,91;Lazur Josef
+5213523664;3605241996;5904804635;724934860;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Lacko Ludìk
+5213523664;3605241996;5904804635;724934860;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;1;ks;0:01:00;0,75;21;0,91;Lacko Ludìk
+5213523664;3605241996;5904804635;724934860;Platby za spojení;Volání;V rámci firmy;;;;1;ks;0:01:00;0;21;0;Lacko Ludìk
+5213523664;3605241996;5904381050;724935786;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Grygarz Jiøí ml.
+5213523664;3605241996;5904381050;724935786;Platby za spojení;Volání;V rámci ÈR do O2;;;;20;ks;0:29:39;0;21;0;Grygarz Jiøí ml.
+5213523664;3605241996;5904381050;724935786;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;45;ks;1:19:53;0;21;0;Grygarz Jiøí ml.
+5213523664;3605241996;5904381050;724935786;Platby za spojení;Volání;Z ÈR do zahranièí;;;;6;ks;0:10:00;24;21;29,04;Grygarz Jiøí ml.
+5213523664;3605241996;5904381050;724935786;Platby za spojení;Volání;V rámci firmy;;;;18;ks;0:29:25;0;21;0;Grygarz Jiøí ml.
+5213523664;3605241996;5904381050;724935786;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;11;Msg;;0;21;0;Grygarz Jiøí ml.
+5213523664;3605241996;5904381050;724935786;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;34;Msg;;0;21;0;Grygarz Jiøí ml.
+5213523664;3605241996;5904381050;724935786;Platby za spojení;Zprávy;SMS z ÈR do zahranièí;;;;8;Msg;;12;21;14,52;Grygarz Jiøí ml.
+5213523664;3605241996;5904381050;724935786;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;1;Msg;;3,9;21;4,72;Grygarz Jiøí ml.
+5213523664;3605241996;5904381050;724935786;Platby za spojení;Zprávy;MMS z ÈR do zahranièí;;;;1;Msg;;3,9;21;4,72;Grygarz Jiøí ml.
+5213523664;3605241996;5904381050;724935786;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;161497;Kbyte;;0;21;0;Grygarz Jiøí ml.
+5213523664;3605241996;5905153216;725106103;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Kopecká Helena
+5213523664;3605241996;258499509;725144203;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;258499509;725144203;Platby za spojení;Volání;V rámci firmy;;;;10;ks;0:10:00;0;21;0;
+5213523664;3605241996;258499487;725168902;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;258499487;725168902;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;2;ks;0:02:07;1,59;21;1,92;
+5213523664;3605241996;258499487;725168902;Platby za spojení;Volání;V rámci firmy;;;;10;ks;0:10:00;0;21;0;
+5213523664;3605241996;5902196241;725180037;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Poøízka Kamil
+5213523664;3605241996;5902196241;725180037;Platby za spojení;Volání;V rámci ÈR do O2;;;;2;ks;0:05:40;0;21;0;Poøízka Kamil
+5213523664;3605241996;5902196241;725180037;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;24;ks;1:08:19;0;21;0;Poøízka Kamil
+5213523664;3605241996;5902196241;725180037;Platby za spojení;Volání;V rámci firmy;;;;71;ks;1:18:17;0;21;0;Poøízka Kamil
+5213523664;3605241996;5902196241;725180037;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;1;Msg;;0;21;0;Poøízka Kamil
+5213523664;3605241996;5902196241;725180037;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;263639;Kbyte;;0;21;0;Poøízka Kamil
+5213523664;3605241996;5903447672;725180079;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Bartonec Zdenìk
+5213523664;3605241996;5901300207;725180089;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Mistøi TP2
+5213523664;3605241996;5901300207;725180089;Platby za spojení;Volání;V rámci ÈR do O2;;;;1;ks;0:01:05;0,81;21;0,98;Mistøi TP2
+5213523664;3605241996;5901300207;725180089;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;12;ks;0:19:18;14,48;21;17,52;Mistøi TP2
+5213523664;3605241996;5901300207;725180089;Platby za spojení;Volání;V rámci firmy;;;;98;ks;1:56:09;0;21;0;Mistøi TP2
+5213523664;3605241996;5901300207;725180089;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;7;Msg;;5,25;21;6,35;Mistøi TP2
+5213523664;3605241996;5903902267;725318456;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Kroutilová Šárka
+5213523664;3605241996;5903902267;725318456;Platby za spojení;Volání;V rámci ÈR do O2;;;;3;ks;0:03:00;2,25;21;2,72;Kroutilová Šárka
+5213523664;3605241996;5903902267;725318456;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;18;ks;0:39:28;29,61;21;35,83;Kroutilová Šárka
+5213523664;3605241996;5903902267;725318456;Platby za spojení;Volání;V rámci firmy;;;;13;ks;0:18:33;0;21;0;Kroutilová Šárka
+5213523664;3605241996;5903902267;725318456;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;2;Msg;;1,5;21;1,82;Kroutilová Šárka
+5213523664;3605241996;5903902267;725318456;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;6;Msg;;4,5;21;5,45;Kroutilová Šárka
+5213523664;3605241996;5903902267;725318456;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;1;Msg;;3,9;21;4,72;Kroutilová Šárka
+5213523664;3605241996;5904835877;725318457;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Urban Jan
+5213523664;3605241996;5904835877;725318457;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;14;ks;0:25:58;19,5;21;23,6;Urban Jan
+5213523664;3605241996;5904835877;725318457;Platby za spojení;Volání;V rámci firmy;;;;6;ks;0:06:47;0;21;0;Urban Jan
+5213523664;3605241996;5904835877;725318457;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;2;Msg;;1,5;21;1,82;Urban Jan
+5213523664;3605241996;258889846;725348796;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;
+5213523664;3605241996;258279686;725363106;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;
+5213523664;3605241996;5905377044;725382933;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Hurina Ladislav
+5213523664;3605241996;5905377044;725382933;Platby za spojení;Volání;V rámci firmy;;;;60;ks;1:01:43;0;21;0;Hurina Ladislav
+5213523664;3605241996;5901325618;725382934;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Hlávka Stanislav
+5213523664;3605241996;5901325618;725382934;Platby za spojení;Volání;V rámci firmy;;;;31;ks;0:31:28;0;21;0;Hlávka Stanislav
+5213523664;3605241996;5901909444;725382935;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Lesniak Jan
+5213523664;3605241996;5901909444;725382935;Platby za spojení;Volání;V rámci firmy;;;;30;ks;0:30:00;0;21;0;Lesniak Jan
+5213523664;3605241996;5901756926;725382936;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Nováèek Jaroslav
+5213523664;3605241996;5901756926;725382936;Platby za spojení;Volání;V rámci firmy;;;;47;ks;0:48:02;0;21;0;Nováèek Jaroslav
+5213523664;3605241996;5901756926;725382936;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;4;Msg;;3;21;3,63;Nováèek Jaroslav
+5213523664;3605241996;5901023838;725382937;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Sypaèi
+5213523664;3605241996;5901023838;725382937;Platby za spojení;Volání;V rámci firmy;;;;120;ks;2:15:05;0;21;0;Sypaèi
+5213523664;3605241996;5903715311;725382938;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Dluhi
+5213523664;3605241996;5903715311;725382938;Platby za spojení;Volání;V rámci firmy;;;;42;ks;0:42:07;0;21;0;Dluhi
+5213523664;3605241996;5903303749;725382939;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Faron
+5213523664;3605241996;5901554950;725382940;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Fuèela Jan
+5213523664;3605241996;5901554950;725382940;Platby za spojení;Volání;V rámci firmy;;;;1;ks;0:01:00;0;21;0;Fuèela Jan
+5213523664;3605241996;5901772091;725382941;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Kostelníèek Dušan
+5213523664;3605241996;5901772091;725382941;Platby za spojení;Volání;V rámci firmy;;;;45;ks;0:45:04;0;21;0;Kostelníèek Dušan
+5213523664;3605241996;5902215642;725382943;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Podolák Jakub
+5213523664;3605241996;5902215642;725382943;Platby za spojení;Volání;V rámci firmy;;;;80;ks;1:22:10;0;21;0;Podolák Jakub
+5213523664;3605241996;5900951094;725382944;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Polcar Martin
+5213523664;3605241996;5900951094;725382944;Platby za spojení;Volání;V rámci firmy;;;;59;ks;1:00:22;0;21;0;Polcar Martin
+5213523664;3605241996;5904857769;725382945;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Rezník Jan
+5213523664;3605241996;5904857769;725382945;Platby za spojení;Volání;V rámci firmy;;;;25;ks;0:27:30;0;21;0;Rezník Jan
+5213523664;3605241996;5904106018;725382946;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Olejník Jan
+5213523664;3605241996;5904106018;725382946;Platby za spojení;Volání;V rámci firmy;;;;13;ks;0:13:00;0;21;0;Olejník Jan
+5213523664;3605241996;5900698310;725382947;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Šmigura Marian
+5213523664;3605241996;5900698310;725382947;Platby za spojení;Volání;V rámci firmy;;;;24;ks;0:24:00;0;21;0;Šmigura Marian
+5213523664;3605241996;5903462456;725382948;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Matúšù Miroslav
+5213523664;3605241996;5904484942;725382949;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Beneš Martin
+5213523664;3605241996;5904484942;725382949;Platby za spojení;Volání;V rámci firmy;;;;15;ks;0:15:51;0;21;0;Beneš Martin
+5213523664;3605241996;5905398072;725382950;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Vašèák Jan
+5213523664;3605241996;5905346364;725382951;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Zábojník Petr
+5213523664;3605241996;5905346364;725382951;Platby za spojení;Volání;V rámci ÈR do O2;;;;3;ks;0:09:51;0;21;0;Zábojník Petr
+5213523664;3605241996;5905346364;725382951;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;59;ks;1:46:18;0;21;0;Zábojník Petr
+5213523664;3605241996;5905346364;725382951;Platby za spojení;Volání;V rámci firmy;;;;21;ks;0:27:38;0;21;0;Zábojník Petr
+5213523664;3605241996;5905346364;725382951;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0;21;0;Zábojník Petr
+5213523664;3605241996;5905346364;725382951;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;186;Msg;;0;21;0;Zábojník Petr
+5213523664;3605241996;5905346364;725382951;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;2393354;Kbyte;;0;21;0;Zábojník Petr
+5213523664;3605241996;5900554201;725382952;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Kontrola TP1
+5213523664;3605241996;5900554201;725382952;Platby za spojení;Volání;V rámci firmy;;;;47;ks;0:48:40;0;21;0;Kontrola TP1
+5213523664;3605241996;258448278;725403313;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;
+5213523664;3605241996;258448278;725403313;Jednorázové poplatky;;Obnovení objemu dat;;01.09.2022;30.09.2022;1;ks;;205,79;21;249,01;
+5213523664;3605241996;258448278;725403313;Platby za spojení;Volání;V rámci ÈR do O2;;;;19;ks;0:52:16;0;21;0;
+5213523664;3605241996;258448278;725403313;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;63;ks;1:42:53;0;21;0;
+5213523664;3605241996;258448278;725403313;Platby za spojení;Volání;Odchozí volání v rámci EU;;;;1;ks;0:00:30;0;21;0;
+5213523664;3605241996;258448278;725403313;Platby za spojení;Volání;Z ÈR do zahranièí;;;;3;ks;0:03:00;6;21;7,26;
+5213523664;3605241996;258448278;725403313;Platby za spojení;Volání;V rámci firmy;;;;5;ks;0:12:12;0;21;0;
+5213523664;3605241996;258448278;725403313;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;5;Msg;;0;21;0;
+5213523664;3605241996;258448278;725403313;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;16;Msg;;0;21;0;
+5213523664;3605241996;258448278;725403313;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;3426513;Kbyte;;0;21;0;
+5213523664;3605241996;5900698344;725420534;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Technik linky TP1
+5213523664;3605241996;5900698344;725420534;Platby za spojení;Volání;V rámci firmy;;;;1;ks;0:01:54;0;21;0;Technik linky TP1
+5213523664;3605241996;5902401307;725420838;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Kopecký Petr
+5213523664;3605241996;5902401307;725420838;Platby za spojení;Volání;V rámci firmy;;;;36;ks;0:56:01;0;21;0;Kopecký Petr
+5213523664;3605241996;5901316859;725433979;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Martínek Kamil
+5213523664;3605241996;5901316859;725433979;Platby za spojení;Volání;V rámci ÈR do O2;;;;15;ks;0:30:24;0;21;0;Martínek Kamil
+5213523664;3605241996;5901316859;725433979;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;124;ks;5:49:46;0;21;0;Martínek Kamil
+5213523664;3605241996;5901316859;725433979;Platby za spojení;Volání;V rámci firmy;;;;35;ks;0:58:16;0;21;0;Martínek Kamil
+5213523664;3605241996;5901316859;725433979;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0;21;0;Martínek Kamil
+5213523664;3605241996;5901316859;725433979;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;28;Msg;;0;21;0;Martínek Kamil
+5213523664;3605241996;5901316859;725433979;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;5;Msg;;19,5;21;23,6;Martínek Kamil
+5213523664;3605241996;5901316859;725433979;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;1269664;Kbyte;;0;21;0;Martínek Kamil
+5213523664;3605241996;256474483;725434501;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;5903354073;725504064;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Hanák Pavel
+5213523664;3605241996;5903354073;725504064;Platby za spojení;Volání;V rámci ÈR do O2;;;;5;ks;0:10:09;7,62;21;9,22;Hanák Pavel
+5213523664;3605241996;5903354073;725504064;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;15;ks;0:42:00;31,52;21;38,14;Hanák Pavel
+5213523664;3605241996;5903354073;725504064;Platby za spojení;Volání;V rámci firmy;;;;4;ks;0:04:54;0;21;0;Hanák Pavel
+5213523664;3605241996;5903354073;725504064;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;5;Msg;;3,75;21;4,54;Hanák Pavel
+5213523664;3605241996;5903354073;725504064;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;6;Msg;;4,5;21;5,45;Hanák Pavel
+5213523664;3605241996;5903354073;725504064;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;1;Msg;;3,9;21;4,72;Hanák Pavel
+5213523664;3605241996;5901262930;725536157;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Vrobel Jan
+5213523664;3605241996;5901262930;725536157;Platby za spojení;Volání;V rámci firmy;;;;5;ks;0:05:06;0;21;0;Vrobel Jan
+5213523664;3605241996;5903334918;725557493;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Pøípraváø TP1
+5213523664;3605241996;5903821581;725557494;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Pøípraváø TP1
+5213523664;3605241996;5903821581;725557494;Platby za spojení;Volání;V rámci firmy;;;;9;ks;0:09:17;0;21;0;Pøípraváø TP1
+5213523664;3605241996;5903907145;725557498;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Pøípraváø TP1
+5213523664;3605241996;258499522;725586992;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213523664;3605241996;261494955;725587121;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Filip Mura
+5213523664;3605241996;261494955;725587121;Platby za spojení;Volání;V rámci firmy;;;;2;ks;0:04:44;0;21;0;Filip Mura
+5213523664;3605241996;261494955;725587121;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;4;Msg;;0;21;0;Filip Mura
+5213523664;3605241996;261494955;725587121;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;3;Msg;;0;21;0;Filip Mura
+5213523664;3605241996;261494955;725587121;Platby za spojení;Zprávy;SMS z ÈR do zahranièí;;;;1;Msg;;1,5;21;1,82;Filip Mura
+5213523664;3605241996;261494955;725587121;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;62950;Kbyte;;0;21;0;Filip Mura
+5213523664;3605241996;5901318314;725725589;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Dudek Pavel
+5213523664;3605241996;5901318314;725725589;Platby za spojení;Volání;V rámci firmy;;;;4;ks;0:05:17;0;21;0;Dudek Pavel
+5213523664;3605241996;256429930;725746117;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;
+5213523664;3605241996;256429930;725746117;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;2;ks;0:05:17;0;21;0;
+5213523664;3605241996;256429930;725746117;Platby za spojení;Volání;Z ÈR do zahranièí;;;;1;ks;0:02:00;6;21;7,26;
+5213523664;3605241996;256429930;725746117;Platby za spojení;Volání;V rámci firmy;;;;2;ks;0:05:58;0;21;0;
+5213523664;3605241996;256429930;725746117;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0;21;0;
+5213523664;3605241996;256429930;725746117;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;52330;Kbyte;;0;21;0;
+5213523664;3605241996;258889845;725755879;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;
+5213523664;3605241996;258889845;725755879;Platby za spojení;Volání;V rámci ÈR do O2;;;;5;ks;0:29:36;0;21;0;
+5213523664;3605241996;258889845;725755879;Platby za spojení;Volání;Z ÈR do zahranièí;;;;1;ks;0:01:00;1,5;21;1,82;
+5213523664;3605241996;258889845;725755879;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;5;Msg;;0;21;0;
+5213523664;3605241996;258889845;725755879;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;2;Msg;;0;21;0;
+5213523664;3605241996;258889845;725755879;Platby za spojení;Zprávy;SMS z ÈR do zahranièí;;;;2;Msg;;3;21;3,63;
+5213523664;3605241996;258889845;725755879;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;4617;Kbyte;;0;21;0;
+5213523664;3605241996;5904011150;725790492;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Stibor Martin
+5213523664;3605241996;5904011150;725790492;Platby za spojení;Volání;V rámci ÈR do O2;;;;32;ks;1:10:24;0;21;0;Stibor Martin
+5213523664;3605241996;5904011150;725790492;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;36;ks;0:50:29;0;21;0;Stibor Martin
+5213523664;3605241996;5904011150;725790492;Platby za spojení;Volání;Odchozí volání v rámci EU;;;;1;ks;0:00:30;0;21;0;Stibor Martin
+5213523664;3605241996;5904011150;725790492;Platby za spojení;Volání;V rámci firmy;;;;31;ks;0:32:47;0;21;0;Stibor Martin
+5213523664;3605241996;5904011150;725790492;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;13;Msg;;0;21;0;Stibor Martin
+5213523664;3605241996;5904011150;725790492;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;21;Msg;;0;21;0;Stibor Martin
+5213523664;3605241996;5902482028;725790493;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Franek Jiøí
+5213523664;3605241996;5902482028;725790493;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;5;ks;0:06:06;4,58;21;5,54;Franek Jiøí
+5213523664;3605241996;5902482028;725790493;Platby za spojení;Volání;V rámci firmy;;;;8;ks;0:14:26;0;21;0;Franek Jiøí
+5213523664;3605241996;5902482028;725790493;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;1;Msg;;0,75;21;0,91;Franek Jiøí
+5213523664;3605241996;5902661033;725804324;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Sakala Ladislav
+5213523664;3605241996;5902661033;725804324;Platby za spojení;Volání;V rámci firmy;;;;3;ks;0:03:00;0;21;0;Sakala Ladislav
+5213523664;3605241996;5903602680;725804516;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Zálešák Jiøí
+5213523664;3605241996;5903602680;725804516;Platby za spojení;Volání;V rámci ÈR do O2;;;;3;ks;0:04:44;0;21;0;Zálešák Jiøí
+5213523664;3605241996;5903602680;725804516;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;3;ks;0:03:00;0;21;0;Zálešák Jiøí
+5213523664;3605241996;5903602680;725804516;Platby za spojení;Volání;V rámci firmy;;;;11;ks;0:13:38;0;21;0;Zálešák Jiøí
+5213523664;3605241996;5903602680;725804516;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;2012515;Kbyte;;0;21;0;Zálešák Jiøí
+5213523664;3605241996;257269370;725892967;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Radka Orságová
+5213523664;3605241996;257269370;725892967;Platby za spojení;Volání;V rámci ÈR do O2;;;;18;ks;0:19:23;14,53;21;17,58;Radka Orságová
+5213523664;3605241996;257269370;725892967;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;51;ks;1:10:45;53,08;21;64,23;Radka Orságová
+5213523664;3605241996;257269370;725892967;Platby za spojení;Volání;V rámci firmy;;;;24;ks;0:29:38;0;21;0;Radka Orságová
+5213523664;3605241996;257269370;725892967;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;16;Msg;;12;21;14,52;Radka Orságová
+5213523664;3605241996;257269370;725892967;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;67;Msg;;50,25;21;60,8;Radka Orságová
+5213523664;3605241996;257269370;725892967;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;7;Msg;;27,3;21;33,03;Radka Orságová
+5213523664;3605241996;258448273;725938465;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;
+5213523664;3605241996;258448273;725938465;Platby za spojení;Volání;V rámci firmy;;;;27;ks;1:07:18;0;21;0;
+5213523664;3605241996;258448273;725938465;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;5;Msg;;0;21;0;
+5213523664;3605241996;258448273;725938465;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;2;Msg;;0;21;0;
+5213523664;3605241996;5901308152;727829866;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Balonková Daniela
+5213523664;3605241996;5902397170;727856388;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Klíma Ladislav
+5213523664;3605241996;5902397170;727856388;Platby za spojení;Volání;V rámci firmy;;;;2;ks;0:02:00;0;21;0;Klíma Ladislav
+5213523664;3605241996;5902397170;727856388;Doplòkové služby;;O2 Knihovna;;;;30;pcs;;32,1;21;38,84;Klíma Ladislav
+5213523664;3605241996;5901714542;727945163;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Výtah TP2
+5213523664;3605241996;5902220785;727952664;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Regenerace
+5213523664;3605241996;5902220785;727952664;Platby za spojení;Volání;V rámci ÈR do O2;;;;2;ks;0:02:01;1,51;21;1,83;Regenerace
+5213523664;3605241996;5902220785;727952664;Platby za spojení;Volání;V rámci firmy;;;;10;ks;0:16:25;0;21;0;Regenerace
+5213523664;3605241996;5902220785;727952664;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;3;Msg;;2,25;21;2,72;Regenerace
+5213523664;3605241996;5904736663;727952812;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Vítek Miroslav
+5213523664;3605241996;5904736663;727952812;Platby za spojení;Volání;V rámci ÈR do O2;;;;59;ks;2:01:48;0;21;0;Vítek Miroslav
+5213523664;3605241996;5904736663;727952812;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;202;ks;5:42:42;0;21;0;Vítek Miroslav
+5213523664;3605241996;5904736663;727952812;Platby za spojení;Volání;Odchozí volání v rámci EU;;;;7;ks;0:05:32;0;21;0;Vítek Miroslav
+5213523664;3605241996;5904736663;727952812;Platby za spojení;Volání;Pøíchozí volání v rámci EU;;;;4;ks;0:03:45;0;21;0;Vítek Miroslav
+5213523664;3605241996;5904736663;727952812;Platby za spojení;Volání;Z ÈR do zahranièí;;;;1;ks;0:01:00;3;21;3,63;Vítek Miroslav
+5213523664;3605241996;5904736663;727952812;Platby za spojení;Volání;V rámci firmy;;;;157;ks;3:36:23;0;21;0;Vítek Miroslav
+5213523664;3605241996;5904736663;727952812;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;28;Msg;;0;21;0;Vítek Miroslav
+5213523664;3605241996;5904736663;727952812;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;65;Msg;;0;21;0;Vítek Miroslav
+5213523664;3605241996;5904736663;727952812;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;1;Msg;;3,9;21;4,72;Vítek Miroslav
+5213523664;3605241996;5904736663;727952812;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;1556304;Kbyte;;0;21;0;Vítek Miroslav
+5213523664;3605241996;5904736663;727952812;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;5916;Kbyte;;0;21;0;Vítek Miroslav
+5213523664;3605241996;5901786880;727984149;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Riedlová Hana
+5213523664;3605241996;5901786880;727984149;Platby za spojení;Volání;V rámci ÈR do O2;;;;19;ks;0:37:50;0;21;0;Riedlová Hana
+5213523664;3605241996;5901786880;727984149;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;31;ks;1:19:29;0;21;0;Riedlová Hana
+5213523664;3605241996;5901786880;727984149;Platby za spojení;Volání;V rámci firmy;;;;24;ks;0:26:10;0;21;0;Riedlová Hana
+5213523664;3605241996;5901786880;727984149;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;8;Msg;;0;21;0;Riedlová Hana
+5213523664;3605241996;5901786880;727984149;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;28;Msg;;0;21;0;Riedlová Hana
+5213523664;3605241996;5901786880;727984149;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;2325066;Kbyte;;0;21;0;Riedlová Hana
+5213523664;3605241996;5901786880;727984149;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;1701;Kbyte;;0;21;0;Riedlová Hana
+5213523664;3605241996;5902295230;727984150;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Klimeš Jaroslav
+5213523664;3605241996;5902295230;727984150;Platby za spojení;Volání;V rámci ÈR do O2;;;;7;ks;0:10:41;8,02;21;9,7;Klimeš Jaroslav
+5213523664;3605241996;5902295230;727984150;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;24;ks;0:24:00;18;21;21,78;Klimeš Jaroslav
+5213523664;3605241996;5902295230;727984150;Platby za spojení;Volání;V rámci firmy;;;;92;ks;1:45:34;0;21;0;Klimeš Jaroslav
+5213523664;3605241996;5902295230;727984150;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0,75;21;0,91;Klimeš Jaroslav
+5213523664;3605241996;5904390058;728369641;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Maria Nelly Fuèelová Rozmanitová
+5213523664;3605241996;5904390058;728369641;Platby za spojení;Volání;V rámci firmy;;;;1;ks;0:04:15;0;21;0;Maria Nelly Fuèelová Rozmanitová
+5213539013;3605333712;;;Pravidelné poplatky;;Tištìné vyúètování;;01.09.2022;30.09.2022;1;ks;;15,7;21;19;
+5213539013;3605333712;254678032;601202268;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;
+5213539013;3605333712;255607907;607017634;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;
+5213539013;3605333712;255607907;607017634;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;14;ks;0:35:10;0;21;0;
+5213539013;3605333712;255607907;607017634;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0;21;0;
+5213539013;3605333712;255607907;607017634;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;180;Msg;;0;21;0;
+5213539013;3605333712;255607907;607017634;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;2490091;Kbyte;;0;21;0;
+5213539013;3605333712;5901664473;724263972;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Brzobohatý Dušan
+5213539013;3605333712;5901664473;724263972;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;43;ks;2:50:47;0;21;0;Brzobohatý Dušan
+5213539013;3605333712;5901664473;724263972;Platby za spojení;Volání;V rámci firmy;;;;11;ks;0:20:08;0;21;0;Brzobohatý Dušan
+5213539013;3605333712;5901664473;724263972;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;2;Msg;;0;21;0;Brzobohatý Dušan
+5213539013;3605333712;5901664473;724263972;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;2;Msg;;7,8;21;9,44;Brzobohatý Dušan
+5213539013;3605333712;5901450451;724283775;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Rybár Petr
+5213539013;3605333712;5901450451;724283775;Platby za spojení;Volání;V rámci ÈR do O2;;;;18;ks;0:46:38;0;21;0;Rybár Petr
+5213539013;3605333712;5901450451;724283775;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;44;ks;1:34:02;0;21;0;Rybár Petr
+5213539013;3605333712;5901450451;724283775;Platby za spojení;Volání;V rámci firmy;;;;13;ks;0:28:08;0;21;0;Rybár Petr
+5213539013;3605333712;5901450451;724283775;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;13;Msg;;0;21;0;Rybár Petr
+5213539013;3605333712;5901450451;724283775;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;67;Msg;;0;21;0;Rybár Petr
+5213539013;3605333712;5901450451;724283775;Platby za spojení;Zprávy;SMS v rámci EU;;;;1;Msg;;0;21;0;Rybár Petr
+5213539013;3605333712;5901450451;724283775;Platby za spojení;Zprávy;SMS z ÈR do zahranièí;;;;3;Msg;;4,5;21;5,45;Rybár Petr
+5213539013;3605333712;5901450451;724283775;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;1;Msg;;3,9;21;4,72;Rybár Petr
+5213539013;3605333712;5901450451;724283775;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;1153202;Kbyte;;0;21;0;Rybár Petr
+5213539013;3605333712;5901450451;724283775;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;25660;Kbyte;;0;21;0;Rybár Petr
+5213539013;3605333712;5901339829;724284413;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Tománek Petr
+5213539013;3605333712;5901339829;724284413;Platby za spojení;Volání;V rámci ÈR do O2;;;;20;ks;1:56:13;0;21;0;Tománek Petr
+5213539013;3605333712;5901339829;724284413;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;71;ks;3:17:07;0;21;0;Tománek Petr
+5213539013;3605333712;5901339829;724284413;Platby za spojení;Volání;Z ÈR do zahranièí;;;;2;ks;0:03:00;4,5;21;5,45;Tománek Petr
+5213539013;3605333712;5901339829;724284413;Platby za spojení;Volání;V rámci firmy;;;;15;ks;0:26:52;0;21;0;Tománek Petr
+5213539013;3605333712;5901339829;724284413;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;35;Msg;;0;21;0;Tománek Petr
+5213539013;3605333712;5901339829;724284413;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;37;Msg;;0;21;0;Tománek Petr
+5213539013;3605333712;5901339829;724284413;Platby za spojení;Zprávy;SMS z ÈR do zahranièí;;;;1;Msg;;1,5;21;1,82;Tománek Petr
+5213539013;3605333712;5903316220;724284801;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Vacek Zdenìk
+5213539013;3605333712;5903316220;724284801;Platby za spojení;Volání;V rámci ÈR do O2;;;;37;ks;1:25:13;0;21;0;Vacek Zdenìk
+5213539013;3605333712;5903316220;724284801;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;32;ks;0:54:38;0;21;0;Vacek Zdenìk
+5213539013;3605333712;5903316220;724284801;Platby za spojení;Volání;Barevné a informaèní linky;;;;1;ks;0:01:00;0;21;0;Vacek Zdenìk
+5213539013;3605333712;5903316220;724284801;Platby za spojení;Volání;V rámci firmy;;;;6;ks;0:08:18;0;21;0;Vacek Zdenìk
+5213539013;3605333712;5903316220;724284801;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;1;Msg;;0;21;0;Vacek Zdenìk
+5213539013;3605333712;5903316220;724284801;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;3;Msg;;0;21;0;Vacek Zdenìk
+5213539013;3605333712;5903316220;724284801;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;1140685;Kbyte;;0;21;0;Vacek Zdenìk
+5213539013;3605333712;5901239885;724285677;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Macková Alena
+5213539013;3605333712;5901239885;724285677;Platby za spojení;Volání;V rámci ÈR do O2;;;;8;ks;0:12:29;0;21;0;Macková Alena
+5213539013;3605333712;5901239885;724285677;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;21;ks;0:50:05;0;21;0;Macková Alena
+5213539013;3605333712;5901239885;724285677;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;3;Msg;;0;21;0;Macková Alena
+5213539013;3605333712;5901239885;724285677;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;7;Msg;;0;21;0;Macková Alena
+5213539013;3605333712;5901239885;724285677;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;980913;Kbyte;;0;21;0;Macková Alena
+5213539013;3605333712;5901239885;724285677;Služby 3 stran;;Platba pøes SMS - Jízdenky, vstupenky, parkování;;;;3;Msg;;;;36;Macková Alena
+5213539013;3605333712;5901772664;724285678;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Riedl Radim
+5213539013;3605333712;5901772664;724285678;Platby za spojení;Volání;V rámci ÈR do O2;;;;7;ks;0:07:21;0;21;0;Riedl Radim
+5213539013;3605333712;5901772664;724285678;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;10;ks;0:18:25;0;21;0;Riedl Radim
+5213539013;3605333712;5901772664;724285678;Platby za spojení;Volání;V rámci firmy;;;;12;ks;0:12:06;0;21;0;Riedl Radim
+5213539013;3605333712;5901772664;724285678;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;3;Msg;;0;21;0;Riedl Radim
+5213539013;3605333712;5901772664;724285678;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;38;Msg;;0;21;0;Riedl Radim
+5213539013;3605333712;5901772664;724285678;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;1554432;Kbyte;;0;21;0;Riedl Radim
+5213539013;3605333712;5901772664;724285678;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;4518;Kbyte;;0;21;0;Riedl Radim
+5213539013;3605333712;5901276548;724372064;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Dimidìnková Marie
+5213539013;3605333712;5901276548;724372064;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;1;ks;0:01:00;0,75;21;0,91;Dimidìnková Marie
+5213539013;3605333712;5901276548;724372064;Platby za spojení;Volání;V rámci firmy;;;;7;ks;0:18:22;0;21;0;Dimidìnková Marie
+5213539013;3605333712;5901029155;724474330;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Vanìk Petr
+5213539013;3605333712;5901029155;724474330;Platby za spojení;Volání;V rámci ÈR do O2;;;;33;ks;0:45:28;0;21;0;Vanìk Petr
+5213539013;3605333712;5901029155;724474330;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;11;ks;0:19:39;0;21;0;Vanìk Petr
+5213539013;3605333712;5901029155;724474330;Platby za spojení;Volání;V rámci firmy;;;;33;ks;1:43:05;0;21;0;Vanìk Petr
+5213539013;3605333712;5901029155;724474330;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;15;Msg;;0;21;0;Vanìk Petr
+5213539013;3605333712;5901029155;724474330;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;8;Msg;;0;21;0;Vanìk Petr
+5213539013;3605333712;5901029155;724474330;Platby za spojení;Zprávy;MMS v rámci ÈR do O2;;;;11;Msg;;42,9;21;51,91;Vanìk Petr
+5213539013;3605333712;5901029155;724474330;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;3;Msg;;11,7;21;14,16;Vanìk Petr
+5213539013;3605333712;5901029155;724474330;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;1596320;Kbyte;;0;21;0;Vanìk Petr
+5213539013;3605333712;5903039346;724510831;Pravidelné poplatky;;VARIO profil Voice;;01.09.2022;30.09.2022;1;ks;;30;21;36,3;Mièker Antonín
+5213539013;3605333712;5903039346;724510831;Platby za spojení;Volání;V rámci ÈR do O2;;;;2;ks;0:02:00;1,5;21;1,82;Mièker Antonín
+5213539013;3605333712;5903039346;724510831;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;6;ks;0:06:00;4,5;21;5,45;Mièker Antonín
+5213539013;3605333712;5903039346;724510831;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;1;Msg;;0,75;21;0,91;Mièker Antonín
+5213539013;3605333712;5901769833;724510853;Pravidelné poplatky;;VARIO profil 3+;;01.09.2022;30.09.2022;1;ks;;259;21;313,39;Bartošák Milan
+5213539013;3605333712;5901769833;724510853;Platby za spojení;Volání;V rámci ÈR do O2;;;;30;ks;0:50:29;0;21;0;Bartošák Milan
+5213539013;3605333712;5901769833;724510853;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;31;ks;1:01:40;0;21;0;Bartošák Milan
+5213539013;3605333712;5901769833;724510853;Platby za spojení;Volání;Odchozí volání v rámci EU;;;;3;ks;0:07:12;0;21;0;Bartošák Milan
+5213539013;3605333712;5901769833;724510853;Platby za spojení;Volání;Pøíchozí volání v rámci EU;;;;4;ks;0:04:26;0;21;0;Bartošák Milan
+5213539013;3605333712;5901769833;724510853;Platby za spojení;Volání;V rámci firmy;;;;12;ks;0:12:00;0;21;0;Bartošák Milan
+5213539013;3605333712;5901769833;724510853;Platby za spojení;Zprávy;SMS v rámci ÈR do O2;;;;15;Msg;;0;21;0;Bartošák Milan
+5213539013;3605333712;5901769833;724510853;Platby za spojení;Zprávy;SMS v rámci ÈR mimo O2;;;;26;Msg;;0;21;0;Bartošák Milan
+5213539013;3605333712;5901769833;724510853;Platby za spojení;Zprávy;SMS v rámci EU;;;;2;Msg;;0;21;0;Bartošák Milan
+5213539013;3605333712;5901769833;724510853;Platby za spojení;Zprávy;MMS v rámci ÈR mimo O2;;;;2;Msg;;7,8;21;9,44;Bartošák Milan
+5213539013;3605333712;5901769833;724510853;Platby za spojení;Data;Datový provoz v ÈR (kB);;;;580750;Kbyte;;0;21;0;Bartošák Milan
+5213539013;3605333712;5901769833;724510853;Platby za spojení;Data;Datový provoz v rámci EU (kB);;;;21206;Kbyte;;0;21;0;Bartošák Milan
+5213603873;700002097;;;Pravidelné poplatky;;Tištìné vyúètování;;01.09.2022;30.09.2022;1;ks;;15,7;21;19;
+5213603873;700002097;5903422220;;Pravidelné poplatky;;Business ISDN2 - provolba;;01.09.2022;30.09.2022;1;ks;;670;21;810,7;
+5213603873;700002097;5903422220;;Pravidelné poplatky;;Další pøípojka;;01.09.2022;30.09.2022;2;ks;;1340;21;1621,4;
+5213603873;700002097;5903422220;55477364;Pravidelné poplatky;;Provolba 10;;01.09.2022;30.09.2022;1;ks;;89;21;107,69;
+5213603873;700002097;5903422220;55477364;Platby za spojení;Volání;V rámci ÈR do O2;;;;7;ks;0:14:29;12,31;21;14,9;
+5213603873;700002097;5903422220;55477364;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;27;ks;0:58:38;49,83;21;60,29;
+5213603873;700002097;5903422220;55477364;Platby za spojení;Volání;V rámci firmy;;;;51;ks;7:01:32;0;21;0;
+5213603873;700002097;5903422220;55477365;Pravidelné poplatky;;Provolba 10;;01.09.2022;30.09.2022;1;ks;;89;21;107,69;
+5213603873;700002097;5903422220;55477365;Platby za spojení;Volání;V rámci ÈR do O2;;;;1;ks;0:01:00;0,85;21;1,03;
+5213603873;700002097;5903422220;55477365;Platby za spojení;Volání;V rámci firmy;;;;2;ks;0:02:03;0;21;0;
+5213603873;700002097;5903422220;55477366;Pravidelné poplatky;;Provolba 10;;01.09.2022;30.09.2022;1;ks;;89;21;107,69;
+5213603873;700002097;5903422220;55477366;Platby za spojení;Volání;V rámci ÈR do O2;;;;1;ks;0:01:00;0,85;21;1,03;
+5213603873;700002097;5903422220;55477366;Platby za spojení;Volání;V rámci firmy;;;;5;ks;0:07:23;0;21;0;
+5213603873;700002097;5903422220;55477367;Pravidelné poplatky;;Provolba 10;;01.09.2022;30.09.2022;1;ks;;89;21;107,69;
+5213603873;700002097;5903422220;55477368;Pravidelné poplatky;;Provolba 10;;01.09.2022;30.09.2022;1;ks;;89;21;107,69;
+5213603873;700002097;5903422220;55477368;Platby za spojení;Volání;V rámci ÈR do O2;;;;1;ks;0:01:10;0,99;21;1,2;
+5213603873;700002097;5903422220;55477368;Platby za spojení;Volání;V rámci firmy;;;;4;ks;0:04:28;0;21;0;
+5213603873;700002097;5903645154;;Pravidelné poplatky;;Business ISDN30 - provolba;;01.09.2022;30.09.2022;1;ks;;3100;21;3751;
+5213603873;700002097;5903645154;5547901;Pravidelné poplatky;;Provolba 100;;01.09.2022;30.09.2022;1;ks;;399;21;482,79;
+5213603873;700002097;5903645154;5547901;Platby za spojení;Volání;V rámci ÈR do O2;;;;204;ks;7:16:00;370,65;21;448,49;
+5213603873;700002097;5903645154;5547901;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;248;ks;5:53:25;300,41;21;363,5;
+5213603873;700002097;5903645154;5547901;Platby za spojení;Volání;Z ÈR do zahranièí;;;;16;ks;0:54:41;54,74;21;66,24;
+5213603873;700002097;5903645154;5547901;Platby za spojení;Volání;Barevné a informaèní linky;;;;4;ks;0:27:11;2,91;21;3,52;
+5213603873;700002097;5903645154;5547901;Platby za spojení;Volání;V rámci firmy;;;;677;ks;25:04:49;0;21;0;
+5213603873;700002097;5903645154;5547902;Pravidelné poplatky;;Provolba 100;;01.09.2022;30.09.2022;1;ks;;399;21;482,79;
+5213603873;700002097;5903645154;5547902;Platby za spojení;Volání;V rámci ÈR do O2;;;;56;ks;2:12:11;112,39;21;135,99;
+5213603873;700002097;5903645154;5547902;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;6;ks;0:06:03;5,14;21;6,22;
+5213603873;700002097;5903645154;5547902;Platby za spojení;Volání;Z ÈR do zahranièí;;;;3;ks;0:19:15;17,12;21;20,72;
+5213603873;700002097;5903645154;5547902;Platby za spojení;Volání;Barevné a informaèní linky;;;;1;ks;0:02:00;0;21;0;
+5213603873;700002097;5903645154;5547902;Platby za spojení;Volání;V rámci firmy;;;;54;ks;1:43:42;0;21;0;
+5213603873;700002097;5903645154;5547903;Pravidelné poplatky;;Provolba 100;;01.09.2022;30.09.2022;1;ks;;399;21;482,79;
+5213603873;700002097;5903645154;5547903;Platby za spojení;Volání;V rámci ÈR do O2;;;;10;ks;0:16:22;13,92;21;16,84;
+5213603873;700002097;5903645154;5547903;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;9;ks;0:09:43;8,26;21;9,99;
+5213603873;700002097;5903645154;5547903;Platby za spojení;Volání;V rámci firmy;;;;350;ks;6:09:23;0;21;0;
+5213603873;700002097;5903645154;5547904;Pravidelné poplatky;;Provolba 100;;01.09.2022;30.09.2022;1;ks;;399;21;482,79;
+5213603873;700002097;5903645154;5547904;Platby za spojení;Volání;V rámci ÈR do O2;;;;5;ks;0:17:59;15,28;21;18,49;
+5213603873;700002097;5903645154;5547904;Platby za spojení;Volání;V rámci ÈR mimo O2;;;;19;ks;0:19:00;16,15;21;19,54;
+5213603873;700002097;5903645154;5547904;Platby za spojení;Volání;Barevné a informaèní linky;;;;1;ks;0:12:00;0;21;0;
+5213603873;700002097;5903645154;5547904;Platby za spojení;Volání;V rámci firmy;;;;297;ks;5:00:15;0;21;0;
