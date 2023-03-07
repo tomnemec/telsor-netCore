@@ -25,7 +25,7 @@
                 <td>{{d.number}}</td>
                 <td>{{d.noDph}}</td>
                 <td>{{d.dph}}</td>
-                <td>{{d.department}}</td>
+                <td>{{d.departmentId}}</td>
             </tr>
         </tbody>
 
@@ -33,9 +33,13 @@
 </div>
 
 <div class="bd-example">
+    <div *ngIf="view">
+        Souhrn s DPH je {{sumPrice}}
+    </div>
     <table *ngIf="view" class="table table-hover">
         <thead>
             <tr>
+                <th scope="col">Kód</th> 
                 <th scope="col">Oddělení</th> 
                 <th scope="col">bez DPH</th>               
                 <th scope="col">S DPH</th>
@@ -43,7 +47,8 @@
         </thead>
         <tbody>
             <tr *ngFor="let d of summaryOfDepartments">
-                <th scope="row">{{d.name}}</th>
+                <th scope="row">{{d.code}}</th>
+                <td>{{d.name}}</td>
                 <td>{{d.noDph}}</td>  
                 <td>{{d.dph}}</td>                
             </tr>

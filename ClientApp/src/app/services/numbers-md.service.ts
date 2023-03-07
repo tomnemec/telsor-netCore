@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -5,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class NumbersMDService {
 
-  constructor() { }
+  constructor(private http:HttpClient) { }
   numbersMD=[
     {
       number:601052999,
@@ -35,9 +36,9 @@ export class NumbersMDService {
       department:3
     }
   ]
-
+  
   getNumbersMD()
   {
-    return this.numbersMD;
+    return this.http.get('https://localhost:7129/api/numbers');
   }
 }
