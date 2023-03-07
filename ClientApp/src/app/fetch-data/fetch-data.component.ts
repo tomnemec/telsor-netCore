@@ -1,3 +1,4 @@
+import { FilesService } from './../services/files.service';
 import { DepartmentsService } from './../services/departments.service';
 import { NumbersMDService } from './../services/numbers-md.service';
 import { Component, Inject } from '@angular/core';
@@ -24,14 +25,17 @@ export class FetchDataComponent {
   //trigger value for table view
   view = false;
 
-  constructor(private service: NumbersMDService, private departmentService: DepartmentsService) { }
+  constructor(private service: NumbersMDService, private departmentService: DepartmentsService,private filesService:FilesService) { }
 
   ngOnInit(): void {
     this.service.getNumbersMD()
       .subscribe((r: any) => this.numbersMD = r);
 
   }
-
+  saveFile(input:any)
+  {
+    this.filesService.onFileSelected(input);
+  }
   //takes excel file and loads all rows with properties names set according column names
   onFileChange(event: any) {
     let workBook: XLSX.WorkBook;
@@ -125,9 +129,8 @@ export class FetchDataComponent {
               };
               this.summaryOfDepartments.push(dep);
             }
-            this.sumPrice = this.totalSum(this.summaryOfDepartments);
+            this.sumPrice =Math.round( this.totalSum(this.summaryOfDepartments) * 100 + Number.EPSILON ) / 100;
           });
-
       });
   }
   totalSum(input: any) {
