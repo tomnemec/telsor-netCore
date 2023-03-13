@@ -3,11 +3,13 @@ import { DepartmentsService } from './../services/departments.service';
 import { NumbersMDService } from './../services/numbers-md.service';
 import { Component, Inject } from '@angular/core';
 import * as XLSX from 'xlsx';
+
 @Component({
   selector: 'app-fetch-data',
   templateUrl: './fetch-data.component.html'
 })
 export class FetchDataComponent {
+
   //raw data from import
   data: any[] = [];
   //numbers from master data
@@ -91,7 +93,8 @@ export class FetchDataComponent {
             name: input.Pojmenovanisluzby,
             noDph: input.CenabezDPH,
             dph: input.CenasDPH,
-            departmentId: numberFromMasterData.departmentId
+            departmentId: numberFromMasterData.departmentId,
+            invoice: input.Cislofaktury
           }
         }
         else {
@@ -100,7 +103,8 @@ export class FetchDataComponent {
             name: input.Pojmenovanisluzby,
             noDph: input.CenabezDPH,
             dph: input.CenasDPH,
-            departmentId: 1
+            departmentId: 1,
+            invoice: input.Cislofaktury
           }
         }
         this.asignedDepartmetns.push(asignedDep);
@@ -135,6 +139,7 @@ export class FetchDataComponent {
           });
       });
   }
+  //count total price of input
   totalSum(input: any) {
     let summary = input.reduce((ac: any, price: { dph: number }) => {
       return ac + price.dph
@@ -155,4 +160,15 @@ export class FetchDataComponent {
   back() {
     this.singleView = false;
   }
+  //filter provided table regarding input value/text
+  filterAndSearch(input: any, table: any) {
+    let result = [];
+    for (let r of table) {
+      let props = Object.keys(r);
+      for (let propertie of props)
+        if (r[propertie]?.toString().toUpperCase().includes(input.toUpperCase()))
+          result.push(r);
+    }    
+    return result;
+  }  
 }
