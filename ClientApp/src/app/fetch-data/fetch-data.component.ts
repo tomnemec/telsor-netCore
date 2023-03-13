@@ -3,7 +3,6 @@ import { DepartmentsService } from './../services/departments.service';
 import { NumbersMDService } from './../services/numbers-md.service';
 import { Component, Inject } from '@angular/core';
 import * as XLSX from 'xlsx';
-
 @Component({
   selector: 'app-fetch-data',
   templateUrl: './fetch-data.component.html'
@@ -17,6 +16,8 @@ export class FetchDataComponent {
   asignedDepartmetns: any[] = [];
   //departments with summary of dph and noDph prices
   summaryOfDepartments: any[] = [];
+  //list of numbers for selected dep
+  selectedDep: any[] = [];
   //master data of departments
   departments: any[] = [];
   //total sum of invice with DPH
@@ -24,16 +25,17 @@ export class FetchDataComponent {
 
   //trigger value for table view
   view = false;
+  //trigger single department records view
+  singleView = false;
 
-  constructor(private service: NumbersMDService, private departmentService: DepartmentsService,private filesService:FilesService) { }
+  constructor(private service: NumbersMDService, private departmentService: DepartmentsService, private filesService: FilesService) { }
 
   ngOnInit(): void {
     this.service.getNumbersMD()
       .subscribe((r: any) => this.numbersMD = r);
 
   }
-  saveFile(input:any)
-  {
+  saveFile(input: any) {
     this.filesService.onFileSelected(input);
   }
   //takes excel file and loads all rows with properties names set according column names
@@ -63,19 +65,19 @@ export class FetchDataComponent {
   }
   //button trigger
   onFileClick() {
+    this.summaryOfDepartments = [];
+    this.asignedDepartmetns = [];
     this.data = Object.values(this.data)[0];
     for (let n of this.data)
       this.assignDepartment(n);
     this.sumUpDepartments();
   }
-
   removeDiacritics(str: string) {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   }
   removeSpaces(str: string) {
     return str.replace(/\s/g, "");
   }
-
   //asign records to departments if phone nubmer has department asigned in master data if there is no md department is 0 = unasigned
   assignDepartment(input: any) {
     let numberFromMasterData: any = {};
@@ -104,8 +106,7 @@ export class FetchDataComponent {
         this.asignedDepartmetns.push(asignedDep);
       });
   }
-
- //summary of asigned departments for dph and noDph values and total summary of import
+  //summary of asigned departments for dph and noDph values and total summary of import
   sumUpDepartments() {
     this.departmentService.getDepartments()
       .subscribe((r: any) => {
@@ -123,13 +124,14 @@ export class FetchDataComponent {
               }, 0);
               let dep = {
                 name: d.name,
-                code:d.depNumber,
+                code: d.depNumber,
                 dph: summaryDph,
-                noDph: summaryNoDph
+                noDph: summaryNoDph,
+                depId: d.id
               };
               this.summaryOfDepartments.push(dep);
             }
-            this.sumPrice =Math.round( this.totalSum(this.summaryOfDepartments) * 100 + Number.EPSILON ) / 100;
+            this.sumPrice = Math.round(this.totalSum(this.summaryOfDepartments) * 100 + Number.EPSILON) / 100;
           });
       });
   }
@@ -139,9 +141,18 @@ export class FetchDataComponent {
     }, 0);
     return summary;
   }
-
   //switch of table view (raw data/departments overview)
   viewSwitch() {
     this.view = !this.view;
+  }
+  //populate table with records for single dep
+  singleDep(d: any) {
+    this.selectedDep = [];
+    this.selectedDep = this.asignedDepartmetns.filter(r => r.departmentId == d.depId);
+    this.singleView = true;
+  }
+  //switch view back from single dep view
+  back() {
+    this.singleView = false;
   }
 }
