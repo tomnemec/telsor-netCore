@@ -1,16 +1,22 @@
-<h1>Import dat</h1>
-<div class="mb-3">
-    <label for="formFile" class="form-label">Vyberte soubor k načtení</label>
-    <input class="form-control" type="file" #file (change)="onFileChange($event)" (change)="saveFile($event)">
+<h1>Zpracování dat</h1>
+<div class="mb-3 mt-5 shadow-sm" style="background-color: rgb(249, 249, 249); border-radius: 25px; padding: 20px; width: 500px;">    
+    <input class="form-control" style="width: 400px;" type="file" #file (change)="onFileChange($event)" (change)="saveFile($event)">
+    <label for="formFile" class="form-label text-muted">Vyberte soubor k načtení</label>
+    <div class="d-flex" style="gap: 5px; margin-bottom: 10px;">
+        <button class="btn btn-primary" (click)="onFileClick()">Nahrát <i class="bi bi-upload"></i></button>
+        <button class="btn btn-primary" (click)="viewSwitch()">Přepnout</button>
+        <button class="btn btn-outline-primary" *ngIf="singleView" (click)="back()">Zpět</button>
+    </div>
 </div>
-<div class="d-flex" style="gap: 5px;">
-    <button class="btn btn-primary" (click)="onFileClick()">Nahrát <i class="bi bi-upload"></i></button>
-    <button class="btn btn-primary" (click)="viewSwitch()">Přepnout</button>
-</div>
-<div class="bd-example">
-    <table *ngIf="!view && !singleView" class="table table-hover">
+
+<div class="bd-example" *ngIf="!view && !singleView">
+    <div>
+        <input type="text" #input class="ds-input form-control" style="width: 400px;" (change)=" filterAndSearch(input.value,asignedDepartmetns)">
+    </div>
+    <table  class="table table-hover">
         <thead>
             <tr>
+                <th scope="col">Faktura</th>
                 <th scope="col">Osoba</th>
                 <th scope="col">Číslo</th>
                 <th scope="col">Bez DPH</th>
@@ -20,6 +26,7 @@
         </thead>
         <tbody>
             <tr *ngFor="let d of asignedDepartmetns">
+                <td>{{d.invoice}}</td>
                 <td>{{d.name}}</td>
                 <td>{{d.number}}</td>
                 <td>{{d.noDph}}</td>
@@ -29,7 +36,6 @@
         </tbody>
     </table>
 </div>
-
 <div class="bd-example" *ngIf="view && !singleView">
     <div>
         <h3>Souhrn s DPH je {{sumPrice}} Kč</h3>
@@ -53,11 +59,11 @@
         </tbody>
     </table>
 </div>
-<div class="bd-example" *ngIf="singleView">
-    <button class="btn btn-primary" (click)="back()">Zpět</button>
+<div class="bd-example" *ngIf="singleView">   
     <table class="table table-hover">
         <thead>
             <tr>
+                <th scope="col">Číslo Faktury</th>
                 <th scope="col">Osoba</th>
                 <th scope="col">Číslo</th>
                 <th scope="col">Bez DPH</th>
@@ -67,6 +73,7 @@
         </thead>
         <tbody>
             <tr *ngFor="let d of selectedDep">
+                <td>{{d.invoice}}</td>
                 <td>{{d.name}}</td>
                 <td>{{d.number}}</td>
                 <td>{{d.noDph}}</td>
