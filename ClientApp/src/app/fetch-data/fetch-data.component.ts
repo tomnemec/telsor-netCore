@@ -105,7 +105,7 @@ export class FetchDataComponent {
       });
   }
 
-  //summary of asigned departments for dph and noDph values and total summary of import
+ //summary of asigned departments for dph and noDph values and total summary of import
   sumUpDepartments() {
     this.departmentService.getDepartments()
       .subscribe((r: any) => {
