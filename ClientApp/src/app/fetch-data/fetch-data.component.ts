@@ -16,6 +16,8 @@ export class FetchDataComponent {
   numbersMD: any[] = [];
   //data after asigning of departments
   asignedDepartmetns: any[] = [];
+  //table for refreshing value
+  asignedDepartmetnsMD: any[] = [];
   //departments with summary of dph and noDph prices
   summaryOfDepartments: any[] = [];
   //list of numbers for selected dep
@@ -25,6 +27,8 @@ export class FetchDataComponent {
   //total sum of invice with DPH
   sumPrice: any;
 
+  //search field input
+  input: any;
   //trigger value for table view
   view = false;
   //trigger single department records view
@@ -109,6 +113,7 @@ export class FetchDataComponent {
         }
         this.asignedDepartmetns.push(asignedDep);
       });
+    this.asignedDepartmetnsMD = this.asignedDepartmetns;
   }
   //summary of asigned departments for dph and noDph values and total summary of import
   sumUpDepartments() {
@@ -161,14 +166,18 @@ export class FetchDataComponent {
     this.singleView = false;
   }
   //filter provided table regarding input value/text
-  filterAndSearch(input: any, table: any) {
+  filterAndSearch(table: any) {
     let result = [];
-    for (let r of table) {
-      let props = Object.keys(r);
-      for (let propertie of props)
-        if (r[propertie]?.toString().toUpperCase().includes(input.toUpperCase()))
-          result.push(r);
-    }    
-    return result;
-  }  
+    this.asignedDepartmetns = this.asignedDepartmetnsMD;
+    if (this.input.toString() != "") {
+      for (let r of table) {
+        let props = Object.keys(r);
+        for (let propertie of props)
+          if (r[propertie]?.toString().toUpperCase().includes(this.input.toUpperCase()))
+            result.push(r);
+      }
+      this.asignedDepartmetns = result;
+    }
+  }
 }
+

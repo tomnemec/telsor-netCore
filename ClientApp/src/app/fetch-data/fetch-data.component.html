@@ -11,7 +11,7 @@
 
 <div class="bd-example" *ngIf="!view && !singleView">
     <div>
-        <input type="text" #input class="ds-input form-control" style="width: 400px;" (change)=" filterAndSearch(input.value,asignedDepartmetns)">
+        <input type="text" name="input" [(ngModel)]="input" class="ds-input form-control" style="width: 400px;"(keyup)=" filterAndSearch(asignedDepartmetns)">
     </div>
     <table  class="table table-hover">
         <thead>
