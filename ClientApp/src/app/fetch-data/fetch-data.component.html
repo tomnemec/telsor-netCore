@@ -4,12 +4,14 @@
     <label for="formFile" class="form-label text-muted">Vyberte soubor k načtení</label>
     <div class="d-flex" style="gap: 5px; margin-bottom: 10px;">
         <button class="btn btn-primary" (click)="onFileClick()">Nahrát <i class="bi bi-upload"></i></button>
-        <button class="btn btn-primary" (click)="viewSwitch()">Přepnout</button>
+        <button class="btn btn-primary" *ngIf="!view" (click)="viewSwitch()" style="width: 90px;">Střediska</button>
+        <button class="btn btn-primary" *ngIf="view"(click)="viewSwitch()" style="width: 90px;">Výpis</button>
         <button class="btn btn-outline-primary" *ngIf="singleView" (click)="back()">Zpět</button>
+        <button class="btn btn-outline-primary" (click)="exportView()" style="width: 90px;">Export</button>
     </div>
 </div>
 
-<div class="bd-example" *ngIf="!view && !singleView">
+<div class="bd-example" *ngIf="!view && !singleView && !export">
     <div>
         <input type="text" name="input" [(ngModel)]="input" class="ds-input form-control" style="width: 400px;"(keyup)=" filterAndSearch(asignedDepartmetns)">
     </div>
@@ -36,7 +38,7 @@
         </tbody>
     </table>
 </div>
-<div class="bd-example" *ngIf="view && !singleView">
+<div class="bd-example" *ngIf="view && !singleView && !export">
     <div>
         <h3>Souhrn s DPH je {{sumPrice}} Kč</h3>
     </div>
@@ -59,7 +61,7 @@
         </tbody>
     </table>
 </div>
-<div class="bd-example" *ngIf="singleView">   
+<div class="bd-example" *ngIf="singleView && !export">   
     <table class="table table-hover">
         <thead>
             <tr>
@@ -79,6 +81,38 @@
                 <td>{{d.noDph}}</td>
                 <td>{{d.dph}}</td>
                 <td>{{d.departmentId}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="bd-example" *ngIf="export">   
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Účet</th>
+                <th scope="col">a</th>
+                <th scope="col">b</th>
+                <th scope="col">Kč</th>
+                <th scope="col">c</th>
+                <th scope="col">ZnakDPH</th>
+                <th scope="col">Středisko</th>
+                <th scope="col">d</th>
+                <th scope="col">Období</th>
+                <th scope="col">Závod</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let d of summaryOfDepartments">
+                <td>682022000</td>
+                <td></td>
+                <td></td>
+                <td>{{d.dph}}</td>
+                <td></td>
+                <td>H5</td>
+                <td>{{d.code}}</td>
+                <td></td>
+                <th scope="col">202302</th>
+                <th scope="col">Vrbno</th>
             </tr>
         </tbody>
     </table>

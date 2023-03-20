@@ -26,9 +26,11 @@ export class FetchDataComponent {
   departments: any[] = [];
   //total sum of invice with DPH
   sumPrice: any;
-
   //search field input
   input: any;
+
+  //trigger export view table
+  export=false;
   //trigger value for table view
   view = false;
   //trigger single department records view
@@ -164,6 +166,11 @@ export class FetchDataComponent {
   //switch view back from single dep view
   back() {
     this.singleView = false;
+  }
+  //switch to export view
+  exportView()
+  {
+    this.export=!this.export;
   }
   //filter provided table regarding input value/text
   filterAndSearch(table: any) {
