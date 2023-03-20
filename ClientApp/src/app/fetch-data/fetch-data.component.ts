@@ -1,7 +1,8 @@
 import { FilesService } from './../services/files.service';
 import { DepartmentsService } from './../services/departments.service';
 import { NumbersMDService } from './../services/numbers-md.service';
-import { Component, Inject } from '@angular/core';
+import { Component } from '@angular/core';
+import { Clipboard } from '@angular/cdk/clipboard';
 import * as XLSX from 'xlsx';
 
 @Component({
@@ -35,8 +36,14 @@ export class FetchDataComponent {
   view = false;
   //trigger single department records view
   singleView = false;
+  //shows copied
+  copied=false
 
-  constructor(private service: NumbersMDService, private departmentService: DepartmentsService, private filesService: FilesService) { }
+  constructor(
+    private service: NumbersMDService,
+    private departmentService: DepartmentsService,
+    private filesService: FilesService,
+    private clipboard: Clipboard) { }
 
   ngOnInit(): void {
     this.service.getNumbersMD()
@@ -185,6 +192,13 @@ export class FetchDataComponent {
       }
       this.asignedDepartmetns = result;
     }
+  }
+  copyToClipboard()
+  {
+    const table = document.getElementById('export') as HTMLTableElement;
+    const tableHtml = table.outerHTML;
+    this.clipboard.copy(tableHtml); 
+    this.copied=true; 
   }
 }
 
