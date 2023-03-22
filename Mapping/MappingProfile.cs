@@ -8,20 +8,22 @@ using telsor.Models;
 
 namespace NuovoCRM.Mapping
 {
-    public class MappingProfile:Profile
+    public class MappingProfile : Profile
     {
         public MappingProfile()
         {
             //mapping from domain to API resources
             CreateMap<Department, DepartmentResource>();
             CreateMap<PhoneMasterData, PhoneMasterdataResource>();
-            
-            
+            CreateMap<User, UserResource>();
+
+
 
             //api resource to domain
             CreateMap<DepartmentResource, Department>();
             CreateMap<PhoneMasterdataResource, PhoneMasterData>();
-            
+            CreateMap<UserResource, User>();
+
         }
     }
 }

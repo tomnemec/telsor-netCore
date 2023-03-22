@@ -7,7 +7,7 @@ using telsor.Models;
 
 namespace telsor.Controllers.Persistence
 {
-    public class TelsorDbContext:DbContext
+    public class TelsorDbContext : DbContext
     {
         public TelsorDbContext(DbContextOptions<TelsorDbContext> options) : base(options)
         {
@@ -15,6 +15,7 @@ namespace telsor.Controllers.Persistence
         public DbSet<MonthlyDepartmentRecord> MontlyDepartmentRecords { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<PhoneMasterData> PhoneMasterDatas { get; set; }
-        
+        public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roles { get; set; }
     }
 }

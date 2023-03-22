@@ -7,6 +7,6 @@ namespace telsor.Controllers
 {
     public class MonthlyDepartmentRecordsController
     {
-        
+
     }
 }
