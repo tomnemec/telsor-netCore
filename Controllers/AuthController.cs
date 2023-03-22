@@ -29,6 +29,7 @@ namespace telsor.Controllers
             this.context = context;
 
         }
+        //generate token for provided User from db
         private JwtSecurityToken GetJwtSecurityToken(User user)
         {
             var role = context.Roles.Single(r => r.Id == user.RoleId);
@@ -54,6 +55,7 @@ namespace telsor.Controllers
             return token;
         }
 
+        //find user and validate password than calls generation of jwt token and returns it
         [HttpPost]
         public IActionResult Login([FromBody] Login login)
         {
