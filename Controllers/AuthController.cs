@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using telsor.Controllers.Persistence;
 using telsor.Models;
@@ -30,10 +31,11 @@ namespace telsor.Controllers
         }
         private JwtSecurityToken GetJwtSecurityToken(User user)
         {
+            var role = context.Roles.Single(r => r.Id == user.RoleId);
             var claims = new[]
                 {
                     new Claim("Name",user.Name),
-                    new Claim("Role",user.Role.Name),
+                    new Claim("Role",role.Name),
                     new Claim("Email",user.Email),
                     new Claim("Id",user.Id.ToString())
                 };
@@ -53,13 +55,13 @@ namespace telsor.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login([FromBody] User user)
+        public IActionResult Login([FromBody] Login login)
         {
-            var existingUser = context.Users.SingleOrDefault(u => u.Email == user.Email);
+            var existingUser = context.Users.Include(r => r.Role).SingleOrDefault(u => u.Email == login.Email);
 
             if (existingUser == null)
                 return Unauthorized("Uživatel neexistuje");
-            if (existingUser.Password == user.Password)
+            if (existingUser.Password == login.Password)
             {
                 return Ok(new
                 {
