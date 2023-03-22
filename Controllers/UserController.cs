@@ -31,7 +31,7 @@ namespace telsor.Controllers
         [HttpGet]
         public async Task<IEnumerable<UserResource>> GetUsers()
         {
-            var users = await context.Users.ToListAsync();
+            var users = await context.Users.Include(r => r.Role).ToListAsync();
             foreach (var user in users)
                 user.Password = "";
 
@@ -40,7 +40,7 @@ namespace telsor.Controllers
         [HttpGet("{id}")]
         public async Task<UserResource> GetUser(int id)
         {
-            var user = await context.Users.SingleOrDefaultAsync(u => u.Id == id);
+            var user = await context.Users.Include(r => r.Role).SingleOrDefaultAsync(u => u.Id == id);
             user.Password = "";
             return mapper.Map<User, UserResource>(user);
         }
