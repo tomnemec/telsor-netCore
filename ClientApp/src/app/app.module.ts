@@ -1,3 +1,4 @@
+import { AuthService } from './services/auth.service';
 import { DepartmentsService } from './services/departments.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -9,13 +10,15 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { ClipboardModule } from '@angular/cdk/clipboard';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
     HomeComponent,
-    FetchDataComponent
+    FetchDataComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -25,10 +28,12 @@ import { ClipboardModule } from '@angular/cdk/clipboard';
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'fetch-data', component: FetchDataComponent },
+      { path: 'login', component: LoginPageComponent },
     ])
   ],
   providers: [
-    DepartmentsService
+    DepartmentsService,
+    AuthService
   ],
   bootstrap: [AppComponent]
 })
