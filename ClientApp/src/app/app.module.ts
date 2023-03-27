@@ -1,3 +1,6 @@
+import { AdminauthService } from './services/adminhauth.service';
+import { RegisterauthService } from './services/registerauth.service';
+import { ClerkauthService } from './services/clerkauth.service';
 import { AuthService } from './services/auth.service';
 import { DepartmentsService } from './services/departments.service';
 import { BrowserModule } from '@angular/platform-browser';
@@ -34,12 +37,27 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatIconModule,
     ClipboardModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'fetch-data', component: FetchDataComponent },
+      {
+        path: '',
+        component: HomeComponent,
+        pathMatch: 'full',
+        canActivate: [RegisterauthService],
+      },
+      {
+        path: 'fetch-data',
+        component: FetchDataComponent,
+        canActivate: [ClerkauthService],
+      },
       { path: 'login', component: LoginPageComponent },
     ]),
   ],
-  providers: [DepartmentsService, AuthService],
+  providers: [
+    DepartmentsService,
+    AuthService,
+    RegisterauthService,
+    ClerkauthService,
+    AdminauthService,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
