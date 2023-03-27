@@ -3,6 +3,7 @@
     class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"
   >
     <div class="container">
+      <i class="bi bi-telephone"></i>
       <a class="navbar-brand" [routerLink]="['/']">telsor</a>
       <button
         class="navbar-toggler"
@@ -23,6 +24,13 @@
           <ul class="navbar-nav flex-grow">
             <li
               class="nav-item"
+              style="border-right: solid 1px rgb(186, 205, 255)"
+            >
+              <a class="nav-link text-dark">{{ user.Email }}</a>
+            </li>
+
+            <li
+              class="nav-item"
               [routerLinkActive]="['link-active']"
               [routerLinkActiveOptions]="{ exact: true }"
             >
@@ -34,9 +42,7 @@
               >
             </li>
             <li class="nav-item" [routerLinkActive]="['link-active']">
-              <a class="nav-link text-dark" [routerLink]="['/fetch-data']"
-                >Data</a
-              >
+              <a class="nav-link text-dark" [routerLink]="['/data']">Data</a>
             </li>
           </ul>
           <button mat-button [matMenuTriggerFor]="menu">

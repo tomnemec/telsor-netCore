@@ -1,0 +1,29 @@
+.hp-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.card{
+    position: relative;
+    height: 30vh;
+    width: 30%;
+}
+.text-part{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(186, 205, 255);
+    height: 40%;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+button{
+    width: 80px;
+}
+.cardpic{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: 19vh;    
+}

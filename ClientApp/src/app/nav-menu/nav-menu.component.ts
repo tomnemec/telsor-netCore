@@ -9,9 +9,13 @@ import { AuthService } from '../services/auth.service';
 export class NavMenuComponent {
   isExpanded = false;
   isLoged = false;
+
+  user: any;
+
   constructor(public authService: AuthService) {}
   ngOnInit(): void {
     this.isLoged = this.authService.isLoggedIn();
+    this.user = this.authService.getcurrentUser();
   }
 
   collapse() {

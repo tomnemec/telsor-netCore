@@ -18,6 +18,8 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DataComponent } from './data/data.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
     FetchDataComponent,
     LoginPageComponent,
+    DataComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -48,7 +52,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
         component: FetchDataComponent,
         canActivate: [ClerkauthService],
       },
+      {
+        path: 'data',
+        component: DataComponent,
+        canActivate: [AdminauthService],
+      },
       { path: 'login', component: LoginPageComponent },
+      {
+        path: '**',
+        component: NotFoundComponent,
+      },
     ]),
   ],
   providers: [
