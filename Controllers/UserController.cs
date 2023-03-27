@@ -45,23 +45,23 @@ namespace telsor.Controllers
             return mapper.Map<User, UserResource>(user);
         }
         [HttpPost]
-        public async Task<IActionResult> Register([FromBody] UserResource userResource)
+        public async Task<IActionResult> Register([FromBody] SaveUserResource userResource)
         {
             if (!ModelState.IsValid)
                 return BadRequest("Model is Invalid");
-            var user = mapper.Map<UserResource, User>(userResource);
+            var user = mapper.Map<SaveUserResource, User>(userResource);
             context.Users.Add(user);
             await context.SaveChangesAsync();
             return Ok(user.Id);
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateUser([FromBody] UserResource userResource, int Id)
+        public async Task<IActionResult> UpdateUser([FromBody] SaveUserResource userResource, int Id)
         {
             if (!ModelState.IsValid)
                 return NotFound(ModelState);
 
             var user = await context.Users.SingleOrDefaultAsync(p => p.Id == Id);
-            var resource = mapper.Map<UserResource, User>(userResource);
+            var resource = mapper.Map<SaveUserResource, User>(userResource);
 
             await context.SaveChangesAsync();
 

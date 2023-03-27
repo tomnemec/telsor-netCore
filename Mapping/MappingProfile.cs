@@ -22,7 +22,7 @@ namespace NuovoCRM.Mapping
             //api resource to domain
             CreateMap<DepartmentResource, Department>();
             CreateMap<PhoneMasterdataResource, PhoneMasterData>();
-            CreateMap<UserResource, User>();
+            CreateMap<SaveUserResource, User>();
 
         }
     }
