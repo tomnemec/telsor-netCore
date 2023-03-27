@@ -19,20 +19,34 @@
         class="navbar-collapse collapse d-sm-inline-flex justify-content-end"
         [ngClass]="{ show: isExpanded }"
       >
-        <ul class="navbar-nav flex-grow">
-          <li
-            class="nav-item"
-            [routerLinkActive]="['link-active']"
-            [routerLinkActiveOptions]="{ exact: true }"
-          >
-            <a class="nav-link text-dark" [routerLink]="['/']">Home</a>
-          </li>          
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/fetch-data']"
-              >Data</a
+        <div *ngIf="authService.isLoggedIn()" class="d-flex">
+          <ul class="navbar-nav flex-grow">
+            <li
+              class="nav-item"
+              [routerLinkActive]="['link-active']"
+              [routerLinkActiveOptions]="{ exact: true }"
             >
-          </li>
-        </ul>
+              <a class="nav-link text-dark" [routerLink]="['/']">Home</a>
+            </li>
+            <li class="nav-item" [routerLinkActive]="['link-active']">
+              <a class="nav-link text-dark" [routerLink]="['/fetch-data']"
+                >Data</a
+              >
+            </li>
+          </ul>
+          <button mat-button [matMenuTriggerFor]="menu">
+            <mat-icon>group</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>Profil</button>
+            <button mat-menu-item (click)="logout()">Odhlásit</button>
+          </mat-menu>
+        </div>
+        <div *ngIf="!authService.isLoggedIn()">
+          <button mat-button [routerLink]="['/login']">
+            Přihlásit <mat-icon>send</mat-icon>
+          </button>
+        </div>
       </div>
     </div>
   </nav>
