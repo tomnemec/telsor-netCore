@@ -1,3 +1,4 @@
+import { NumbersMDService } from './services/numbers-md.service';
 import { AdminauthService } from './services/adminhauth.service';
 import { RegisterauthService } from './services/registerauth.service';
 import { ClerkauthService } from './services/clerkauth.service';
@@ -79,6 +80,7 @@ import { SingleRecordComponent } from './single-record/single-record.component';
     RegisterauthService,
     ClerkauthService,
     AdminauthService,
+    NumbersMDService,
   ],
   bootstrap: [AppComponent],
 })

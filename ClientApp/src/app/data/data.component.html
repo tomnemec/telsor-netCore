@@ -24,7 +24,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let d of filteredData">
+    <tr *ngFor="let d of filteredData" [routerLink]="['/data/' + d.id]">
       <td>{{ d.name }}</td>
       <td>{{ d.phone }}</td>
       <td>{{ d.departmentId }}</td>

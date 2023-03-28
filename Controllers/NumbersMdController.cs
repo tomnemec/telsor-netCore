@@ -33,7 +33,7 @@ namespace telsor.Controllers
             var numbers = await context.PhoneMasterDatas.ToListAsync();
             return mapper.Map<IEnumerable<PhoneMasterData>, IEnumerable<PhoneMasterdataResource>>(numbers);
         }
-        [HttpGet]
+        [HttpGet("{id}")]
         public async Task<PhoneMasterdataResource> GetRecord(int id)
         {
             var number = await context.PhoneMasterDatas.SingleOrDefaultAsync(n => n.Id == id);

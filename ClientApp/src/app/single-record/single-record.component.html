@@ -1,1 +1,18 @@
-<p>single-record works!</p>
+<div>
+  <h2 *ngIf="id != 0">Úprava záznamu:</h2>
+  <h2 *ngIf="id == 0">Nový záznam:</h2>
+  <label>Jméno</label>
+  <input
+    [(ngModel)]="record.name"
+    type="text"
+    name="name"
+    class="form-control"
+  />
+  <label>Telefon</label>
+  <input
+    [(ngModel)]="record.phone"
+    type="text"
+    name="phone"
+    class="form-control"
+  />
+</div>
