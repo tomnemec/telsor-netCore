@@ -28,10 +28,54 @@ namespace telsor.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<PhoneMasterdataResource>> GetDepartments()
+        public async Task<IEnumerable<PhoneMasterdataResource>> GetMasterData()
         {
             var numbers = await context.PhoneMasterDatas.ToListAsync();
             return mapper.Map<IEnumerable<PhoneMasterData>, IEnumerable<PhoneMasterdataResource>>(numbers);
+        }
+        [HttpGet]
+        public async Task<PhoneMasterdataResource> GetRecord(int id)
+        {
+            var number = await context.PhoneMasterDatas.SingleOrDefaultAsync(n => n.Id == id);
+            return mapper.Map<PhoneMasterData, PhoneMasterdataResource>(number);
+        }
+        [HttpPost]
+        public async Task<IActionResult> CreateRecord([FromBody] PhoneMasterdataResource recordResource)
+        {
+            if (!ModelState.IsValid)
+                return NotFound();
+
+            var record = mapper.Map<PhoneMasterdataResource, PhoneMasterData>(recordResource);
+            context.PhoneMasterDatas.Add(record);
+            await context.SaveChangesAsync();
+
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteRecord(int id)
+        {
+            var number = await context.PhoneMasterDatas.SingleOrDefaultAsync(n => n.Id == id);
+            context.Remove(number);
+            await context.SaveChangesAsync();
+
+            return Ok();
+        }
+        [HttpPut]
+        public async Task<IActionResult> UpdateRecord([FromBody] PhoneMasterdataResource recordResource)
+        {
+            if (!ModelState.IsValid)
+                return NotFound();
+            var record = await context.PhoneMasterDatas.SingleOrDefaultAsync(n => n.Id == recordResource.Id);
+
+            record.Name = recordResource.Name;
+            record.Phone = recordResource.Phone;
+            record.DepartmentId = recordResource.DepartmentId;
+
+            await context.SaveChangesAsync();
+
+            return Ok();
+
         }
 
     }

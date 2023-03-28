@@ -61,6 +61,11 @@ import { SingleRecordComponent } from './single-record/single-record.component';
         component: DataComponent,
         canActivate: [AdminauthService],
       },
+      {
+        path: 'data/:id',
+        component: SingleRecordComponent,
+        canActivate: [AdminauthService],
+      },
       { path: 'login', component: LoginPageComponent },
       {
         path: '**',
