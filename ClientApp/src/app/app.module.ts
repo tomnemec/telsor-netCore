@@ -20,6 +20,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DataComponent } from './data/data.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { SingleRecordComponent } from './single-record/single-record.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     LoginPageComponent,
     DataComponent,
     NotFoundComponent,
+    SingleRecordComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -38,6 +41,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     FormsModule,
     MatMenuModule,
     MatButtonModule,
+    MatProgressSpinnerModule,
     MatIconModule,
     ClipboardModule,
     RouterModule.forRoot([

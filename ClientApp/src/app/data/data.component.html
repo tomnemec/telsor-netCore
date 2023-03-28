@@ -1,3 +1,7 @@
+<div *ngIf="loading" style="display: flex; justify-content: center">
+  <mat-spinner style="height: 100vh"></mat-spinner>
+</div>
+
 <div style="display: flex; flex-direction: row; height: 50px">
   <button class="btn" (click)="search()">
     <h2><i class="bi bi-search"></i></h2>

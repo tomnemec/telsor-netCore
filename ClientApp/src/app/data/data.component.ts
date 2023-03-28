@@ -11,12 +11,17 @@ export class DataComponent {
   input: any;
   filteredData: any;
 
+  loading = true;
+
   constructor(private dataService: NumbersMDService) {}
 
   ngOnInit(): void {
-    this.dataService.getNumbersMD().subscribe((r: any) => {
-      this.masterData = r;
-      this.filteredData = r;
+    this.dataService.getNumbersMD().subscribe({
+      next: (r: any) => {
+        this.masterData = r;
+        this.filteredData = r;
+      },
+      complete: () => (this.loading = false),
     });
   }
   search() {
