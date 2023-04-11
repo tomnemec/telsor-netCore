@@ -16,6 +16,7 @@ export class SingleRecordComponent {
     phone: '',
   };
   departments: any;
+  currentDep: any;
 
   constructor(
     private active: ActivatedRoute,
@@ -32,5 +33,12 @@ export class SingleRecordComponent {
       }
     });
     this.depsService.getDepartments().subscribe((d) => (this.departments = d));
+  }
+  save() {
+    console.log(this.record);
+  }
+  getDep(id: number, departments: string[]) {
+    let dep = departments.find((d: any) => d.id == id);
+    return dep;
   }
 }

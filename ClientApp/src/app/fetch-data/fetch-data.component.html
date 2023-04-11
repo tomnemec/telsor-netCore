@@ -15,9 +15,11 @@
     #file
     (change)="onFileChange($event)"
   />
-  <label for="formFile" class="form-label text-muted mt-1"
-    >Vyberte soubor k načtení</label
+  <label for="formFile" class="form-label text-muted mt-2"
+    >Vyberte soubor k načtení<br />jiný formát než .xlsx nemusí fungovat
+    správně</label
   >
+
   <div class="d-flex" style="gap: 5px; margin-bottom: 10px; margin-top: 30px">
     <button class="btn btn-primary" (click)="onFileClick()">
       Nahrát <i class="bi bi-upload"></i>
@@ -87,7 +89,7 @@
 </div>
 <div class="bd-example" *ngIf="view && !singleView && !export">
   <div>
-    <h3>Souhrn s DPH je {{ sumPrice }} Kč</h3>
+    <h3>Souhrn s DPH je {{ sumPrice | number : "1.2-2" }} Kč</h3>
   </div>
   <table *ngIf="view" class="table table-hover">
     <thead>
@@ -125,8 +127,8 @@
         <td>{{ d.invoice }}</td>
         <td>{{ d.name }}</td>
         <td>{{ d.number }}</td>
-        <td>{{ d.noDph }}</td>
-        <td>{{ d.dph }}</td>
+        <td>{{ d.noDph | number : "1.2-2" }}</td>
+        <td>{{ d.dph | number : "1.2-2" }}</td>
         <td>{{ d.departmentId }}</td>
       </tr>
     </tbody>
