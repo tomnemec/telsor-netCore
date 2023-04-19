@@ -28,6 +28,10 @@ export class FetchDataComponent {
   sumPrice: any;
   //search field input
   input: any;
+  //filter object for views
+  filter = {
+    type: 'vypis',
+  };
 
   //trigger export view table
   export = false;
@@ -37,6 +41,7 @@ export class FetchDataComponent {
   singleView = false;
   //shows copied
   copied = false;
+  isCheck = true;
 
   constructor(
     private service: NumbersMDService,
@@ -86,6 +91,9 @@ export class FetchDataComponent {
   }
   removeSpaces(str: string) {
     return str.replace(/\s/g, '');
+  }
+  isChecked() {
+    this.isCheck = true;
   }
   //asign records to departments if phone nubmer has department asigned in master data if there is no md department is 0 = unasigned
   assignDepartment(input: any) {

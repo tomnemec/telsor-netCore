@@ -15,45 +15,58 @@
     #file
     (change)="onFileChange($event)"
   />
+  <button class="btn btn-primary" (click)="onFileClick()">
+    Nahrát <i class="bi bi-upload"></i>
+  </button>
   <label for="formFile" class="form-label text-muted mt-2"
     >Vyberte soubor k načtení<br />jiný formát než .xlsx nemusí fungovat
     správně</label
   >
 
   <div class="d-flex" style="gap: 5px; margin-bottom: 10px; margin-top: 30px">
-    <button class="btn btn-primary" (click)="onFileClick()">
-      Nahrát <i class="bi bi-upload"></i>
-    </button>
-    <button
-      class="btn btn-primary"
-      *ngIf="!view"
-      (click)="viewSwitch()"
-      style="width: 90px"
-    >
-      Střediska
-    </button>
-    <button
-      class="btn btn-primary"
-      *ngIf="view"
-      (click)="viewSwitch()"
-      style="width: 90px"
-    >
-      Výpis
-    </button>
-    <button class="btn btn-outline-primary" *ngIf="singleView" (click)="back()">
-      Zpět
-    </button>
-    <button
-      class="btn btn-outline-primary"
-      (click)="exportView()"
-      style="width: 90px"
-    >
-      Export
-    </button>
+    <div class="form-check">
+      <input
+        class="form-check-input"
+        type="radio"
+        name="onCompany"
+        id="onCompany"
+        checked
+        [value]="'vypis'"
+        (click)="isChecked()"
+        [(ngModel)]="filter.type"
+      />
+      <label class="form-check-label" for="onCompany"> Výpis </label>
+    </div>
+    <div class="form-check">
+      <input
+        class="form-check-input"
+        type="radio"
+        name="personal"
+        id="personal"
+        checked
+        [value]="'strediska'"
+        (click)="isChecked()"
+        [(ngModel)]="filter.type"
+      />
+      <label class="form-check-label" for="personal"> Střediska </label>
+    </div>
+    <div class="form-check">
+      <input
+        class="form-check-input"
+        type="radio"
+        name="personal"
+        id="personal"
+        checked
+        [value]="'export'"
+        (click)="isChecked()"
+        [(ngModel)]="filter.type"
+      />
+      <label class="form-check-label" for="personal"> Export </label>
+    </div>
   </div>
 </div>
 
-<div class="bd-example" *ngIf="!view && !singleView && !export">
+<div class="bd-example" *ngIf="filter.type === 'vypis' && !singleView">
   <div>
     <input
       type="text"
@@ -87,11 +100,14 @@
     </tbody>
   </table>
 </div>
-<div class="bd-example" *ngIf="view && !singleView && !export">
+<div class="bd-example" *ngIf="filter.type === 'strediska' && !singleView">
   <div>
     <h3>Souhrn s DPH je {{ sumPrice | number : "1.2-2" }} Kč</h3>
   </div>
-  <table *ngIf="view" class="table table-hover">
+  <table
+    *ngIf="filter.type === 'strediska' && !singleView"
+    class="table table-hover"
+  >
     <thead>
       <tr>
         <th scope="col">Kód</th>
@@ -110,7 +126,7 @@
     </tbody>
   </table>
 </div>
-<div class="bd-example" *ngIf="singleView && !export">
+<div class="bd-example" *ngIf="singleView">
   <table class="table table-hover">
     <thead>
       <tr>
@@ -134,7 +150,7 @@
     </tbody>
   </table>
 </div>
-<div class="bd-example" *ngIf="export">
+<div class="bd-example" *ngIf="filter.type === 'export'">
   <div class="d-flex">
     <button class="btn-primary btn" (click)="copyToClipboard()">
       <i class="bi bi-clipboard-plus"></i>
