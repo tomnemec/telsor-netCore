@@ -1,7 +1,7 @@
 import { DepartmentsService } from './../services/departments.service';
 import { NumbersMDService } from './../services/numbers-md.service';
 import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-single-record',
@@ -21,7 +21,8 @@ export class SingleRecordComponent {
   constructor(
     private active: ActivatedRoute,
     private mdService: NumbersMDService,
-    private depsService: DepartmentsService
+    private depsService: DepartmentsService,
+    private router: Router
   ) {}
   ngOnInit(): void {
     this.active.paramMap.subscribe((params: any) => {
@@ -35,7 +36,20 @@ export class SingleRecordComponent {
     this.depsService.getDepartments().subscribe((d) => (this.departments = d));
   }
   save() {
-    console.log(this.record);
+    if (this.id != 0) {
+      this.mdService.updateNumber(this.id, this.record).subscribe({
+        complete: () => this.router.navigate(['data']),
+      });
+    } else {
+      this.mdService.createNumber(this.record).subscribe({
+        complete: () => this.router.navigate(['data']),
+      });
+    }
+  }
+  delete() {
+    this.mdService.deleteNumber(this.id).subscribe({
+      complete: () => this.router.navigate(['data']),
+    });
   }
   getDep(id: number, departments: string[]) {
     let dep = departments.find((d: any) => d.id == id);

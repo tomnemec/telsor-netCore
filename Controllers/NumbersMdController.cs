@@ -61,7 +61,7 @@ namespace telsor.Controllers
 
             return Ok();
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateRecord([FromBody] PhoneMasterdataResource recordResource)
         {
             if (!ModelState.IsValid)
