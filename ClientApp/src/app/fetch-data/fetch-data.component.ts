@@ -10,6 +10,8 @@ import * as XLSX from 'xlsx';
   templateUrl: './fetch-data.component.html',
 })
 export class FetchDataComponent {
+  //inoivces from import
+  invoices: string[] = [];
   //raw data from import
   data: any[] = [];
   //numbers from master data
@@ -85,6 +87,7 @@ export class FetchDataComponent {
     this.data = Object.values(this.data)[0];
     for (let n of this.data) this.assignDepartment(n);
     this.sumUpDepartments();
+    this.invoices = this.findInvoices(this.data);
   }
   removeDiacritics(str: string) {
     return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -157,6 +160,7 @@ export class FetchDataComponent {
           };
           this.summaryOfDepartments.push(dep);
         }
+        console.log(this.summaryOfDepartments);
         this.sumPrice =
           Math.round(
             this.totalSum(this.summaryOfDepartments) * 100 + Number.EPSILON
@@ -215,5 +219,15 @@ export class FetchDataComponent {
     const tableHtml = table.outerHTML;
     this.clipboard.copy(tableHtml);
     this.copied = true;
+  }
+  findInvoices(input: any) {
+    console.log(input);
+    let result: string[] = [];
+    for (let r of input) {
+      if (r.Cislofaktury != '' && !result.includes(r.Cislofaktury)) {
+        result.push(r.Cislofaktury);
+      }
+    }
+    return result;
   }
 }
