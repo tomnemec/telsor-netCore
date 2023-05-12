@@ -9,6 +9,13 @@
   "
 >
   <input
+    type="text"
+    class="form-control"
+    [(ngModel)]="invoiceNumber"
+    placeholder="..vyberte fakturu ke zpracování"
+  />
+  <label for="" class="form-label mt-2">Číslo faktury</label>
+  <input
     class="form-control"
     style="width: 400px"
     type="file"
@@ -118,10 +125,7 @@
         <th scope="col">S DPH</th>
       </tr>
     </thead>
-
-    <tbody *ngFor="let i of invoices">
-      <h1 class="mt-4">Faktura {{ i }}</h1>
-      <hr />
+    <tbody>
       <tr *ngFor="let d of summaryOfDepartments" (click)="singleDep(d)">
         <th scope="row">{{ d.code }}</th>
         <td>{{ d.name }}</td>
