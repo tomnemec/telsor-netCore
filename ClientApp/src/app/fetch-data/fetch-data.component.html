@@ -118,7 +118,10 @@
         <th scope="col">S DPH</th>
       </tr>
     </thead>
-    <tbody>
+
+    <tbody *ngFor="let i of invoices">
+      <h1 class="mt-4">Faktura {{ i }}</h1>
+      <hr />
       <tr *ngFor="let d of summaryOfDepartments" (click)="singleDep(d)">
         <th scope="row">{{ d.code }}</th>
         <td>{{ d.name }}</td>
