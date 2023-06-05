@@ -19,6 +19,7 @@
     class="form-control"
     style="width: 400px"
     type="file"
+    label="soubor"
     #file
     (change)="onFileChange($event)"
   />
@@ -33,7 +34,11 @@
     </button>
   </div>
 </div>
-<div class="d-flex" style="gap: 5px; margin-bottom: 10px; margin-top: 30px">
+<div
+  class="d-flex"
+  style="gap: 5px; margin-bottom: 10px; margin-top: 30px"
+  *ngIf="!singleView"
+>
   <div class="form-check">
     <input
       class="form-check-input"
@@ -188,7 +193,7 @@
         <td>682022000</td>
         <td></td>
         <td></td>
-        <td>{{ d.dph }}</td>
+        <td>{{ d.dph | number : "1.2-2" }}</td>
         <td></td>
         <td>H5</td>
         <td>{{ d.code }}</td>
