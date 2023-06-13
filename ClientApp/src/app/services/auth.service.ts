@@ -30,13 +30,13 @@ export class AuthService {
   }
   isAdmin() {
     let user = this.getcurrentUser();
-    if (user.Role != 'Admin') return false;
+    if (user.Role.Name != 'Admin') return false;
 
     return true;
   }
   isClerk() {
     let user = this.getcurrentUser();
-    if (user.Role != 'Clerk') return false;
+    if (user.Role.Name != 'Clerk') return false;
 
     return true;
   }
