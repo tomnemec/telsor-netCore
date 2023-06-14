@@ -9,7 +9,10 @@ export class AuthService {
   constructor(private http: HttpClient) {}
 
   login(credentials: any) {
-    return this.http.post('', credentials);
+    return this.http.post(
+      'https://sw02660.global.hvwan.net/validator/api/auth',
+      credentials
+    );
   }
   logout() {
     localStorage.removeItem('token');
