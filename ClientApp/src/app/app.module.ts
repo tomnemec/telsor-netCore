@@ -55,7 +55,6 @@ import { SingleRecordComponent } from './single-record/single-record.component';
       {
         path: 'fetch-data',
         component: FetchDataComponent,
-        canActivate: [ClerkauthService],
       },
       {
         path: 'data',

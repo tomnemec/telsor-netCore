@@ -4,12 +4,20 @@ import { NumbersMDService } from './../services/numbers-md.service';
 import { Component } from '@angular/core';
 import { Clipboard } from '@angular/cdk/clipboard';
 import * as XLSX from 'xlsx';
-
+interface Date {
+  year: string;
+  month: string;
+}
 @Component({
   selector: 'app-fetch-data',
   templateUrl: './fetch-data.component.html',
 })
 export class FetchDataComponent {
+  //date for filtering
+  date: Date = {
+    year: '',
+    month: '',
+  };
   //raw data from import
   data: any[] = [];
   //numbers from master data

@@ -8,28 +8,43 @@
     width: 500px;
   "
 >
+  <label for="" class="form-label my-2">Rok</label>
+  <input
+    type="text"
+    class="form-control"
+    [(ngModel)]="date.year"
+    placeholder="..rok účtování"
+  />
+  <label for="" class="form-label my-2">Měsíc</label>
+  <input
+    type="text"
+    class="form-control"
+    [(ngModel)]="date.month"
+    placeholder="..měsíc účtování"
+  />
+  <label for="" class="form-label my-2">Číslo faktury</label>
   <input
     type="text"
     class="form-control"
     [(ngModel)]="invoiceNumber"
     placeholder="..vyberte fakturu ke zpracování"
   />
-  <label for="" class="form-label mt-2">Číslo faktury</label>
+  <hr />
   <input
     class="form-control"
-    style="width: 400px"
+    style="width: 400px; margin-top: 20px"
     type="file"
     label="soubor"
     #file
     (change)="onFileChange($event)"
   />
 
-  <label for="formFile" class="form-label text-muted mt-2"
+  <label for="formFile" class="form-label text-muted mt-4"
     >Vyberte soubor k načtení<br />jiný formát než .xlsx nemusí fungovat
     správně.</label
   >
   <div>
-    <button class="btn btn-primary" (click)="onFileClick()">
+    <button class="btn btn-primary mt-5" (click)="onFileClick()">
       Nahrát <i class="bi bi-upload"></i>
     </button>
   </div>
@@ -190,15 +205,15 @@
     </thead>
     <tbody>
       <tr *ngFor="let d of summaryOfDepartments">
-        <td>682022000</td>
+        <td>68202000</td>
         <td></td>
         <td></td>
         <td>{{ d.dph | number : "1.2-2" }}</td>
         <td></td>
         <td>H5</td>
-        <td>{{ d.code }}</td>
+        <td>{{ d.code === "Neurčeno" ? 11000512 : d.code }}</td>
         <td></td>
-        <th scope="col">202302</th>
+        <th scope="col">{{ date.year + date.month }}</th>
         <th scope="col">Vrbno</th>
       </tr>
     </tbody>
