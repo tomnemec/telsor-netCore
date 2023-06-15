@@ -8,24 +8,30 @@ export class NumbersMDService {
   constructor(private http: HttpClient) {}
 
   getNumbersMD() {
-    return this.http.get('https://localhost:7129/api/numbers');
+    return this.http.get(
+      'https://sw02660.global.hvwan.net/telsorcore/api/numbers'
+    );
   }
   getNumber(id: any) {
-    return this.http.get('https://localhost:7129/api/numbers/' + id);
+    return this.http.get(
+      'https://sw02660.global.hvwan.net/telsorcore/api/numbers/' + id
+    );
   }
   updateNumber(id: number, numberMasterData: any) {
     return this.http.put(
-      'https://localhost:7129/api/numbers/' + id,
+      'https://sw02660.global.hvwan.net/telsorcore/api/numbers/' + id,
       numberMasterData
     );
   }
   createNumber(numberMasterData: any) {
     return this.http.post(
-      'https://localhost:7129/api/numbers/',
+      'https://sw02660.global.hvwan.net/telsorcore/api/numbers/',
       numberMasterData
     );
   }
   deleteNumber(id: number) {
-    return this.http.delete('https://localhost:7129/api/numbers/' + id);
+    return this.http.delete(
+      'https://sw02660.global.hvwan.net/telsorcore/api/numbers/' + id
+    );
   }
 }
