@@ -122,8 +122,8 @@
         <td>{{ d.invoice }}</td>
         <td>{{ d.name }}</td>
         <td>{{ d.number }}</td>
-        <td>{{ d.noDph }}</td>
-        <td>{{ d.dph }}</td>
+        <td>{{ d.noDph | number : "1.2-2" }}</td>
+        <td>{{ d.dph | number : "1.2-2" }}</td>
         <td>{{ d.departmentId }}</td>
       </tr>
     </tbody>
