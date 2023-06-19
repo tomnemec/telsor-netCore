@@ -149,8 +149,8 @@
       <tr *ngFor="let d of summaryOfDepartments" (click)="singleDep(d)">
         <th scope="row">{{ d.code }}</th>
         <td>{{ d.name }}</td>
-        <td>{{ d.noDph }}</td>
-        <td>{{ d.dph }}</td>
+        <td>{{ d.noDph | number : "1.2-2" }}</td>
+        <td>{{ d.dph | number : "1.2-2" }}</td>
       </tr>
     </tbody>
   </table>
