@@ -14,3 +14,6 @@ POSTUP SORTOVÁNÍ:
 ÚDRŽBA KMENOVÝCH DAT:
 V sekci data rozklikem jednotlivých položek lze editovat záznami.
 Pomocí tlačítka + přidáte nový záznam.
+
+Export pevných linek z ústředny:
+Settings->Users->CallManegement->ACD Report
