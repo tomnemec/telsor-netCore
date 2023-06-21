@@ -31,6 +31,17 @@ export class AuthService {
     let jwtHelper = new JwtHelperService();
     return jwtHelper.decodeToken(token);
   }
+  validateUser() {
+    let user = this.getcurrentUser();
+    let userForValidation;
+    user
+      ? (userForValidation = { email: user.Email })
+      : (userForValidation = { email: '' });
+    return this.http.post(
+      'https://sw02660.global.hvwan.net/telsorcore/api/validation',
+      userForValidation
+    );
+  }
   isAdmin() {
     let user = this.getcurrentUser();
     if (user.Role != 'Admin') return false;
@@ -40,7 +51,6 @@ export class AuthService {
   isClerk() {
     let user = this.getcurrentUser();
     if (user.Role != 'Clerk') return false;
-
     return true;
   }
 }

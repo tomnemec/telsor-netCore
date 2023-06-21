@@ -7,8 +7,18 @@ import { AuthService } from './auth.service';
 })
 export class RegisterauthService {
   constructor(public auth: AuthService, public router: Router) {}
-  canActivate(): boolean {
-    if (!this.auth.isLoggedIn()) {
+  canActivate() {
+    let valid = false;
+    this.auth.validateUser().subscribe({
+      next: (r: any) => {
+        valid = r;
+        this.check(r);
+      },
+      error: (e: any) => console.log(e),
+    });
+  }
+  check(input: any) {
+    if (!input) {
       this.router.navigate(['login']);
       return false;
     }

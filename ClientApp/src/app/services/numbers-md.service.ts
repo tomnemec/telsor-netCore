@@ -6,32 +6,21 @@ import { Injectable } from '@angular/core';
 })
 export class NumbersMDService {
   constructor(private http: HttpClient) {}
+  url = 'https://sw02660.global.hvwan.net/telsorcore/api/numbers';
 
   getNumbersMD() {
-    return this.http.get(
-      'https://sw02660.global.hvwan.net/telsorcore/api/numbers'
-    );
+    return this.http.get(this.url);
   }
   getNumber(id: any) {
-    return this.http.get(
-      'https://sw02660.global.hvwan.net/telsorcore/api/numbers/' + id
-    );
+    return this.http.get(this.url + id);
   }
   updateNumber(id: number, numberMasterData: any) {
-    return this.http.put(
-      'https://sw02660.global.hvwan.net/telsorcore/api/numbers/' + id,
-      numberMasterData
-    );
+    return this.http.put(this.url + id, numberMasterData);
   }
   createNumber(numberMasterData: any) {
-    return this.http.post(
-      'https://sw02660.global.hvwan.net/telsorcore/api/numbers/',
-      numberMasterData
-    );
+    return this.http.post(this.url, numberMasterData);
   }
   deleteNumber(id: number) {
-    return this.http.delete(
-      'https://sw02660.global.hvwan.net/telsorcore/api/numbers/' + id
-    );
+    return this.http.delete(this.url + id);
   }
 }

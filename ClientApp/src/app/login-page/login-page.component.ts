@@ -14,6 +14,7 @@ export class LoginPageComponent {
 
   ngOnInit(): void {
     this.credentials = {};
+    this.authService.validateUser().subscribe((r: any) => {});
   }
 
   constructor(private authService: AuthService, private route: Router) {}
