@@ -1,7 +1,6 @@
 import { NumbersMDService } from './services/numbers-md.service';
 import { AdminauthService } from './services/adminhauth.service';
 import { RegisterauthService } from './services/registerauth.service';
-import { ClerkauthService } from './services/clerkauth.service';
 import { AuthService } from './services/auth.service';
 import { DepartmentsService } from './services/departments.service';
 import { BrowserModule } from '@angular/platform-browser';
@@ -55,7 +54,7 @@ import { SingleRecordComponent } from './single-record/single-record.component';
       {
         path: 'fetch-data',
         component: FetchDataComponent,
-        canActivate: [ClerkauthService],
+        canActivate: [RegisterauthService],
       },
       {
         path: 'data',
@@ -78,7 +77,6 @@ import { SingleRecordComponent } from './single-record/single-record.component';
     DepartmentsService,
     AuthService,
     RegisterauthService,
-    ClerkauthService,
     AdminauthService,
     NumbersMDService,
   ],

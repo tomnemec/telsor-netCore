@@ -37,5 +37,17 @@ namespace telsor.Controllers
             else
                 return true;
         }
+        [HttpPost("admin")]
+        public async Task<bool> ValidateAdminAsynch([FromBody] Validation user)
+        {
+
+            var validatedUser = await context.Users.SingleOrDefaultAsync(u => u.Email == user.Email);
+            if (validatedUser == null)
+                return false;
+            else if (validatedUser.IsAdmin)
+                return true;
+            else
+                return false;
+        }
     }
 }

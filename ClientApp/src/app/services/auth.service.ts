@@ -42,15 +42,15 @@ export class AuthService {
       userForValidation
     );
   }
-  isAdmin() {
+  validateAdmin() {
     let user = this.getcurrentUser();
-    if (user.Role != 'Admin') return false;
-
-    return true;
-  }
-  isClerk() {
-    let user = this.getcurrentUser();
-    if (user.Role != 'Clerk') return false;
-    return true;
+    let userForValidation;
+    user
+      ? (userForValidation = { email: user.Email })
+      : (userForValidation = { email: '' });
+    return this.http.post(
+      'https://sw02660.global.hvwan.net/telsorcore/api/validation/admin',
+      userForValidation
+    );
   }
 }
