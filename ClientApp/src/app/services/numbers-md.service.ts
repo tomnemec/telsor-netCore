@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class NumbersMDService {
   constructor(private http: HttpClient) {}
-  url = 'https://sw02660.global.hvwan.net/telsorcore/api/numbers';
+  url = 'https://sw02660.global.hvwan.net/telsorcore/api/numbers/';
 
   getNumbersMD() {
     return this.http.get(this.url);
