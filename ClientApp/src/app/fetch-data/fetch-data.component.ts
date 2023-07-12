@@ -94,7 +94,9 @@ export class FetchDataComponent {
     this.asignedDepartmetns = [];
     this.data = Object.values(this.data)[0];
     this.data = this.data.filter((r) => r.Cislofaktury == this.invoiceNumber);
-    for (let n of this.data) this.assignDepartment(n);
+    for (let n of this.data) {
+      this.assignDepartment(n);
+    }
     this.getInvoiceNumbers(this.data);
     this.sumUpDepartments();
   }
@@ -123,7 +125,11 @@ export class FetchDataComponent {
           dph: input.CenasDPH,
           departmentId: numberFromMasterData.departmentId,
           invoice: input.Cislofaktury,
+          service: input.Sluzbytretichstran,
         };
+        if (asignedDep.service) {
+          asignedDep.noDph = asignedDep.noDph - asignedDep.service;
+        }
       } else {
         asignedDep = {
           number: input.Cislosluzby,
@@ -132,11 +138,16 @@ export class FetchDataComponent {
           dph: input.CenasDPH,
           departmentId: 1,
           invoice: input.Cislofaktury,
+          service: input.Sluzbytretichstran,
         };
+        if (asignedDep.service) {
+          asignedDep.noDph = asignedDep.noDph - asignedDep.service;
+        }
       }
       this.asignedDepartmetns.push(asignedDep);
     });
     this.asignedDepartmetnsMD = this.asignedDepartmetns;
+    console.log(this.asignedDepartmetns);
   }
   //summary of asigned departments for dph and noDph values and total summary of import
   sumUpDepartments() {
@@ -178,8 +189,8 @@ export class FetchDataComponent {
   }
   //count total price of input
   totalSum(input: any) {
-    let summary = input.reduce((ac: any, price: { dph: number }) => {
-      return ac + price.dph;
+    let summary = input.reduce((ac: any, price: { noDph: number }) => {
+      return ac + price.noDph;
     }, 0);
     return summary;
   }
