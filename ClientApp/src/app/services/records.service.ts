@@ -18,9 +18,9 @@ interface Record {
 export class RecordsService {
   constructor(private http: HttpClient) {}
 
-  getDepartments() {
+  getRecords() {
     const records: Record[] = [];
-    return this.http
+    this.http
       .get<Record[]>(
         'https://sw02660.global.hvwan.net/telsorcore/api/departments'
       )
@@ -33,6 +33,24 @@ export class RecordsService {
         },
         error: (error) => {
           console.error('There was an error!', error);
+        },
+      });
+  }
+  createRecord(record: Record) {
+    this.http
+      .post(
+        'https://sw02660.global.hvwan.net/telsorcore/api/departments',
+        record
+      )
+      .subscribe({
+        next: (data) => {
+          console.log('Data: ', data);
+        },
+        error: (error) => {
+          console.error('There was an error!', error);
+        },
+        complete: () => {
+          console.log('Complete');
         },
       });
   }
