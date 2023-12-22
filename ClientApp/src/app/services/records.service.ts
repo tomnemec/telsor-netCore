@@ -4,10 +4,9 @@ import { Injectable } from '@angular/core';
 interface Record {
   id: number;
   name: string;
-  description: string;
-  status: string;
-  created: Date;
-  updated: Date;
+  phoneNumber: number;
+  departmentId: number;
+  period: Date;
   minutes: number;
   messages: number;
   data: number;
