@@ -16,5 +16,6 @@ namespace telsor.Controllers.Persistence
         public DbSet<Department> Departments { get; set; }
         public DbSet<PhoneMasterData> PhoneMasterDatas { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Record> Records { get; set; }
     }
 }

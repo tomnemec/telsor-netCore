@@ -20,9 +20,7 @@ export class RecordsService {
   getRecords() {
     const records: Record[] = [];
     this.http
-      .get<Record[]>(
-        'https://sw02660.global.hvwan.net/telsorcore/api/departments'
-      )
+      .get<Record[]>('https://sw02660.global.hvwan.net/telsorcore/api/records')
       .subscribe({
         next: (data: Record[]) => {
           records.push(...data);
@@ -35,12 +33,9 @@ export class RecordsService {
         },
       });
   }
-  createRecord(record: Record) {
+  postRecords(records: Record[]) {
     this.http
-      .post(
-        'https://sw02660.global.hvwan.net/telsorcore/api/departments',
-        record
-      )
+      .post('https://sw02660.global.hvwan.net/telsorcore/api/records', records)
       .subscribe({
         next: (data) => {
           console.log('Data: ', data);
