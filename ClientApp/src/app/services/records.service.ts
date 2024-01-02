@@ -1,15 +1,17 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
-interface Record {
+export interface Record {
   id: number;
+  date: string;
   name: string;
   phoneNumber: number;
+  value: number;
+  noDph: number;
+  dph: number;
   departmentId: number;
-  period: Date;
-  minutes: number;
-  messages: number;
-  data: number;
+  type: string;
+  description: string;
 }
 @Injectable({
   providedIn: 'root',

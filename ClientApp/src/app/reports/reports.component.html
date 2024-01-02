@@ -1,1 +1,100 @@
-<p>reports works!</p>
+<input
+  class="form-control"
+  style="width: 400px; margin-top: 20px"
+  type="file"
+  label="soubor"
+  #file
+  (change)="onFileChange($event)"
+/>
+
+<label for="formFile" class="form-label text-muted mt-4"
+  >Vyberte soubor k načtení<br />jiný formát než .xlsx nemusí fungovat
+  správně.</label
+>
+<div>
+  <button class="btn btn-primary mt-5" (click)="onFileClick()">
+    Nahrát <i class="bi bi-upload"></i>
+  </button>
+</div>
+<div class="row">
+  <div style="display: flex; gap: 10px; margin-block: 20px">
+    <label>
+      <input
+        type="radio"
+        [(ngModel)]="filter.type"
+        value="all"
+        (change)="setFilter({ type: 'All', departmentId: filter.departmentId })"
+      />
+      All
+    </label>
+    <label>
+      <input
+        type="radio"
+        [(ngModel)]="filter.type"
+        value="Volání"
+        (change)="
+          setFilter({ type: 'Volání', departmentId: filter.departmentId })
+        "
+      />
+      Call
+    </label>
+    <label>
+      <input
+        type="radio"
+        [(ngModel)]="filter.type"
+        value="Zprávy"
+        (change)="
+          setFilter({ type: 'Zprávy', departmentId: filter.departmentId })
+        "
+      />
+      Message
+    </label>
+    <label>
+      <input
+        type="radio"
+        [(ngModel)]="filter.type"
+        value="Data"
+        (change)="
+          setFilter({ type: 'Data', departmentId: filter.departmentId })
+        "
+      />
+      Data
+    </label>
+  </div>
+</div>
+<select name="" id="" [(ngModel)]="filter.departmentId" (change)="filterData()">
+  <option value="0" selected>All</option>
+  <option *ngFor="let item of departments" [value]="item.id">
+    {{ item.name }}
+  </option>
+</select>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>date</th>
+      <th>name</th>
+      <th>phoneNumber</th>
+      <th>description</th>
+      <th>type</th>
+      <th>value</th>
+      <th>noDph</th>
+      <th>dph</th>
+      <th>departmentId</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of asignedDepartments">
+      <td>{{ item.id }}</td>
+      <td>{{ item.date }}</td>
+      <td>{{ item.name }}</td>
+      <td>{{ item.phoneNumber }}</td>
+      <td>{{ item.description }}</td>
+      <td>{{ item.type }}</td>
+      <td>{{ item.value }}</td>
+      <td>{{ item.noDph }}</td>
+      <td>{{ item.dph }}</td>
+      <td>{{ item.departmentId }}</td>
+    </tr>
+  </tbody>
+</table>

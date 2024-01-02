@@ -1,6 +1,11 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
+export interface Department {
+  id: number;
+  name: string;
+  depNumber: string;
+}
 @Injectable({
   providedIn: 'root',
 })

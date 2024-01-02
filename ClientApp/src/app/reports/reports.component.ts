@@ -5,7 +5,13 @@ import { DepartmentsService } from './../services/departments.service';
 import { NumberMD, NumbersMDService } from './../services/numbers-md.service';
 import { Clipboard } from '@angular/cdk/clipboard';
 import * as XLSX from 'xlsx';
+import { Record } from '../services/records.service';
+import { Department } from '../services/departments.service';
 
+interface Filter {
+  type: string;
+  departmentId: number;
+}
 @Component({
   selector: 'app-reports',
   templateUrl: './reports.component.html',
@@ -21,8 +27,15 @@ export class ReportsComponent {
   data: any[] = [];
   //numbers from master data
   numbersMD: NumberMD[] = [];
+  originData: Record[] = [];
+  asignedDepartments: Record[] = [];
+  departments: Department[] = [];
+  filter = { type: 'all', departmentId: 1 };
   ngOnInit(): void {
     this.service.getNumbersMD().subscribe((r: any) => (this.numbersMD = r));
+    this.departmentService.getDepartments().subscribe((r: any) => {
+      this.departments = r;
+    });
   }
   //takes excel file and loads all rows with properties names set according column names
   onFileChange(event: any) {
@@ -51,14 +64,68 @@ export class ReportsComponent {
   }
   //button trigger
   onFileClick() {
-    this.summaryOfDepartments = [];
-    this.asignedDepartmetns = [];
     this.data = Object.values(this.data)[0];
-    this.data = this.data.filter((r) => r.Cislofaktury == this.invoiceNumber);
     for (let n of this.data) {
       this.assignDepartment(n);
     }
-    this.getInvoiceNumbers(this.data);
-    this.sumUpDepartments();
+    console.log(this.asignedDepartments);
+  }
+  assignDepartment(input: any) {
+    let numberFromMasterData: any = {};
+    let asignedDep: any = {};
+    this.service.getNumbersMD().subscribe((r: any) => {
+      numberFromMasterData = this.numbersMD.find(
+        (n) => n.phone == input.Cislosluzby
+      );
+      if (numberFromMasterData) {
+        asignedDep = {
+          phoneNumber: input.Cislosluzby,
+          name: input.Pojmenovanisluzby,
+          noDph: input.CenaKcbezDPH,
+          dph: input.CenasDPH,
+          departmentId: numberFromMasterData.departmentId,
+          invoice: input.Cislofaktury,
+          type: input.Podsekce,
+          description: input.Sekce,
+          value: input.Pocet,
+        };
+        if (asignedDep.service) {
+          asignedDep.noDph = asignedDep.noDph - asignedDep.service;
+        }
+      } else {
+        asignedDep = {
+          phoneNumber: input.Cislosluzby,
+          name: input.Pojmenovanisluzby,
+          noDph: input.CenaKcbezDPH,
+          dph: input.CenasDPH,
+          departmentId: 1,
+          invoice: input.Cislofaktury,
+          type: input.Podsekce,
+          description: input.Sekce,
+          value: input.Pocet,
+        };
+        if (asignedDep.service) {
+          asignedDep.noDph = asignedDep.noDph - asignedDep.service;
+        }
+      }
+      this.originData.push(asignedDep);
+      this.asignedDepartments.push(asignedDep);
+    });
+  }
+  setFilter(filter: Filter) {
+    if (!filter.type) {
+      this.filter.type = filter.type;
+    }
+    this.filterData();
+  }
+  filterData() {
+    console.log(this.filter);
+    if (this.filter.type == 'all') {
+      this.asignedDepartments = this.originData;
+    } else {
+      this.asignedDepartments = this.originData.filter(
+        (r) => r.type == this.filter.type
+      );
+    }
   }
 }
