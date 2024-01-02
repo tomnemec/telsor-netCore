@@ -31,6 +31,8 @@ export class ReportsComponent {
   asignedDepartments: Record[] = [];
   departments: Department[] = [];
   filter = { type: 'all', departmentId: 1 };
+  loading = false;
+
   ngOnInit(): void {
     this.service.getNumbersMD().subscribe((r: any) => (this.numbersMD = r));
     this.departmentService.getDepartments().subscribe((r: any) => {
@@ -64,11 +66,13 @@ export class ReportsComponent {
   }
   //button trigger
   onFileClick() {
+    //loading not works correctly
+    this.loading = true;
     this.data = Object.values(this.data)[0];
     for (let n of this.data) {
       this.assignDepartment(n);
     }
-    console.log(this.asignedDepartments);
+    this.loading = false;
   }
   assignDepartment(input: any) {
     let numberFromMasterData: any = {};
@@ -125,6 +129,11 @@ export class ReportsComponent {
     } else {
       this.asignedDepartments = this.originData.filter(
         (r) => r.type == this.filter.type
+      );
+    }
+    if (this.filter.departmentId != 0) {
+      this.asignedDepartments = this.asignedDepartments.filter(
+        (r) => r.departmentId == this.filter.departmentId
       );
     }
   }

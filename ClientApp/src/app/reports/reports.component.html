@@ -68,7 +68,8 @@
     {{ item.name }}
   </option>
 </select>
-<table class="table">
+<h2 *ngIf="loading">...Loading</h2>
+<table *ngIf="!loading" class="table">
   <thead>
     <tr>
       <th>Id</th>
