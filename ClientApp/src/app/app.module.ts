@@ -22,6 +22,7 @@ import { DataComponent } from './data/data.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { SingleRecordComponent } from './single-record/single-record.component';
+import { ReportsComponent } from './reports/reports.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { SingleRecordComponent } from './single-record/single-record.component';
     DataComponent,
     NotFoundComponent,
     SingleRecordComponent,
+    ReportsComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -60,6 +62,11 @@ import { SingleRecordComponent } from './single-record/single-record.component';
         path: 'data',
         component: DataComponent,
         canActivate: [AdminauthService],
+      },
+      {
+        path: 'reports',
+        component: ReportsComponent,
+        canActivate: [RegisterauthService],
       },
       {
         path: 'data/:id',

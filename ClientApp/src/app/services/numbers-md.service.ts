@@ -1,6 +1,11 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-
+export interface NumberMD {
+  id: number;
+  name: string;
+  phone: string;
+  departmentId: number;
+}
 @Injectable({
   providedIn: 'root',
 })
@@ -9,7 +14,7 @@ export class NumbersMDService {
   url = 'https://sw02660.global.hvwan.net/telsorcore/api/numbers/';
 
   getNumbersMD() {
-    return this.http.get(this.url);
+    return this.http.get<NumberMD[]>(this.url);
   }
   getNumber(id: any) {
     return this.http.get(this.url + id);

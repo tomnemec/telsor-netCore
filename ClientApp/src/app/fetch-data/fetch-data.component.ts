@@ -4,6 +4,7 @@ import { NumbersMDService } from './../services/numbers-md.service';
 import { Component } from '@angular/core';
 import { Clipboard } from '@angular/cdk/clipboard';
 import * as XLSX from 'xlsx';
+import { removeDiacritics, removeSpaces } from '../helpers/helper-functions';
 interface Date {
   year: string;
   month: string;
@@ -77,7 +78,7 @@ export class FetchDataComponent {
         initial[name] = XLSX.utils.sheet_to_json(sheet).map((item: any) => {
           const newItem: any = {};
           Object.keys(item).forEach((key) => {
-            const newKey = this.removeSpaces(this.removeDiacritics(key));
+            const newKey = removeSpaces(removeDiacritics(key));
             newItem[newKey] = item[key];
           });
           return newItem;
@@ -100,17 +101,13 @@ export class FetchDataComponent {
     this.getInvoiceNumbers(this.data);
     this.sumUpDepartments();
   }
-  removeDiacritics(str: string) {
-    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-  }
-  removeSpaces(str: string) {
-    return str.replace(/\s/g, '');
-  }
+
   isChecked() {
     this.isCheck = true;
   }
   //asign records to departments if phone nubmer has department asigned in master data if there is no md department is 0 = unasigned
   assignDepartment(input: any) {
+    console.log(input);
     let numberFromMasterData: any = {};
     let asignedDep: any = {};
     this.service.getNumbersMD().subscribe((r: any) => {
