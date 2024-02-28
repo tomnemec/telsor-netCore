@@ -1,5 +1,5 @@
-import { DepartmentsService } from './../services/departments.service';
-import { NumbersMDService } from './../services/numbers-md.service';
+import { DepartmentsService } from '../../services/departments.service';
+import { NumbersMDService } from '../../services/numbers-md.service';
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 

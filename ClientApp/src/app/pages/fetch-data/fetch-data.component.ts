@@ -1,10 +1,10 @@
-import { FilesService } from './../services/files.service';
-import { DepartmentsService } from './../services/departments.service';
-import { NumbersMDService } from './../services/numbers-md.service';
+import { FilesService } from '../../services/files.service';
+import { DepartmentsService } from '../../services/departments.service';
+import { NumbersMDService } from '../../services/numbers-md.service';
 import { Component } from '@angular/core';
 import { Clipboard } from '@angular/cdk/clipboard';
 import * as XLSX from 'xlsx';
-import { removeDiacritics, removeSpaces } from '../helpers/helper-functions';
+import { removeDiacritics, removeSpaces } from '../../helpers/helper-functions';
 interface Date {
   year: string;
   month: string;

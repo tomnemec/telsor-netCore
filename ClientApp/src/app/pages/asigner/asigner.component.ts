@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { FilesService } from './../services/files.service';
-import { removeDiacritics, removeSpaces } from '../helpers/helper-functions';
-import { DepartmentsService } from './../services/departments.service';
-import { NumberMD, NumbersMDService } from './../services/numbers-md.service';
+import { FilesService } from '../../services/files.service';
+import { removeDiacritics, removeSpaces } from '../../helpers/helper-functions';
+import { DepartmentsService } from '../../services/departments.service';
+import { NumberMD, NumbersMDService } from '../../services/numbers-md.service';
 import { Clipboard } from '@angular/cdk/clipboard';
 import * as XLSX from 'xlsx';
-import { Record } from '../services/records.service';
-import { Department } from '../services/departments.service';
+import { Record } from '../../services/records.service';
+import { Department } from '../../services/departments.service';
 
 @Component({
   selector: 'app-asigner',

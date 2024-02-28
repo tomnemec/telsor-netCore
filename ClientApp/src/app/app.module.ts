@@ -9,21 +9,21 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
-import { NavMenuComponent } from './nav-menu/nav-menu.component';
-import { HomeComponent } from './home/home.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
+import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
+import { HomeComponent } from './pages/home/home.component';
+import { FetchDataComponent } from './pages/fetch-data/fetch-data.component';
 import { ClipboardModule } from '@angular/cdk/clipboard';
-import { LoginPageComponent } from './login-page/login-page.component';
+import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DataComponent } from './data/data.component';
-import { NotFoundComponent } from './not-found/not-found.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { SingleRecordComponent } from './single-record/single-record.component';
-import { ReportsComponent } from './reports/reports.component';
-import { AsignerComponent } from './asigner/asigner.component';
+import { SingleRecordComponent } from './pages/single-record/single-record.component';
+import { ReportsComponent } from './pages/reports/reports.component';
+import { AsignerComponent } from './pages/asigner/asigner.component';
 
 @NgModule({
   declarations: [
