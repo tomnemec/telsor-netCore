@@ -23,6 +23,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { SingleRecordComponent } from './single-record/single-record.component';
 import { ReportsComponent } from './reports/reports.component';
+import { AsignerComponent } from './asigner/asigner.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ReportsComponent } from './reports/reports.component';
     NotFoundComponent,
     SingleRecordComponent,
     ReportsComponent,
+    AsignerComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -71,6 +73,11 @@ import { ReportsComponent } from './reports/reports.component';
       {
         path: 'data/:id',
         component: SingleRecordComponent,
+        canActivate: [AdminauthService],
+      },
+      {
+        path: 'asigner',
+        component: AsignerComponent,
         canActivate: [AdminauthService],
       },
       { path: 'login', component: LoginPageComponent },

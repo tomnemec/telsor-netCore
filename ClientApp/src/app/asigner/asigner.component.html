@@ -1,0 +1,35 @@
+<input
+  class="form-control"
+  style="width: 400px; margin-top: 20px"
+  type="file"
+  label="soubor"
+  #file
+  (change)="onFileChange($event)"
+/>
+
+<label for="formFile" class="form-label text-muted mt-4"
+  >Vyberte soubor k načtení<br />jiný formát než .xlsx nemusí fungovat
+  správně.</label
+>
+<button class="btn btn-primary mt-5" (click)="onFileClick()">
+  Nahrát <i class="bi bi-upload"></i>
+</button>
+
+<table *ngIf="!loading" class="table">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>name</th>
+      <th>phone</th>
+      <th>department</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of asignedDepartments">
+      <td>{{ item.id }}</td>
+      <td>{{ item.name }}</td>
+      <td>{{ item.phone }}</td>
+      <td>{{ item.department.name }}</td>
+    </tr>
+  </tbody>
+</table>
