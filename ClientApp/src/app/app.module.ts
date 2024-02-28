@@ -9,7 +9,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
-import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
 import { HomeComponent } from './pages/home/home.component';
 import { FetchDataComponent } from './pages/fetch-data/fetch-data.component';
 import { ClipboardModule } from '@angular/cdk/clipboard';
@@ -25,6 +24,7 @@ import { SingleRecordComponent } from './pages/single-record/single-record.compo
 import { ReportsComponent } from './pages/reports/reports.component';
 import { AsignerComponent } from './pages/asigner/asigner.component';
 import { PrintersOverviewComponent } from './pages/printers-overview/printers-overview.component';
+import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
 
 @NgModule({
   declarations: [
