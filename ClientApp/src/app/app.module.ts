@@ -24,6 +24,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { SingleRecordComponent } from './pages/single-record/single-record.component';
 import { ReportsComponent } from './pages/reports/reports.component';
 import { AsignerComponent } from './pages/asigner/asigner.component';
+import { PrintersOverviewComponent } from './pages/printers-overview/printers-overview.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,11 @@ import { AsignerComponent } from './pages/asigner/asigner.component';
         canActivate: [RegisterauthService],
       },
       {
+        path: 'asigner',
+        component: AsignerComponent,
+        canActivate: [AdminauthService],
+      },
+      {
         path: 'fetch-data',
         component: FetchDataComponent,
         canActivate: [RegisterauthService],
@@ -63,6 +69,12 @@ import { AsignerComponent } from './pages/asigner/asigner.component';
       {
         path: 'data',
         component: DataComponent,
+        canActivate: [AdminauthService],
+      },
+
+      {
+        path: 'printers',
+        component: PrintersOverviewComponent,
         canActivate: [AdminauthService],
       },
       {
@@ -73,11 +85,6 @@ import { AsignerComponent } from './pages/asigner/asigner.component';
       {
         path: 'data/:id',
         component: SingleRecordComponent,
-        canActivate: [AdminauthService],
-      },
-      {
-        path: 'asigner',
-        component: AsignerComponent,
         canActivate: [AdminauthService],
       },
       { path: 'login', component: LoginPageComponent },

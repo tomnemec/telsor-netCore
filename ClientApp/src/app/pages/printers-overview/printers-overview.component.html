@@ -1,0 +1,39 @@
+<h1>Zpracování dat</h1>
+<div
+  class="mb-3 mt-5 shadow-sm"
+  style="
+    background-color: rgb(249, 249, 249);
+    border-radius: 25px;
+    padding: 20px;
+    width: 500px;
+  "
+>
+  <label for="" class="form-label my-2">Rok</label>
+  <input type="text" class="form-control" placeholder="..rok účtování" />
+  <label for="" class="form-label my-2">Měsíc</label>
+  <input type="text" class="form-control" placeholder="..měsíc účtování" />
+  <label for="" class="form-label my-2">Číslo faktury</label>
+  <input
+    type="text"
+    class="form-control"
+    placeholder="..vyberte fakturu ke zpracování"
+  />
+  <hr />
+  <input
+    class="form-control"
+    style="width: 400px; margin-top: 20px"
+    type="file"
+    label="soubor"
+    #file
+  />
+
+  <label for="formFile" class="form-label text-muted mt-4"
+    >Vyberte soubor k načtení<br />jiný formát než .xlsx nemusí fungovat
+    správně.</label
+  >
+  <div>
+    <button class="btn btn-primary mt-5">
+      Nahrát <i class="bi bi-upload"></i>
+    </button>
+  </div>
+</div>
