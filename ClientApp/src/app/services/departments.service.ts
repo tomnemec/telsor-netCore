@@ -13,7 +13,7 @@ export class DepartmentsService {
   constructor(private http: HttpClient) {}
 
   getDepartments() {
-    return this.http.get(
+    return this.http.get<Department[]>(
       'https://sw02660.global.hvwan.net/telsorcore/api/departments'
     );
   }

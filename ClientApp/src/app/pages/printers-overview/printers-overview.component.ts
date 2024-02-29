@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import * as XLSX from 'xlsx';
 import { removeDiacritics, removeSpaces } from '../../helpers/helper-functions';
 import { ApiClientService } from 'src/app/services/api-client.service';
+import { Department } from 'src/app/models/department';
 @Component({
   selector: 'app-printers-overview',
   templateUrl: './printers-overview.component.html',
@@ -11,13 +12,14 @@ import { ApiClientService } from 'src/app/services/api-client.service';
 export class PrintersOverviewComponent {
   data: any[] = [];
   departments: any[] = [];
+  summaryForDepartmentsRents: Department[] = [];
   constructor(
     private apiService: ApiClientService,
     private departmentsService: DepartmentsService
   ) {}
   ngOnInit() {
     this.departmentsService.getDepartments().subscribe({
-      next: (response: any) => {
+      next: (response: Department[]) => {
         this.departments = response;
         console.log(this.departments);
       },
@@ -54,5 +56,10 @@ export class PrintersOverviewComponent {
   onFileClick() {
     this.data = Object.values(this.data)[0];
     console.log(this.data);
+  }
+  summarizeRentsForDepartments() {
+    this.summaryForDepartmentsRents = [];
+    this.departments.forEach((department) => {});
+    console.log(this.summaryForDepartmentsRents);
   }
 }
