@@ -1,6 +1,8 @@
+import { DepartmentsService } from './../../services/departments.service';
 import { Component } from '@angular/core';
 import * as XLSX from 'xlsx';
 import { removeDiacritics, removeSpaces } from '../../helpers/helper-functions';
+import { ApiClientService } from 'src/app/services/api-client.service';
 @Component({
   selector: 'app-printers-overview',
   templateUrl: './printers-overview.component.html',
@@ -8,6 +10,22 @@ import { removeDiacritics, removeSpaces } from '../../helpers/helper-functions';
 })
 export class PrintersOverviewComponent {
   data: any[] = [];
+  departments: any[] = [];
+  constructor(
+    private apiService: ApiClientService,
+    private departmentsService: DepartmentsService
+  ) {}
+  ngOnInit() {
+    this.departmentsService.getDepartments().subscribe({
+      next: (response: any) => {
+        this.departments = response;
+        console.log(this.departments);
+      },
+      error: (err: any) => {
+        console.log(err);
+      },
+    });
+  }
   onFileChange(event: any) {
     let workBook: XLSX.WorkBook;
     let jsonData = null;
