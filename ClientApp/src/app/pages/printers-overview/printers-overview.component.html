@@ -10,21 +10,19 @@
 >
   <label for="" class="form-label my-2">Rok</label>
   <input type="text" class="form-control" placeholder="..rok účtování" />
-  <label for="" class="form-label my-2">Měsíc</label>
-  <input type="text" class="form-control" placeholder="..měsíc účtování" />
-  <label for="" class="form-label my-2">Číslo faktury</label>
   <input
     type="text"
     class="form-control"
     placeholder="..vyberte fakturu ke zpracování"
   />
-  <hr />
+
   <input
     class="form-control"
     style="width: 400px; margin-top: 20px"
     type="file"
     label="soubor"
     #file
+    (change)="onFileChange($event)"
   />
 
   <label for="formFile" class="form-label text-muted mt-4"
@@ -32,7 +30,7 @@
     správně.</label
   >
   <div>
-    <button class="btn btn-primary mt-5">
+    <button class="btn btn-primary mt-5" (click)="onFileClick()">
       Nahrát <i class="bi bi-upload"></i>
     </button>
   </div>
