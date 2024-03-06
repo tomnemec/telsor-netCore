@@ -9,11 +9,18 @@
   "
 >
   <label for="" class="form-label my-2">Rok</label>
-  <input type="text" class="form-control" placeholder="..rok účtování" />
   <input
     type="text"
     class="form-control"
-    placeholder="..vyberte fakturu ke zpracování"
+    placeholder="..rok účtování"
+    [(ngModel)]="date.year"
+  />
+  <label for="" class="form-label my-2">Měsíc</label>
+  <input
+    type="text"
+    class="form-control"
+    placeholder="..měsíc účtování"
+    [(ngModel)]="date.month"
   />
 
   <input
@@ -35,3 +42,37 @@
     </button>
   </div>
 </div>
+<table
+  *ngIf="summarizeRentsForDepartments"
+  class="table table-hover"
+  id="export"
+>
+  <thead>
+    <tr>
+      <th scope="col">Účet</th>
+      <th scope="col">a</th>
+      <th scope="col">b</th>
+      <th scope="col">Kč</th>
+      <th scope="col">c</th>
+      <th scope="col">ZnakDPH</th>
+      <th scope="col">Středisko</th>
+      <th scope="col">d</th>
+      <th scope="col">Období</th>
+      <th scope="col">Závod</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let d of summaryForDepartmentsRents">
+      <td>61706000</td>
+      <td></td>
+      <td></td>
+      <td>{{ d.total }}</td>
+      <td></td>
+      <td>H5</td>
+      <td>{{ d.depID }}</td>
+      <td></td>
+      <th scope="col">{{ date.month + "/" + date.year }}</th>
+      <th scope="col">Vrbno</th>
+    </tr>
+  </tbody>
+</table>

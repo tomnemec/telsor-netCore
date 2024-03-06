@@ -3,7 +3,9 @@ import { Component } from '@angular/core';
 import * as XLSX from 'xlsx';
 import { removeDiacritics, removeSpaces } from '../../helpers/helper-functions';
 import { ApiClientService } from 'src/app/services/api-client.service';
-import { Department } from 'src/app/models/department';
+import { Date } from 'src/app/models/date';
+import { DepartmentSummary } from 'src/app/models/departmentSummary';
+
 @Component({
   selector: 'app-printers-overview',
   templateUrl: './printers-overview.component.html',
@@ -11,8 +13,13 @@ import { Department } from 'src/app/models/department';
 })
 export class PrintersOverviewComponent {
   data: any[] = [];
+  date: Date = {
+    year: '',
+    month: '',
+  };
   departments: any[] = [];
-  summaryForDepartmentsRents: any[] = [];
+  summaryForDepartmentsRents: DepartmentSummary[] = [];
+  totalDeps: number = 0;
   constructor(
     private apiService: ApiClientService,
     private departmentsService: DepartmentsService
@@ -67,6 +74,7 @@ export class PrintersOverviewComponent {
         if (!item.CelkovacenazavyrovnaniColor)
           item.CelkovacenazavyrovnaniColor = 0;
         acc += item.CelkovacenazavyrovnaniBW;
+        acc += item.CelkovacenazavyrovnaniColor;
         return acc;
       }, 0); // Initialize acc with 0
 
@@ -76,6 +84,7 @@ export class PrintersOverviewComponent {
       this.summaryForDepartmentsRents.push({
         depID: department,
         total: total,
+        plant: '',
       });
       let totalDeps = this.summaryForDepartmentsRents.reduce(
         (acc: any, item: any) => {
@@ -84,7 +93,7 @@ export class PrintersOverviewComponent {
         },
         0
       );
-      console.log(totalDeps);
+      totalDeps = parseFloat(totalDeps.toFixed(2));
     });
   }
 }

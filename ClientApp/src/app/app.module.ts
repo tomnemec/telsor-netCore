@@ -38,6 +38,7 @@ import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
     SingleRecordComponent,
     ReportsComponent,
     AsignerComponent,
+    PrintersOverviewComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

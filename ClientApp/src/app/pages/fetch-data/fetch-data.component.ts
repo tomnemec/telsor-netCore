@@ -5,10 +5,8 @@ import { Component } from '@angular/core';
 import { Clipboard } from '@angular/cdk/clipboard';
 import * as XLSX from 'xlsx';
 import { removeDiacritics, removeSpaces } from '../../helpers/helper-functions';
-interface Date {
-  year: string;
-  month: string;
-}
+import { Date } from 'src/app/models/date';
+
 @Component({
   selector: 'app-fetch-data',
   templateUrl: './fetch-data.component.html',
