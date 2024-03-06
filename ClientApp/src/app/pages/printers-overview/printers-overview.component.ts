@@ -12,22 +12,12 @@ import { Department } from 'src/app/models/department';
 export class PrintersOverviewComponent {
   data: any[] = [];
   departments: any[] = [];
-  summaryForDepartmentsRents: Department[] = [];
+  summaryForDepartmentsRents: any[] = [];
   constructor(
     private apiService: ApiClientService,
     private departmentsService: DepartmentsService
   ) {}
-  ngOnInit() {
-    this.departmentsService.getDepartments().subscribe({
-      next: (response: Department[]) => {
-        this.departments = response;
-        console.log(this.departments);
-      },
-      error: (err: any) => {
-        console.log(err);
-      },
-    });
-  }
+  ngOnInit() {}
   onFileChange(event: any) {
     let workBook: XLSX.WorkBook;
     let jsonData = null;
@@ -55,11 +45,46 @@ export class PrintersOverviewComponent {
   //button trigger
   onFileClick() {
     this.data = Object.values(this.data)[0];
-    console.log(this.data);
+    this.filterOutDepartments();
+    this.summarizeRentsForDepartments();
+    console.log(this.summaryForDepartmentsRents);
+  }
+  filterOutDepartments() {
+    this.data.forEach((item: any) => {
+      if (!this.departments.includes(item.Cisloexternihodokladu))
+        this.departments.push(item.Cisloexternihodokladu);
+    });
   }
   summarizeRentsForDepartments() {
-    this.summaryForDepartmentsRents = [];
-    this.departments.forEach((department) => {});
-    console.log(this.summaryForDepartmentsRents);
+    this.departments.forEach((department) => {
+      let depRecords = this.data.filter(
+        (item: any) => item.Cisloexternihodokladu === department
+      );
+
+      let total = depRecords.reduce((acc: any, item: any) => {
+        console.log(item);
+        if (!item.CelkovacenazavyrovnaniBW) item.CelkovacenazavyrovnaniBW = 0;
+        if (!item.CelkovacenazavyrovnaniColor)
+          item.CelkovacenazavyrovnaniColor = 0;
+        acc += item.CelkovacenazavyrovnaniBW;
+        return acc;
+      }, 0); // Initialize acc with 0
+
+      // Convert total to a numeric value
+      total = parseFloat(total.toFixed(2)); // Adjust to the desired number of decimal places
+
+      this.summaryForDepartmentsRents.push({
+        depID: department,
+        total: total,
+      });
+      let totalDeps = this.summaryForDepartmentsRents.reduce(
+        (acc: any, item: any) => {
+          acc += item.total;
+          return acc;
+        },
+        0
+      );
+      console.log(totalDeps);
+    });
   }
 }
