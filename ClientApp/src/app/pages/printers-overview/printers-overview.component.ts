@@ -5,6 +5,7 @@ import { removeDiacritics, removeSpaces } from '../../helpers/helper-functions';
 import { ApiClientService } from 'src/app/services/api-client.service';
 import { Date } from 'src/app/models/date';
 import { DepartmentSummary } from 'src/app/models/departmentSummary';
+import { Clipboard } from '@angular/cdk/clipboard';
 
 @Component({
   selector: 'app-printers-overview',
@@ -20,9 +21,10 @@ export class PrintersOverviewComponent {
   departments: any[] = [];
   summaryForDepartmentsRents: DepartmentSummary[] = [];
   totalDeps: number = 0;
+  copied: boolean = false;
   constructor(
     private apiService: ApiClientService,
-    private departmentsService: DepartmentsService
+    private clipboard: Clipboard
   ) {}
   ngOnInit() {}
   onFileChange(event: any) {
@@ -86,14 +88,20 @@ export class PrintersOverviewComponent {
         total: total,
         plant: '',
       });
-      let totalDeps = this.summaryForDepartmentsRents.reduce(
+      this.totalDeps = this.summaryForDepartmentsRents.reduce(
         (acc: any, item: any) => {
           acc += item.total;
           return acc;
         },
         0
       );
-      totalDeps = parseFloat(totalDeps.toFixed(2));
+      this.totalDeps = parseFloat(this.totalDeps.toFixed(2));
     });
+  }
+  copyToClipboard() {
+    const table = document.getElementById('export') as HTMLTableElement;
+    const tableHtml = table.outerHTML;
+    this.clipboard.copy(tableHtml);
+    this.copied = true;
   }
 }

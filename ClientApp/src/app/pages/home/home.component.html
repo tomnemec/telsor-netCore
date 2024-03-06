@@ -1,15 +1,25 @@
 <div class="text-center">
-  <p class="display-4">Vítejte v telsor</p>
-  <p>Aplikaci pro vyúčtování telefonů a správu kmenových dat:</p>
+  <p class="display-4">Vítejte v Telsor</p>
+  <p>Aplikaci pro vyúčtování telefonů, tiskáren a správu kmenových dat:</p>
   <div class="hp-flex">
     <div class="card shadow">
       <div>
-        <img src="assets/coins.jpg" class="cardpic" />
+        <img src="assets/mob.jpg" class="cardpic" />
       </div>
       <div class="text-part">
-        <h3>Účtování</h3>
-        <p class="text-wrap"></p>
+        <h3>Telefony</h3>
         <button class="btn btn-outline-primary" [routerLink]="['/fetch-data']">
+          <i class="bi bi-coin"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card shadow">
+      <div>
+        <img src="assets/print.jpg" class="cardpic" />
+      </div>
+      <div class="text-part">
+        <h3>Tiskárny</h3>
+        <button class="btn btn-outline-primary" [routerLink]="['/printers']">
           <i class="bi bi-coin"></i>
         </button>
       </div>
@@ -21,7 +31,7 @@
       </div>
       <div class="text-part">
         <h3>Reporty</h3>
-        <p class="text-wrap"></p>
+    
         <button class="btn btn-outline-primary" [routerLink]="['/reports']">
           <i class="bi bi-clipboard2-data"></i>
         </button>
@@ -34,7 +44,6 @@
       </div>
       <div class="text-part">
         <h3>Data</h3>
-        <p class="text-wrap"></p>
         <button class="btn btn-outline-primary" [routerLink]="['/data']">
           <i class="bi bi-database"></i>
         </button>

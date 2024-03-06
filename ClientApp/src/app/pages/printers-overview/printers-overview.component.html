@@ -1,4 +1,4 @@
-<h1>Zpracování dat</h1>
+<h1>Zpracování dat: Tisky</h1>
 <div
   class="mb-3 mt-5 shadow-sm"
   style="
@@ -34,7 +34,8 @@
 
   <label for="formFile" class="form-label text-muted mt-4"
     >Vyberte soubor k načtení<br />jiný formát než .xlsx nemusí fungovat
-    správně.</label
+    správně. Zároveň upravte data tak, aby první řádek obsahoval názvy
+    sloupců.</label
   >
   <div>
     <button class="btn btn-primary mt-5" (click)="onFileClick()">
@@ -42,6 +43,13 @@
     </button>
   </div>
 </div>
+<div class="d-flex">
+  <button class="btn-primary btn" (click)="copyToClipboard()">
+    <i class="bi bi-clipboard-plus"></i>
+  </button>
+  <p *ngIf="copied" style="margin: 15px">Zkopírováno</p>
+</div>
+<h3 *ngIf="totalDeps">celkem: {{ totalDeps }} Kč</h3>
 <table
   *ngIf="summarizeRentsForDepartments"
   class="table table-hover"
@@ -66,7 +74,7 @@
       <td>61706000</td>
       <td></td>
       <td></td>
-      <td>{{ d.total }}</td>
+      <td>{{ d.total | number : "1.2-2" }}</td>
       <td></td>
       <td>H5</td>
       <td>{{ d.depID }}</td>
