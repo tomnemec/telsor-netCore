@@ -66,12 +66,14 @@ export class PrintersOverviewComponent {
   }
   summarizeRentsForDepartments() {
     this.departments.forEach((department) => {
+      let plant = '';
       let depRecords = this.data.filter(
         (item: any) => item.Cisloexternihodokladu === department
       );
-
       let total = depRecords.reduce((acc: any, item: any) => {
-        console.log(item);
+        plant = item.Adresaumisteni.split(' ')[0].split(',')[0];
+
+        console.log(plant);
         if (!item.CelkovacenazavyrovnaniBW) item.CelkovacenazavyrovnaniBW = 0;
         if (!item.CelkovacenazavyrovnaniColor)
           item.CelkovacenazavyrovnaniColor = 0;
@@ -86,7 +88,7 @@ export class PrintersOverviewComponent {
       this.summaryForDepartmentsRents.push({
         depID: department,
         total: total,
-        plant: '',
+        plant: plant,
       });
       this.totalDeps = this.summaryForDepartmentsRents.reduce(
         (acc: any, item: any) => {
