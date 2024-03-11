@@ -49,6 +49,8 @@ export class DataComponent {
     // Iterate through each object in the array
     dataArray.forEach((obj) => {
       // Append the properties to the formatted string
+      if (!obj.mobile) obj.mobile = '';
+      if (!obj.phone) obj.phone = '';
       formattedData += `\t${obj.name}\t \t${obj.mobile}\t${obj.phone}\t \t \t \t \n`;
     });
 
