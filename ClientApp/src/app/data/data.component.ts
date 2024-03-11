@@ -42,4 +42,33 @@ export class DataComponent {
       this.filteredData = result;
     }
   }
+  exportToTxt(dataArray: any[]) {
+    // Create a string to store the formatted data
+    let formattedData = '';
+
+    // Iterate through each object in the array
+    dataArray.forEach((obj) => {
+      // Append the properties to the formatted string
+      formattedData += `\t${obj.name}\t \t${obj.mobile}\t${obj.phone}\t \t \t \t \n`;
+    });
+
+    // Create a Blob containing the formatted data
+    const blob = new Blob([formattedData], { type: 'text/plain' });
+
+    // Create a link element
+    const link = document.createElement('a');
+
+    // Set the download attribute and create a URL for the Blob
+    link.download = 'exported_data.txt';
+    link.href = window.URL.createObjectURL(blob);
+
+    // Append the link to the document body
+    document.body.appendChild(link);
+
+    // Trigger a click on the link to initiate the download
+    link.click();
+
+    // Remove the link from the document
+    document.body.removeChild(link);
+  }
 }
