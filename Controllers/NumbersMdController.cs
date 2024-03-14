@@ -34,10 +34,40 @@ namespace telsor.Controllers
             return mapper.Map<IEnumerable<PhoneMasterData>, IEnumerable<PhoneMasterdataResource>>(numbers);
         }
         [HttpGet("filtered")]
-        public async Task<IEnumerable<PhoneMasterdataResource>> GetFilteredMasterData()
+        public async Task<IEnumerable<FullPhoneRecord>> GetFilteredMasterData()
         {
             var numbers = await context.PhoneMasterDatas.ToListAsync();
-            return mapper.Map<IEnumerable<PhoneMasterData>, IEnumerable<PhoneMasterdataResource>>(numbers);
+            var withoutFixed = await context.PhoneMasterDatas.Where(n => n.Phone.Length != 3).ToListAsync();
+            var Fixed = await context.PhoneMasterDatas.Where(n => n.Phone.Length == 3).ToListAsync();
+            var sortedList = new List<FullPhoneRecord>();
+
+            foreach (var item in withoutFixed)
+            {
+                var record = new FullPhoneRecord();
+                record.Id = item.Id;
+                record.Name = item.Name;
+                record.Phone = item.Phone;
+                record.DepartmentId = item.DepartmentId;
+                sortedList.Add(record);
+            }
+            foreach (var item in Fixed)
+            {
+                if (sortedList.Find(i => i.Name == item.Name) == null)
+                {
+                    var record = new FullPhoneRecord();
+                    record.Id = item.Id;
+                    record.Name = item.Name;
+                    record.Phone = item.Phone;
+                    record.DepartmentId = item.DepartmentId;
+                    sortedList.Add(record);
+                }
+                else
+                {
+                    var record = sortedList.Find(i => i.Name == item.Name);
+                    record.Mobile = item.Phone;
+                }
+            }
+            return sortedList;
         }
         [HttpGet("{id}")]
         public async Task<PhoneMasterdataResource> GetRecord(int id)
