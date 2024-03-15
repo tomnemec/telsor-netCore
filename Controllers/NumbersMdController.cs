@@ -37,7 +37,12 @@ namespace telsor.Controllers
         public async Task<IEnumerable<FullPhoneRecord>> GetFilteredMasterData()
         {
             var numbers = await context.PhoneMasterDatas.ToListAsync();
-            var withoutFixed = await context.PhoneMasterDatas.Where(n => n.Phone.Length != 3).ToListAsync();
+            var withoutFixed = await context.PhoneMasterDatas
+            .Where(n => n.Phone.Length != 3 &&
+            //not so happy with bruntal filter as it should not appear as 3digits in list
+            !n.Phone.Contains("554790") && !n.Phone.Contains("554773"))
+            .ToListAsync();
+
             var Fixed = await context.PhoneMasterDatas.Where(n => n.Phone.Length == 3).ToListAsync();
             var sortedList = new List<FullPhoneRecord>();
 
