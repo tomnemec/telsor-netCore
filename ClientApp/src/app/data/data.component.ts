@@ -51,12 +51,13 @@ export class DataComponent {
     this.apiClient.getAll<FullRecord[]>('numbers/filtered').subscribe({
       next: (data: FullRecord[]) => {
         // Create a string to store the formatted data
+        data = data.sort((a, b) => a.name.localeCompare(b.name));
         let formattedData = '';
 
         // Iterate through each object in the array
         data.forEach((obj) => {
-          obj.name = obj.phone.replace(/\s+/g, ' ').trim();
-          obj.name = obj.mobile.replace(/\s+/g, ' ').trim();
+          if (obj.phone) obj.phone = obj.phone.replace(/\s+/g, ' ').trim();
+          if (obj.mobile) obj.mobile = obj.mobile.replace(/\s+/g, ' ').trim();
           // Append the properties to the formatted string
           if (!obj.mobile) obj.mobile = '';
           if (!obj.phone) obj.phone = '';
